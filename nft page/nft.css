@@ -1,0 +1,138 @@
+*{
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: hsl(0, 6%, 14%);
+}
+
+#navbar{
+  background-color: black;
+  height:100px;
+  display: flex;
+  align-items: center;
+  
+}
+#image {
+  width:70px;
+  height:70px;
+  border-radius: 50px;
+}
+#name{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#name:hover{
+  color: green;
+}
+#wallet{
+  width:250px;
+}
+#search{
+  margin: 300px;
+  width: 600px;
+  height: 40px;
+  background-color: rgb(39, 37, 37);
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+.navbar-items {
+  margin: 40px;
+  font-size: 20px;
+}
+
+.navbar-items:hover{
+  color: green;
+}
+
+#user-icon {
+  margin: 40px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: hsl(120, 65%, 24%);
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+  /* NFT Page */
+  .nft-image img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .nft-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .nft-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .nft-description {
+    margin: 10px 0;
+    color: #aaa;
+  }
+  
+  .nft-price {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .nft-price span {
+    color: #00ccff;
+  }
+  
+  .nft-owner a {
+    color: #00ccff;
+    text-decoration: none;
+  }
+  
+  .nft-owner a:hover {
+    text-decoration: underline;
+  }
+  
+  .buy-btn {
+    padding: 15px 20px;
+    background-color: #00ccff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .buy-btn:hover {
+    background-color: #0088cc;
+  }
+  
