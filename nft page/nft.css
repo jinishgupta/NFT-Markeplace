@@ -80,59 +80,61 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
-  /* NFT Page */
-  .nft-image img {
-    max-width: 100%;
-    border-radius: 10px;
-  }
-  
-  .nft-details {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
-  .nft-title {
-    font-size: 2rem;
-    margin-bottom: 10px;
-  }
-  
-  .nft-description {
-    margin: 10px 0;
-    color: #aaa;
-  }
-  
-  .nft-price {
-    font-size: 1.2rem;
-    margin: 10px 0;
-  }
 
-  .nft-price span {
-    color: #00ccff;
-  }
-  
-  .nft-owner a {
-    color: #00ccff;
-    text-decoration: none;
-  }
-  
-  .nft-owner a:hover {
-    text-decoration: underline;
-  }
-  
-  .buy-btn {
-    padding: 15px 20px;
-    background-color: #00ccff;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    font-size: 1rem;
-    cursor: pointer;
-    margin-top: 20px;
-  }
-  
-  .buy-btn:hover {
-    background-color: #0088cc;
-  }
-  
+.nft-container {
+  display: flex;
+  width: 80%;
+  height: 60%;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.nft-image {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9f9f9;
+}
+
+.nft-image img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.nft-details {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nft-details h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.nft-details p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.buy-button {
+  padding: 10px 20px;
+background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  align-self: flex-start;
+  transition: background-color 0.3s;
+}
+
+.buy-button:hover {
+  background-color: #45a049;
+}
