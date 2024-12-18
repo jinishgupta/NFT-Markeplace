@@ -3,7 +3,9 @@
     padding: 0;
     color: white;
 }
-
+body{
+    background-color: black;
+}
 #navbar{
     background-color: black;
     height:100px;
@@ -131,5 +133,84 @@ footer {
   
   .support-text {
     font-style: italic;
+  }
+  .main-scroll-div {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+  }
+  
+  .cover {
+    position: relative;
+    width: 90%;
+    height: 50%;
+  }
+  
+  .cover::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    z-index: 99;
+    height: 100%;
+    width: 150px;
+    background-image: linear-gradient(90deg, black, transparent);
+  }
+  
+  .cover::after {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+    z-index: 99;
+    height: 100%;
+    width: 150px;
+    background-image: linear-gradient(-90deg, black, transparent);
+  }
+  
+  .scroll-images {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    overflow: auto;
+    position: relative;
+    scroll-behavior: smooth;
+  }
+  
+  .child {
+    min-width: 600px;
+    height: 450px;
+    margin: 1px 10px;
+    cursor: pointer;
+    border: 1px solid rgba(207, 201, 201, .3);
+    overflow: hidden;
+  }
+  
+  .scroll-images::-webkit-scrollbar {
+    -webkit-appearance: none;
+  }
+  
+  .child-img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .icon {
+    color: rgb(67, 247, 76);
+    background-color: black;
+    font-size: 50px;
+    outline: none;
+    border: none;
+    padding: opx 20px;
+    cursor: pointer;
+  }
+  
+  .icon:hover {
+    color: yellow;
   }
   
