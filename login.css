@@ -36,6 +36,10 @@
     font-size: 3rem;
     margin-bottom: 25px;
   }
+
+  #login-btn{
+    text-decoration: none;
+  }
   
   .subtitle {
     font-size: 1.2rem;
