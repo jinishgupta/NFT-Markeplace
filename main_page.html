@@ -23,18 +23,18 @@
                 <a>Language</a>
                 <a>Learn</a>
                 <a>Support</a>
-                <a>Logout</a>
+                <a href="signup/login.html" id="logout">Logout</a>
             </div>
         </div>
     </div>
 <!--CATEGORY SECTION-->
 <div class="category">
   <p id="all"><a href="#">All</a></p>
-  <p id="art"><a href="ART NFT/art.html">Art</a></p>
-  <p id="gaming"><a href="GAMING NFT/gaming.html">Gaming</a></p>
-  <p id="pfps"><a href="PFPs NFT/pfps.html">PFPs</a></p>
-  <p id="photography"><a href="PHOTOGRAPHY NFT/photo.html">Photography</a></p>
-  <p id="music"><a href="MUSIC NFT/music.html">Music</a></p>
+  <p id="art"><a href="art.html">Art</a></p>
+  <p id="gaming"><a href="gaming.html">Gaming</a></p>
+  <p id="pfps"><a href="pfps.html">PFPs</a></p>
+  <p id="photography"><a href="photo.html">Photography</a></p>
+  <p id="music"><a href="music.html">Music</a></p>
 </div>
     <div class="main-scroll-div">
         <div>
@@ -1353,5 +1353,42 @@
         </div>
     </div>     
 <script src="main_page.js"></script> 
+<script type="module">
+     // Import the functions you need from the SDKs you need
+ import { initializeApp } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-app.js";
+ import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-analytics.js";
+ import {getAuth, signOut } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-auth.js";
+ // TODO: Add SDKs for Firebase products that you want to use
+ // https://firebase.google.com/docs/web/setup#available-libraries
+
+ // Your web app's Firebase configuration
+ // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+ const firebaseConfig = {
+   apiKey: "AIzaSyCFj5ZjLfmG18d6uawRrESmR0iadVek-H4",
+   authDomain: "nft-marketplace-9a468.firebaseapp.com",
+   projectId: "nft-marketplace-9a468",
+   storageBucket: "nft-marketplace-9a468.firebasestorage.app",
+   messagingSenderId: "208333584068",
+   appId: "1:208333584068:web:b0bd814d46324504d4fb91",
+   measurementId: "G-5JRN00H2YD"
+ };
+
+ const app = initializeApp(firebaseConfig);
+ const analytics = getAnalytics(app);
+ const auth = getAuth();
+ console.log(app);
+
+    //----- Logout code start	  
+    document.getElementById("logout").addEventListener("click", function() {
+        signOut(auth).then(() => {
+            // Sign-out successful.
+            console.log('Log-out successful.');
+            alert('Log-out successful.');
+          }).catch((error) => {
+            // An error happened.
+            console.log('An error happened.',error);
+          });		  		  
+    });
+</script>
 </body>
 </html>
