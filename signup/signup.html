@@ -11,7 +11,7 @@
     <div class="form-container">
       <h1>Sign Up</h1>
       <p>Create your account and start exploring NFTs!</p>
-      <form action="#" method="POST">
+      <form id="signup-form">
         <!-- Name -->
         <label for="name">Full Name</label>
         <input type="text" id="name" name="name" placeholder="Enter your full name" required>
@@ -29,7 +29,7 @@
         <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required>
         
         <!-- Submit Button -->
-        <button type="submit" class="signup-button">Sign Up</button>
+        <button type="submit" id="signup-button">Sign Up</button>
       </form>
       <p class="login-redirect">Already have an account? <a href="login.html">Login here</a></p>
     </div>
@@ -39,5 +39,57 @@
             <img src="metamask.png" alt="Continue With MetaMask">
       </div>
   </div>
+  <script type="module">
+     // Import the functions you need from the SDKs you need
+ import { initializeApp } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-app.js";
+ import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-analytics.js";
+ import {getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-auth.js";
+ // TODO: Add SDKs for Firebase products that you want to use
+ // https://firebase.google.com/docs/web/setup#available-libraries
+
+ // Your web app's Firebase configuration
+ // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+ const firebaseConfig = {
+   apiKey: "AIzaSyCFj5ZjLfmG18d6uawRrESmR0iadVek-H4",
+   authDomain: "nft-marketplace-9a468.firebaseapp.com",
+   projectId: "nft-marketplace-9a468",
+   storageBucket: "nft-marketplace-9a468.firebasestorage.app",
+   messagingSenderId: "208333584068",
+   appId: "1:208333584068:web:b0bd814d46324504d4fb91",
+   measurementId: "G-5JRN00H2YD"
+ };
+
+ const app = initializeApp(firebaseConfig);
+ const analytics = getAnalytics(app);
+ const auth = getAuth();
+ console.log(app);
+
+
+    //----- New Registration code start	  
+    document.getElementById("signup-button").addEventListener("click", function(event) {
+      event.preventDefault();
+      var email =  document.getElementById("email").value;
+      var password = document.getElementById("password").value;
+      
+      if (!email || !password) {
+        alert("Email and password are required.");
+        return;
+    }
+
+      //For new registration
+        createUserWithEmailAndPassword(auth, email, password)
+        .then((userCredential) => {
+          // Signed in 
+          const user = userCredential.user;
+          console.log(user);
+          alert("Registration successfully!!");
+        })
+        .catch((error) => {
+          const errorMessage = error.message;
+          console.log(errorMessage);
+          alert(error);
+        });		  		  
+    });
+  </script>
 </body>
 </html>
