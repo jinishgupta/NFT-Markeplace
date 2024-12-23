@@ -13,7 +13,6 @@
       <p>Create your account and start exploring NFTs!</p>
       <form id="signup-form">
         <!-- Name -->
-          alert(user.email+" Login successfully!!!");
         <label for="name">Full Name</label>
         <input type="text" id="name" name="name" placeholder="Enter your full name" required>
         
@@ -36,15 +35,15 @@
     </div>
 
     <div class="social-buttons">
-            <img src="google.webp" alt="Continue With Google">
-            <img src="metamask.png" alt="Continue With MetaMask">
+            <img src="google.webp" alt="Continue With Google" id="google-btn">
+            <img src="metamask.png" alt="Continue With MetaMask" id="metamask-btn">
       </div>
   </div>
   <script type="module">
      // Import the functions you need from the SDKs you need
  import { initializeApp } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-app.js";
  import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-analytics.js";
- import {getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-auth.js";
+ import {getAuth, createUserWithEmailAndPassword, GoogleAuthProvider, signInWithPopup } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-auth.js";
  // TODO: Add SDKs for Firebase products that you want to use
  // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -63,8 +62,6 @@
  const app = initializeApp(firebaseConfig);
  const analytics = getAnalytics(app);
  const auth = getAuth();
- console.log(app);
-
 
     //----- New Registration code start	  
     document.getElementById("signup-button").addEventListener("click", function(event) {
@@ -91,6 +88,39 @@
           alert(error);
         });		  		  
     });
-  </script>
+
+//Sign In With Google!
+auth.languageCode='en';
+ const provider = new GoogleAuthProvider();
+
+ const googleLogin = document.getElementById("google-btn");
+googleLogin.addEventListener("click",function() {
+  signInWithPopup(auth,provider)
+  .then((result) => {
+    const credential = GoogleAuthProvider.credentialFromResult(result);
+    const token = credential.accessToken;
+    const user = result.user;
+    window.location.href ="../main_page.html";
+  })
+  .catch((error) => {
+    const errorMessage = error.message;
+    console.log(errorMessage);
+    alert(error);
+  })
+})
+const metamaskLogin = document.getElementById("metamask-btn");
+metamaskLogin.addEventListener("click",function() {
+  if(window.ethereum) {
+      window.ethereum.request({
+        method:'eth_requestAccounts'
+      }).then(result => {
+      console.log(result[0]);
+      window.location.href="main_page.html";
+      })
+      } else {
+        alert("Please install MetaMask");
+      }
+})
+</script>
 </body>
 </html>
