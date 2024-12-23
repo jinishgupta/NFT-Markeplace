@@ -1,0 +1,999 @@
+{
+    "All-nfts": {
+        "Art-NFTs": {
+            "AColl1": {
+                "metadata": {
+                    "description": "Featuring unique art-nfts NFTs showcasing A vibrant abstract painting full of energy., A serene landscape capturing the beauty of nature., and more.",
+                    "name": "Beautiful Paintings 1",
+                    "totalItems": 3,
+                    "createdDate": "2024-12-02",
+                    "floor": "1 ETH",
+                    "total volume": "9.0 ETH",
+                    "chain": "ethereum"
+                },
+                "nfts": [
+                    {
+                        "name": "Art-NFTs-001",
+                        "price": 1.5,
+                        "owner": "",
+                        "description": "A vibrant abstract painting full of energy.",
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952455/a14_rquntf.jpg"
+                    },
+                    {
+                        "name": "Art-NFTs-002",
+                        "price": 3.0,
+                        "owner": "",
+                        "description": "A serene landscape capturing the beauty of nature.",
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952453/a13_h9ahcb.jpg"
+                    },
+                    {
+                        "name": "Art-NFTs-003",
+                        "price": 4.5,
+                        "owner": "",
+                        "description": "A bold modern art piece with striking contrasts.",
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952450/a15_ng5nlb.jpg"
+                    }
+                ]
+            },
+            "Coll2": {
+                "metadata": {
+                    "description": "Featuring unique art-nfts NFTs showcasing A vibrant abstract painting full of energy., A serene landscape capturing the beauty of nature., and more.",
+                    "name": "Nice Designs",
+                    "totalItems": 2,
+                    "createdDate": "2024-12-03",
+                    "floor": "0.01 ETH",
+                    "total volume": "13.5 ETH",
+                    "chain": "ethereum"
+                },
+                "nfts": [
+                    {
+                        "name": "Art-NFTs-004",
+                        "price": 6.0,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952456/a11_kd5xu2.jpg",
+                        "description": "A vibrant abstract painting full of energy."
+                    },
+                    {
+                        "name": "Art-NFTs-005",
+                        "price": 7.5,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952457/a12_m5jvoc.jpg",
+                        "description": "A serene landscape capturing the beauty of nature."
+                    }
+                ]
+            },
+            "Coll3": {
+                "metadata": {
+                    "description": "Featuring unique art-nfts NFTs showcasing A vibrant abstract painting full of energy., A serene landscape capturing the beauty of nature., and more.",
+                    "name": "Scenic Paintings",
+                    "totalItems": 3,
+                    "createdDate": "2024-12-04",
+                    "floor": "0.01 ETH",
+                    "total volume": "31.5 ETH",
+                    "chain": "ethereum"
+                },
+                "nfts": [
+                    {
+                        "name": "Art-NFTs-006",
+                        "price": 9.0,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952461/a5_xdnbpp.jpg",
+                        "description": "A bold modern art piece with striking contrasts."
+                    },
+                    {
+                        "name": "Art-NFTs-007",
+                        "price": 10.5,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952460/a6_lohibv.jpg",
+                        "description": "A vibrant abstract painting full of energy."
+                    },
+                    {
+                        "name": "Art-NFTs-008",
+                        "price": 12.0,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952458/a7_qmhmai.jpg",
+                        "description": "A serene landscape capturing the beauty of nature."
+                    }
+                ]
+            },
+            "Coll4": {
+                "metadata": {
+                    "description": "Featuring unique art-nfts NFTs showcasing A vibrant abstract painting full of energy., A serene landscape capturing the beauty of nature., and more.",
+                    "name": "Complex Paintings",
+                    "totalItems": 2,
+                    "createdDate": "2024-12-05",
+                    "floor": "0.01 ETH",
+                    "total volume": "28.5 ETH",
+                    "chain": "ethereum"
+                },
+                "nfts": [
+                    {
+                        "name": "Art-NFTs-009",
+                        "price": 13.5,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952461/a2_lxiexm.jpg",
+                        "description": "A bold modern art piece with striking contrasts."
+                    },
+                    {
+                        "name": "Art-NFTs-010",
+                        "price": 15.0,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952453/a17_wy5gyd.jpg",
+                        "description": "A vibrant abstract painting full of energy."
+                    }
+                ]
+            },
+            "Coll5": {
+                "metadata": {
+                    "description": "Featuring unique art-nfts NFTs showcasing A vibrant abstract painting full of energy., A serene landscape capturing the beauty of nature., and more.",
+                    "name": "Water Colour Paintings",
+                    "totalItems": 3,
+                    "createdDate": "2024-12-02",
+                    "floor": "0.01 ETH",
+                    "total volume": "54.0 ETH",
+                    "chain": "ethereum"
+                },
+                "nfts": [
+                    {
+                        "name": "Art-NFTs-011",
+                        "price": 16.5,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952459/a8_dkqc2v.jpg",
+                        "description": "A serene landscape capturing the beauty of nature."
+                    },
+                    {
+                        "name": "Art-NFTs-012",
+                        "price": 18.0,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952458/a18_elgrcu.jpg",
+                        "description": "A bold modern art piece with striking contrasts."
+                    },
+                    {
+                        "name": "Art-NFTs-013",
+                        "price": 19.5,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952459/a10_nxtk62.jpg",
+                        "description": "A vibrant abstract painting full of energy."
+                    }
+                ]
+            },
+            "Coll6": {
+                "metadata": {
+                    "description": "Featuring unique art-nfts NFTs showcasing A vibrant abstract painting full of energy., A serene landscape capturing the beauty of nature., and more.",
+                    "name": "Collages",
+                    "totalItems": 2,
+                    "createdDate": "2024-12-03",
+                    "floor": "0.01 ETH",
+                    "total volume": "43.5 ETH",
+                    "chain": "ethereum"
+                },
+                "nfts": [
+                    {
+                        "name": "Art-NFTs-014",
+                        "price": 21.0,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952465/a1_sx3h38.jpg",
+                        "description": "A serene landscape capturing the beauty of nature."
+                    },
+                    {
+                        "name": "Art-NFTs-015",
+                        "price": 22.5,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952464/a3_vhn4y1.jpg",
+                        "description": "A bold modern art piece with striking contrasts."
+                    }
+                ]
+            },
+            "Coll7": {
+                "metadata": {
+                    "description": "Featuring unique art-nfts NFTs showcasing A vibrant abstract painting full of energy., A serene landscape capturing the beauty of nature., and more.",
+                    "name": "Full of colours",
+                    "totalItems": 2,
+                    "createdDate": "2024-12-04",
+                    "floor": "0.01 ETH",
+                    "total volume": "49.5 ETH",
+                    "chain": "ethereum"
+                },
+                "nfts": [
+                    {
+                        "name": "Art-NFTs-016",
+                        "price": 24.0,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952451/a19_h95m3w.jpg",
+                        "description": "A vibrant abstract painting full of energy."
+                    },
+                    {
+                        "name": "Art-NFTs-017",
+                        "price": 25.5,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952446/a20_qsitdn.jpg",
+                        "description": "A serene landscape capturing the beauty of nature."
+                    }
+                ]
+            },
+            "Coll8": {
+                "metadata": {
+                    "description": "Featuring unique art-nfts NFTs showcasing A vibrant abstract painting full of energy., A serene landscape capturing the beauty of nature., and more.",
+                    "name": "Something Beyond Explanation",
+                    "totalItems": 2,
+                    "createdDate": "2024-12-05",
+                    "floor": "0.01 ETH",
+                    "total volume": "55.5 ETH",
+                    "chain": "ethereum"
+                },
+                "nfts": [
+                    {
+                        "name": "Art-NFTs-018",
+                        "price": 27.0,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952459/a9_wwtzao.jpg",
+                        "description": "A bold modern art piece with striking contrasts."
+                    },
+                    {
+                        "name": "Art-NFTs-019",
+                        "price": 28.5,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952454/a16_hp2cjo.jpg",
+                        "description": "A vibrant abstract painting full of energy."
+                    }
+                ]
+            }
+        },
+        "Gaming-NFTs": {
+            "GColl1": {
+                "metadata": {
+                    "description": "Featuring unique gaming-nfts NFTs showcasing An iconic in-game weapon with legendary status., A collectible avatar skin for virtual adventures., and more.",
+                    "name": "Inside Game 1",
+                    "totalItems": 4,
+                    "createdDate": "2024-12-03",
+                    "floor": "1 ETH",
+                    "total volume": "15.0 ETH",
+                    "chain": "ethereum"
+                },
+                "nfts": [
+                    {
+                        "name": "Gaming-NFTs-001",
+                        "price": 1.5,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952444/g16_vz4n2b.jpg",
+                        "description": "An iconic in-game weapon with legendary status."
+                    },
+                    {
+                        "name": "Gaming-NFTs-002",
+                        "price": 3.0,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952443/g14_p5fh0t.jpg",
+                        "description": "A collectible avatar skin for virtual adventures."
+                    },
+                    {
+                        "name": "Gaming-NFTs-003",
+                        "price": 4.5,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952432/g18_sgfoqu.jpg",
+                        "description": "A rare gaming asset with special abilities."
+                    },
+                    {
+                        "name": "Gaming-NFTs-004",
+                        "price": 6.0,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952431/g17_zucja5.jpg",
+                        "description": "An iconic in-game weapon with legendary status."
+                    }
+                ]
+            },
+            "GColl2": {
+                "metadata": {
+                    "description": "Featuring unique gaming-nfts NFTs showcasing An iconic in-game weapon with legendary status., A collectible avatar skin for virtual adventures., and more.",
+                    "name": "Inside Game 2",
+                    "totalItems": 2,
+                    "createdDate": "2024-12-04",
+                    "floor": "1 ETH",
+                    "total volume": "16.5 ETH",
+                    "chain": "ethereum"
+                },
+                "nfts": [
+                    {
+                        "name": "Gaming-NFTs-005",
+                        "price": 7.5,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952437/g15_moqoql.jpg",
+                        "description": "A collectible avatar skin for virtual adventures."
+                    },
+                    {
+                        "name": "Gaming-NFTs-006",
+                        "price": 9.0,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952432/g13_ox1dht.jpg",
+                        "description": "A rare gaming asset with special abilities."
+                    }
+                ]
+            },
+            "GColl3": {
+                "metadata": {
+                    "description": "Featuring unique gaming-nfts NFTs showcasing An iconic in-game weapon with legendary status., A collectible avatar skin for virtual adventures., and more.",
+                    "name": "Controllers",
+                    "totalItems": 3,
+                    "createdDate": "2024-12-05",
+                    "floor": "1 ETH",
+                    "total volume": "36.0 ETH",
+                    "chain": "ethereum"
+                },
+                "nfts": [
+                    {
+                        "name": "Gaming-NFTs-007",
+                        "price": 10.5,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952436/g10_bglwmy.jpg",
+                        "description": "An iconic in-game weapon with legendary status."
+                    },
+                    {
+                        "name": "Gaming-NFTs-008",
+                        "price": 12.0,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952440/g7_ab9obn.jpg",
+                        "description": "A collectible avatar skin for virtual adventures."
+                    },
+                    {
+                        "name": "Gaming-NFTs-009",
+                        "price": 13.5,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952443/g2_byuwdo.jpg",
+                        "description": "A rare gaming asset with special abilities."
+                    }
+                ]
+            },
+            "GColl4": {
+                "metadata": {
+                    "description": "Featuring unique gaming-nfts NFTs showcasing An iconic in-game weapon with legendary status., A collectible avatar skin for virtual adventures., and more.",
+                    "name": "Gaming is Fun",
+                    "totalItems": 2,
+                    "createdDate": "2024-12-06",
+                    "floor": "1 ETH",
+                    "total volume": "49.5 ETH",
+                    "chain": "ethereum"
+                },
+                "nfts": [
+                    {
+                        "name": "Gaming-NFTs-010",
+                        "price": 15.0,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952444/g3_v1qqap.jpg",
+                        "description": "An iconic in-game weapon with legendary status."
+                    },
+                    {
+                        "name": "Gaming-NFTs-011",
+                        "price": 16.5,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952441/g5_o074x2.jpg",
+                        "description": "A collectible avatar skin for virtual adventures."
+                    },
+                    {
+                        "name": "Gaming-NFTs-012",
+                        "price": 18.0,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952439/g6_yftjqc.jpg",
+                        "description": "A rare gaming asset with special abilities."
+                    }
+                ]
+            },
+            "GColl5": {
+                "metadata": {
+                    "description": "Featuring unique gaming-nfts NFTs showcasing An iconic in-game weapon with legendary status., A collectible avatar skin for virtual adventures., and more.",
+                    "name": "Equipments are Cool",
+                    "totalItems": 2,
+                    "createdDate": "2024-12-06",
+                    "floor": "1 ETH",
+                    "total volume": "63.0 ETH",
+                    "chain": "ethereum"
+                },
+                "nfts": [
+                    {
+                        "name": "Gaming-NFTs-013",
+                        "price": 19.5,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952442/g4_qdmvis.jpg",
+                        "description": "An iconic in-game weapon with legendary status."
+                    },
+                    {
+                        "name": "Gaming-NFTs-014",
+                        "price": 21.0,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952440/g12_g28cpd.jpg",
+                        "description": "A collectible avatar skin for virtual adventures."
+                    },
+                    {
+                        "name": "Gaming-NFTs-015",
+                        "price": 22.5,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952438/g8_azldkk.jpg",
+                        "description": "A rare gaming asset with special abilities."
+                    }
+                ]
+            },
+            "GColl6": {
+                "metadata": {
+                    "description": "Featuring unique gaming-nfts NFTs showcasing An iconic in-game weapon with legendary status., A collectible avatar skin for virtual adventures., and more.",
+                    "name": "Gaming Places",
+                    "totalItems": 2,
+                    "createdDate": "2024-12-06",
+                    "floor": "1 ETH",
+                    "total volume": "76.5 ETH",
+                    "chain": "ethereum"
+                },
+                "nfts": [
+                    {
+                        "name": "Gaming-NFTs-016",
+                        "price": 24.0,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952435/g11_z97is8.jpg",
+                        "description": "An iconic in-game weapon with legendary status."
+                    },
+                    {
+                        "name": "Gaming-NFTs-017",
+                        "price": 25.5,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952446/g9_clzanq.jpg",
+                        "description": "A collectible avatar skin for virtual adventures."
+                    },
+                    {
+                        "name": "Gaming-NFTs-018",
+                        "price": 27.0,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952450/g1_xxtfz5.jpg",
+                        "description": "A rare gaming asset with special abilities."
+                    }
+                ]
+            }
+        },
+        "PFP-NFTs": {
+            "PFColl1": {
+                "metadata": {
+                    "description": "Featuring unique pfp-nfts NFTs showcasing A cool monkey with sunglasses and swag., A colorful cartoon character with a funky vibe., and more.",
+                    "name": "Apes and Monkeys",
+                    "totalItems": 3,
+                    "createdDate": "2024-12-04",
+                    "floor": "1 ETH",
+                    "total volume": "9.0 ETH",
+                    "chain": "ethereum"
+                },
+                "nfts": [
+                    {
+                        "name": "PFP-NFTs-001",
+                        "price": 1.5,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952445/bored-6945309_1280_syer7i.png",
+                        "description": "A cool monkey with sunglasses and swag."
+                    },
+                    {
+                        "name": "PFP-NFTs-002",
+                        "price": 3.0,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952446/ape-7020995_1280_hjdmem.png",
+                        "description": "A colorful cartoon character with a funky vibe."
+                    },
+                    {
+                        "name": "PFP-NFTs-003",
+                        "price": 4.5,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952429/monkey-7012380_1280_yox7s7.png",
+                        "description": "A futuristic humanoid showcasing advanced tech."
+                    }
+                ]
+            },
+            "PFColl2": {
+                "metadata": {
+                    "description": "Featuring unique pfp-nfts NFTs showcasing A cool monkey with sunglasses and swag., A colorful cartoon character with a funky vibe., and more.",
+                    "name": "Cartoons",
+                    "totalItems": 2,
+                    "createdDate": "2024-12-05",
+                    "floor": "1 ETH",
+                    "total volume": "13.5 ETH",
+                    "chain": "ethereum"
+                },
+                "nfts": [
+                    {
+                        "name": "PFP-NFTs-004",
+                        "price": 6.0,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952444/cartoon-7417583_1280_fglwro.png",
+                        "description": "A cool monkey with sunglasses and swag."
+                    },
+                    {
+                        "name": "PFP-NFTs-005",
+                        "price": 7.5,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952444/cartoon-7417582_1280_gmxrk0.png",
+                        "description": "A colorful cartoon character with a funky vibe."
+                    }
+                ]
+            },
+            "PFColl3": {
+                "metadata": {
+                    "description": "Featuring unique pfp-nfts NFTs showcasing A cool monkey with sunglasses and swag., A colorful cartoon character with a funky vibe., and more.",
+                    "name": "Different Peoples",
+                    "totalItems": 3,
+                    "createdDate": "2024-12-06",
+                    "floor": "1 ETH",
+                    "total volume": "31.5 ETH",
+                    "chain": "ethereum"
+                },
+                "nfts": [
+                    {
+                        "name": "PFP-NFTs-006",
+                        "price": 9.0,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952008/king-306448_1280_dpsznc.png",
+                        "description": "A futuristic humanoid showcasing advanced tech."
+                    },
+                    {
+                        "name": "PFP-NFTs-007",
+                        "price": 10.5,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952008/female-8150791_1280_c8xnvl.jpg.jpg",
+                        "description": "A cool monkey with sunglasses and swag."
+                    },
+                    {
+                        "name": "PFP-NFTs-008",
+                        "price": 12.0,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952008/kid-8150792_1280_znzuqs.jpg.jpg",
+                        "description": "A colorful cartoon character with a funky vibe."
+                    }
+                ]
+            },
+            "PFColl4": {
+                "metadata": {
+                    "description": "Featuring unique pfp-nfts NFTs showcasing A cool monkey with sunglasses and swag., A colorful cartoon character with a funky vibe., and more.",
+                    "name": "Animals",
+                    "totalItems": 2,
+                    "createdDate": "2024-12-07",
+                    "floor": "1 ETH",
+                    "total volume": "28.5 ETH",
+                    "chain": "ethereum"
+                },
+                "nfts": [
+                    {
+                        "name": "PFP-NFTs-009",
+                        "price": 13.5,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951990/penguin-5487302_1280_wwnjtn.png",
+                        "description": "A futuristic humanoid showcasing advanced tech."
+                    },
+                    {
+                        "name": "PFP-NFTs-010",
+                        "price": 15.0,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951989/seagull-7282992_1280_yovbly.png",
+                        "description": "A cool monkey with sunglasses and swag."
+                    }
+                ]
+            },
+            "PFColl5": {
+                "metadata": {
+                    "description": "Featuring unique pfp-nfts NFTs showcasing A cool monkey with sunglasses and swag., A colorful cartoon character with a funky vibe., and more.",
+                    "name": "Human Like",
+                    "totalItems": 2,
+                    "createdDate": "2024-12-07",
+                    "floor": "1 ETH",
+                    "total volume": "34.5 ETH",
+                    "chain": "ethereum"
+                },
+                "nfts": [
+                    {
+                        "name": "PFP-NFTs-011",
+                        "price": 16.5,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951974/technology-7030913_1280_l1yqij.png",
+                        "description": "A colorful cartoon character with a funky vibe."
+                    },
+                    {
+                        "name": "PFP-NFTs-012",
+                        "price": 18.0,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951973/the-simpson-7046041_1280_vyz3hh.png",
+                        "description": "A futuristic humanoid showcasing advanced tech."
+                    }
+                ]
+            },
+            "PFColl6": {
+                "metadata": {
+                    "description": "Featuring unique pfp-nfts NFTs showcasing A cool monkey with sunglasses and swag., A colorful cartoon character with a funky vibe., and more.",
+                    "name": "Monkey Types",
+                    "totalItems": 4,
+                    "createdDate": "2024-12-07",
+                    "floor": "1 ETH",
+                    "total volume": "63.0 ETH",
+                    "chain": "ethereum"
+                },
+                "nfts": [
+                    {
+                        "name": "PFP-NFTs-013",
+                        "price": 19.5,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952430/monkey-7435887_1280_aev6hg.png",
+                        "description": "A cool monkey with sunglasses and swag."
+                    },
+                    {
+                        "name": "PFP-NFTs-014",
+                        "price": 21.0,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952429/monkey-soldier-5113779_1280_llylv1.png",
+                        "description": "A colorful cartoon character with a funky vibe."
+                    },
+                    {
+                        "name": "PFP-NFTs-015",
+                        "price": 22.5,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952431/monkey-king-8336925_1280_ihywbl.png",
+                        "description": "A futuristic humanoid showcasing advanced tech."
+                    }
+                ]
+            }
+        },
+        "Photography-NFTs": {
+            "PColl1": {
+                "metadata": {
+                    "description": "Featuring unique photography-nfts NFTs showcasing A stunning mountain view at sunset., An intricate close-up shot of a blooming flower., and more.",
+                    "name": "Cameras",
+                    "totalItems": 3,
+                    "createdDate": "2024-12-05",
+                    "floor": "1 ETH",
+                    "total volume": "9.0 ETH",
+                    "chain": "ethereum"
+                },
+                "nfts": [
+                    {
+                        "name": "Photography-NFTs-001",
+                        "price": 1.5,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951953/nathan-dumlao-p4TKmK4Egvg-unsplash_r0sx1z.jpg",
+                        "description": "A stunning mountain view at sunset."
+                    },
+                    {
+                        "name": "Photography-NFTs-002",
+                        "price": 3.0,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951949/kun-fotografi-gyhT9Sb20XY-unsplash_icfjdr.jpg",
+                        "description": "An intricate close-up shot of a blooming flower."
+                    },
+                    {
+                        "name": "Photography-NFTs-003",
+                        "price": 4.5,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951945/mylene-tremoyet-Da0pdCekeUs-unsplash_mnoht3.jpg",
+                        "description": "A breathtaking aerial photo of a forest."
+                    }
+                ]
+            },
+            "PColl2": {
+                "metadata": {
+                    "description": "Featuring unique photography-nfts NFTs showcasing A stunning mountain view at sunset., An intricate close-up shot of a blooming flower., and more.",
+                    "name": "Lens and Film",
+                    "totalItems": 2,
+                    "createdDate": "2024-12-06",
+                    "floor": "1 ETH",
+                    "total volume": "13.5 ETH",
+                    "chain": "ethereum"
+                },
+                "nfts": [
+                    {
+                        "name": "Photography-NFTs-004",
+                        "price": 6.0,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951950/moy-vazquez-UbqvjH69oOQ-unsplash_qeujj8.jpg",
+                        "description": "A stunning mountain view at sunset."
+                    },
+                    {
+                        "name": "Photography-NFTs-005",
+                        "price": 7.5,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951952/andrew-konstantinov-Jk8tUzZ0O6E-unsplash_rgl9c7.jpg",
+                        "description": "An intricate close-up shot of a blooming flower."
+                    }
+                ]
+            },
+            "PColl3": {
+                "metadata": {
+                    "description": "Featuring unique photography-nfts NFTs showcasing A stunning mountain view at sunset., An intricate close-up shot of a blooming flower., and more.",
+                    "name": "Nature",
+                    "totalItems": 3,
+                    "createdDate": "2024-12-07",
+                    "floor": "1 ETH",
+                    "total volume": "31.5 ETH",
+                    "chain": "ethereum"
+                },
+                "nfts": [
+                    {
+                        "name": "Photography-NFTs-006",
+                        "price": 9.0,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951951/krisjanis-kazaks-HTEsx-stj7E-unsplash_hi2qxv.jpg",
+                        "description": "A breathtaking aerial photo of a forest."
+                    },
+                    {
+                        "name": "Photography-NFTs-007",
+                        "price": 10.5,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951946/mihail-ilchov-UqUh5uTpoY4-unsplash_enypvb.jpg",
+                        "description": "A stunning mountain view at sunset."
+                    },
+                    {
+                        "name": "Photography-NFTs-008",
+                        "price": 12.0,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951958/jose-p-ortiz-DuZZ4gOjYdM-unsplash_za9ikv.jpg",
+                        "description": "An intricate close-up shot of a blooming flower."
+                    }
+                ]
+            },
+            "PColl4": {
+                "metadata": {
+                    "description": "Featuring unique photography-nfts NFTs showcasing A stunning mountain view at sunset., An intricate close-up shot of a blooming flower., and more.",
+                    "name": "Mountains and Views",
+                    "totalItems": 3,
+                    "createdDate": "2024-12-08",
+                    "floor": "1 ETH",
+                    "total volume": "45.0 ETH",
+                    "chain": "ethereum"
+                },
+                "nfts": [
+                    {
+                        "name": "Photography-NFTs-009",
+                        "price": 13.5,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951955/cin-Y0KFNIZFAyU-unsplash_cnqwoy.jpg",
+                        "description": "A breathtaking aerial photo of a forest."
+                    },
+                    {
+                        "name": "Photography-NFTs-010",
+                        "price": 15.0,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951953/jon-champaigne-UsVUIGulksk-unsplash_qc3wqd.jpg",
+                        "description": "A stunning mountain view at sunset."
+                    },
+                    {
+                        "name": "Photography-NFTs-011",
+                        "price": 16.5,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951948/leandra-niederhauser-eaToegj7RI4-unsplash_a6llnf.jpg",
+                        "description": "An intricate close-up shot of a blooming flower."
+                    }
+                ]
+            },
+            "PColl5": {
+                "metadata": {
+                    "description": "Featuring unique photography-nfts NFTs showcasing A stunning mountain view at sunset., An intricate close-up shot of a blooming flower., and more.",
+                    "name": "Beauty of Nature",
+                    "totalItems": 3,
+                    "createdDate": "2024-12-08",
+                    "floor": "1 ETH",
+                    "total volume": "58.5 ETH",
+                    "chain": "ethereum"
+                },
+                "nfts": [
+                    {
+                        "name": "Photography-NFTs-012",
+                        "price": 18.0,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951951/lalitha-d-EZiKSUX-3yg-unsplash_ihsl97..jpg",
+                        "description": "A breathtaking aerial photo of a forest."
+                    },
+                    {
+                        "name": "Photography-NFTs-013",
+                        "price": 19.5,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951952/jose-p-ortiz-l--RqyZVBCo-unsplash_aixwes.jpg",
+                        "description": "A stunning mountain view at sunset."
+                    },
+                    {
+                        "name": "Photography-NFTs-014",
+                        "price": 21.0,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951955/baptiste-buisson-Lg-ZYKGZ2k4-unsplash_vveqqb.jpg",
+                        "description": "An intricate close-up shot of a blooming flower."
+                    }
+                ]
+            },
+            "PColl6": {
+                "metadata": {
+                    "description": "Featuring unique photography-nfts NFTs showcasing A stunning mountain view at sunset., An intricate close-up shot of a blooming flower., and more.",
+                    "name": "Random Photos",
+                    "totalItems": 3,
+                    "createdDate": "2024-12-08",
+                    "floor": "1 ETH",
+                    "total volume": "72.0 ETH",
+                    "chain": "ethereum"
+                },
+                "nfts": [
+                    {
+                        "name": "Photography-NFTs-015",
+                        "price": 22.5,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951956/benjamin-zanatta-WbkfJ2TmSug-unsplash_ndvjhn.jpg",
+                        "description": "A breathtaking aerial photo of a forest."
+                    },
+                    {
+                        "name": "Photography-NFTs-016",
+                        "price": 24.0,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951949/michael-fousert-_ms3EBwRmjU-unsplash_nhi2ye.jpg",
+                        "description": "A stunning mountain view at sunset."
+                    },
+                    {
+                        "name": "Photography-NFTs-017",
+                        "price": 25.5,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951943/adham-ragab-6iBJ7GVg09Y-unsplash_ztnt7n.jpg",
+                        "description": "An intricate close-up shot of a blooming flower."
+                    }
+                ]
+            },
+            "PColl7": {
+                "metadata": {
+                    "description": "Featuring unique photography-nfts NFTs showcasing A stunning mountain view at sunset., An intricate close-up shot of a blooming flower., and more.",
+                    "name": "Something Random",
+                    "totalItems": 3,
+                    "createdDate": "2024-12-08",
+                    "floor": "1 ETH",
+                    "total volume": "85.5 ETH",
+                    "chain": "ethereum"
+                },
+                "nfts": [
+                    {
+                        "name": "Photography-NFTs-018",
+                        "price": 27.0,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951944/mohammad-mardani-BCz_Lhedwvo-unsplash_wqhxcp.jpg",
+                        "description": "A breathtaking aerial photo of a forest."
+                    },
+                    {
+                        "name": "Photography-NFTs-019",
+                        "price": 28.5,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951955/damian-barczak-U9E423m3Hd8-unsplash_kvmuqq.jpg",
+                        "description": "A stunning mountain view at sunset."
+                    },
+                    {
+                        "name": "Photography-NFTs-020",
+                        "price": 30.0,
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951955/highzone-p6xd1hgwyZU-unsplash_cznjtc.jpg",
+                        "description": "An intricate close-up shot of a blooming flower."
+                    }
+                ]
+            }
+        },
+        "Music-NFTs": {
+            "MColl1": {
+                "metadata": {
+                    "description": "Featuring unique music-nfts NFTs showcasing A soothing instrumental track with serene melodies., An energetic beat perfect for the dancefloor., and more.",
+                    "name": "Description of SubBranch1 in branch5",
+                    "totalItems": 3,
+                    "createdDate": "2024-12-06",
+                    "floor": "1 ETH",
+                    "total volume": "9.0 ETH",
+                    "chain": "ethereum"
+                },
+                "nfts": [
+                    {
+                        "name": "Music-NFTs-001",
+                        "price": 1.5,
+                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952563/m1_jafh59.mp3",
+                        "description": "A soothing instrumental track with serene melodies."
+                    },
+                    {
+                        "name": "Music-NFTs-002",
+                        "price": 3.0,
+                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952562/m2_m81gif.mp3",
+                        "description": "An energetic beat perfect for the dancefloor."
+                    },
+                    {
+                        "name": "Music-NFTs-003",
+                        "price": 4.5,
+                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952563/m3_vpi6kv.mp3",
+                        "description": "A haunting melody with deep emotional resonance."
+                    }
+                ]
+            },
+            "MColl2": {
+                "metadata": {
+                    "description": "Featuring unique music-nfts NFTs showcasing A soothing instrumental track with serene melodies., An energetic beat perfect for the dancefloor., and more.",
+                    "name": "Description of SubBranch2 in branch5",
+                    "totalItems": 2,
+                    "createdDate": "2024-12-07",
+                    "floor": "1 ETH",
+                    "total volume": "13.5 ETH",
+                    "chain": "ethereum"
+                },
+                "nfts": [
+                    {
+                        "name": "Music-NFTs-004",
+                        "price": 6.0,
+                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952560/m4_pz9nbg.mp3",
+                        "description": "A soothing instrumental track with serene melodies."
+                    },
+                    {
+                        "name": "Music-NFTs-005",
+                        "price": 7.5,
+                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952559/m5_bqxs5k.mp3",
+                        "description": "An energetic beat perfect for the dancefloor."
+                    }
+                ]
+            },
+            "MColl3": {
+                "metadata": {
+                    "description": "Featuring unique music-nfts NFTs showcasing A soothing instrumental track with serene melodies., An energetic beat perfect for the dancefloor., and more.",
+                    "name": "Description of SubBranch3 in branch5",
+                    "totalItems": 3,
+                    "createdDate": "2024-12-08",
+                    "floor": "1 ETH",
+                    "total volume": "31.5 ETH",
+                    "chain": "ethereum"
+                },
+                "nfts": [
+                    {
+                        "name": "Music-NFTs-006",
+                        "price": 9.0,
+                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952558/m8_dlomem.mp3",
+                        "description": "A haunting melody with deep emotional resonance."
+                    },
+                    {
+                        "name": "Music-NFTs-007",
+                        "price": 10.5,
+                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952558/m9_qwuu7e.mp3",
+                        "description": "A soothing instrumental track with serene melodies."
+                    },
+                    {
+                        "name": "Music-NFTs-008",
+                        "price": 12.0,
+                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952556/m10_ovhu6r.mp3",
+                        "description": "An energetic beat perfect for the dancefloor."
+                    }
+                ]
+            },
+            "MColl4": {
+                "metadata": {
+                    "description": "Featuring unique music-nfts NFTs showcasing A soothing instrumental track with serene melodies., An energetic beat perfect for the dancefloor., and more.",
+                    "name": "Description of SubBranch4 in branch5",
+                    "totalItems": 2,
+                    "createdDate": "2024-12-09",
+                    "floor": "1 ETH",
+                    "total volume": "28.5 ETH",
+                    "chain": "ethereum"
+                },
+                "nfts": [
+                    {
+                        "name": "Music-NFTs-009",
+                        "price": 13.5,
+                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952559/m6_bprj1o.mp3",
+                        "description": "A haunting melody with deep emotional resonance."
+                    },
+                    {
+                        "name": "Music-NFTs-010",
+                        "price": 15.0,
+                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952558/m7_vhdzng.mp3",
+                        "description": "A soothing instrumental track with serene melodies."
+                    }
+                ]
+            },
+            "MColl5": {
+                "metadata": {
+                    "description": "Featuring unique music-nfts NFTs showcasing A soothing instrumental track with serene melodies., An energetic beat perfect for the dancefloor., and more.",
+                    "name": "Description of SubBranch3 in branch5",
+                    "totalItems": 3,
+                    "createdDate": "2024-12-08",
+                    "floor": "1 ETH",
+                    "total volume": "54.0 ETH",
+                    "chain": "ethereum"
+                },
+                "nfts": [
+                    {
+                        "name": "Music-NFTs-011",
+                        "price": 16.5,
+                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952559/m11_ehm1zj.mp3",
+                        "description": "An energetic beat perfect for the dancefloor."
+                    },
+                    {
+                        "name": "Music-NFTs-012",
+                        "price": 18.0,
+                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952558/m12_qxixnu.mp3",
+                        "description": "A haunting melody with deep emotional resonance."
+                    },
+                    {
+                        "name": "Music-NFTs-013",
+                        "price": 19.5,
+                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952559/m13_ttqk1d.mp3",
+                        "description": "A soothing instrumental track with serene melodies."
+                    }
+                ]
+            },
+            "MColl6": {
+                "metadata": {
+                    "description": "Featuring unique music-nfts NFTs showcasing A soothing instrumental track with serene melodies., An energetic beat perfect for the dancefloor., and more.",
+                    "name": "Description of SubBranch3 in branch5",
+                    "totalItems": 3,
+                    "createdDate": "2024-12-08",
+                    "floor": "1 ETH",
+                    "total volume": "67.5 ETH",
+                    "chain": "ethereum"
+                },
+                "nfts": [
+                    {
+                        "name": "Music-NFTs-014",
+                        "price": 21.0,
+                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952555/m14_eafefx.mp3",
+                        "description": "An energetic beat perfect for the dancefloor."
+                    },
+                    {
+                        "name": "Music-NFTs-015",
+                        "price": 22.5,
+                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952554/m15_c1m6xp.mp3",
+                        "description": "A haunting melody with deep emotional resonance."
+                    },
+                    {
+                        "name": "Music-NFTs-016",
+                        "price": 24.0,
+                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952555/m16_k6fi7d.mp3",
+                        "description": "A soothing instrumental track with serene melodies."
+                    }
+                ]
+            },
+            "MColl7": {
+                "metadata": {
+                    "description": "Featuring unique music-nfts NFTs showcasing A soothing instrumental track with serene melodies., An energetic beat perfect for the dancefloor., and more.",
+                    "name": "Description of SubBranch3 in branch5",
+                    "totalItems": 2,
+                    "createdDate": "2024-12-08",
+                    "floor": "1 ETH",
+                    "total volume": "52.5 ETH",
+                    "chain": "ethereum"
+                },
+                "nfts": [
+                    {
+                        "name": "Music-NFTs-017",
+                        "price": 25.5,
+                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952472/m17_zozzyv.mp3",
+                        "description": "An energetic beat perfect for the dancefloor."
+                    },
+                    {
+                        "name": "Music-NFTs-018",
+                        "price": 27.0,
+                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952471/m18_v9jqjb.mp3",
+                        "description": "A haunting melody with deep emotional resonance."
+                    }
+                ]
+            }
+        }
+    }
+}
