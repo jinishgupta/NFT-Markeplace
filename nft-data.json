@@ -13,23 +13,23 @@
                 },
                 "nfts": [
                     {
-                        "name": "Art-NFTs-001",
+                        "name": "AVibrantAbstract",
                         "price": 1.5,
-                        "owner": "",
+                        "owner": "Bob",
                         "description": "A vibrant abstract painting full of energy.",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952455/a14_rquntf.jpg"
                     },
                     {
-                        "name": "Art-NFTs-002",
+                        "name": "ASereneLandscape",
                         "price": 3.0,
-                        "owner": "",
+                        "owner": "Diana",
                         "description": "A serene landscape capturing the beauty of nature.",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952453/a13_h9ahcb.jpg"
                     },
                     {
-                        "name": "Art-NFTs-003",
+                        "name": "ABoldModern",
                         "price": 4.5,
-                        "owner": "",
+                        "owner": "Diana",
                         "description": "A bold modern art piece with striking contrasts.",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952450/a15_ng5nlb.jpg"
                     }
@@ -47,16 +47,18 @@
                 },
                 "nfts": [
                     {
-                        "name": "Art-NFTs-004",
+                        "name": "AVibrantAbstract1",
                         "price": 6.0,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952456/a11_kd5xu2.jpg",
-                        "description": "A vibrant abstract painting full of energy."
+                        "description": "A vibrant abstract painting full of energy.",
+                        "owner": "Charlie"
                     },
                     {
-                        "name": "Art-NFTs-005",
+                        "name": "ASereneLandscape1",
                         "price": 7.5,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952457/a12_m5jvoc.jpg",
-                        "description": "A serene landscape capturing the beauty of nature."
+                        "description": "A serene landscape capturing the beauty of nature.",
+                        "owner": "Frank"
                     }
                 ]
             },
@@ -72,22 +74,25 @@
                 },
                 "nfts": [
                     {
-                        "name": "Art-NFTs-006",
+                        "name": "ABoldModern1",
                         "price": 9.0,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952461/a5_xdnbpp.jpg",
-                        "description": "A bold modern art piece with striking contrasts."
+                        "description": "A bold modern art piece with striking contrasts.",
+                        "owner": "Grace"
                     },
                     {
-                        "name": "Art-NFTs-007",
+                        "name": "AVibrantAbstract2",
                         "price": 10.5,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952460/a6_lohibv.jpg",
-                        "description": "A vibrant abstract painting full of energy."
+                        "description": "A vibrant abstract painting full of energy.",
+                        "owner": "Charlie"
                     },
                     {
-                        "name": "Art-NFTs-008",
+                        "name": "ASereneLandscape2",
                         "price": 12.0,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952458/a7_qmhmai.jpg",
-                        "description": "A serene landscape capturing the beauty of nature."
+                        "description": "A serene landscape capturing the beauty of nature.",
+                        "owner": "Diana"
                     }
                 ]
             },
@@ -103,16 +108,18 @@
                 },
                 "nfts": [
                     {
-                        "name": "Art-NFTs-009",
+                        "name": "ABoldModern2",
                         "price": 13.5,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952461/a2_lxiexm.jpg",
-                        "description": "A bold modern art piece with striking contrasts."
+                        "description": "A bold modern art piece with striking contrasts.",
+                        "owner": "Charlie"
                     },
                     {
-                        "name": "Art-NFTs-010",
+                        "name": "AVibrantAbstract3",
                         "price": 15.0,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952453/a17_wy5gyd.jpg",
-                        "description": "A vibrant abstract painting full of energy."
+                        "description": "A vibrant abstract painting full of energy.",
+                        "owner": "Grace"
                     }
                 ]
             },
@@ -128,22 +135,25 @@
                 },
                 "nfts": [
                     {
-                        "name": "Art-NFTs-011",
+                        "name": "ASereneLandscape3",
                         "price": 16.5,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952459/a8_dkqc2v.jpg",
-                        "description": "A serene landscape capturing the beauty of nature."
+                        "description": "A serene landscape capturing the beauty of nature.",
+                        "owner": "Grace"
                     },
                     {
-                        "name": "Art-NFTs-012",
+                        "name": "ABoldModern3",
                         "price": 18.0,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952458/a18_elgrcu.jpg",
-                        "description": "A bold modern art piece with striking contrasts."
+                        "description": "A bold modern art piece with striking contrasts.",
+                        "owner": "Alice"
                     },
                     {
-                        "name": "Art-NFTs-013",
+                        "name": "AVibrantAbstract4",
                         "price": 19.5,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952459/a10_nxtk62.jpg",
-                        "description": "A vibrant abstract painting full of energy."
+                        "description": "A vibrant abstract painting full of energy.",
+                        "owner": "Bob"
                     }
                 ]
             },
@@ -159,16 +169,18 @@
                 },
                 "nfts": [
                     {
-                        "name": "Art-NFTs-014",
+                        "name": "ASereneLandscape4",
                         "price": 21.0,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952465/a1_sx3h38.jpg",
-                        "description": "A serene landscape capturing the beauty of nature."
+                        "description": "A serene landscape capturing the beauty of nature.",
+                        "owner": "Frank"
                     },
                     {
-                        "name": "Art-NFTs-015",
+                        "name": "ABoldModern4",
                         "price": 22.5,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952464/a3_vhn4y1.jpg",
-                        "description": "A bold modern art piece with striking contrasts."
+                        "description": "A bold modern art piece with striking contrasts.",
+                        "owner": "Bob"
                     }
                 ]
             },
@@ -184,16 +196,18 @@
                 },
                 "nfts": [
                     {
-                        "name": "Art-NFTs-016",
+                        "name": "AVibrantAbstract5",
                         "price": 24.0,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952451/a19_h95m3w.jpg",
-                        "description": "A vibrant abstract painting full of energy."
+                        "description": "A vibrant abstract painting full of energy.",
+                        "owner": "Bob"
                     },
                     {
-                        "name": "Art-NFTs-017",
+                        "name": "ASereneLandscape5",
                         "price": 25.5,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952446/a20_qsitdn.jpg",
-                        "description": "A serene landscape capturing the beauty of nature."
+                        "description": "A serene landscape capturing the beauty of nature.",
+                        "owner": "Hank"
                     }
                 ]
             },
@@ -209,16 +223,18 @@
                 },
                 "nfts": [
                     {
-                        "name": "Art-NFTs-018",
+                        "name": "ABoldModern5",
                         "price": 27.0,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952459/a9_wwtzao.jpg",
-                        "description": "A bold modern art piece with striking contrasts."
+                        "description": "A bold modern art piece with striking contrasts.",
+                        "owner": "Grace"
                     },
                     {
-                        "name": "Art-NFTs-019",
+                        "name": "AVibrantAbstract6",
                         "price": 28.5,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952454/a16_hp2cjo.jpg",
-                        "description": "A vibrant abstract painting full of energy."
+                        "description": "A vibrant abstract painting full of energy.",
+                        "owner": "Hank"
                     }
                 ]
             }
@@ -236,28 +252,32 @@
                 },
                 "nfts": [
                     {
-                        "name": "Gaming-NFTs-001",
+                        "name": "AnIconicIn-game",
                         "price": 1.5,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952444/g16_vz4n2b.jpg",
-                        "description": "An iconic in-game weapon with legendary status."
+                        "description": "An iconic in-game weapon with legendary status.",
+                        "owner": "Hank"
                     },
                     {
-                        "name": "Gaming-NFTs-002",
+                        "name": "ACollectibleAvatar",
                         "price": 3.0,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952443/g14_p5fh0t.jpg",
-                        "description": "A collectible avatar skin for virtual adventures."
+                        "description": "A collectible avatar skin for virtual adventures.",
+                        "owner": "Eve"
                     },
                     {
-                        "name": "Gaming-NFTs-003",
+                        "name": "ARareGaming",
                         "price": 4.5,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952432/g18_sgfoqu.jpg",
-                        "description": "A rare gaming asset with special abilities."
+                        "description": "A rare gaming asset with special abilities.",
+                        "owner": "Frank"
                     },
                     {
-                        "name": "Gaming-NFTs-004",
+                        "name": "AnIconicIn-game1",
                         "price": 6.0,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952431/g17_zucja5.jpg",
-                        "description": "An iconic in-game weapon with legendary status."
+                        "description": "An iconic in-game weapon with legendary status.",
+                        "owner": "Alice"
                     }
                 ]
             },
@@ -273,16 +293,18 @@
                 },
                 "nfts": [
                     {
-                        "name": "Gaming-NFTs-005",
+                        "name": "ACollectibleAvatar1",
                         "price": 7.5,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952437/g15_moqoql.jpg",
-                        "description": "A collectible avatar skin for virtual adventures."
+                        "description": "A collectible avatar skin for virtual adventures.",
+                        "owner": "Grace"
                     },
                     {
-                        "name": "Gaming-NFTs-006",
+                        "name": "ARareGaming1",
                         "price": 9.0,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952432/g13_ox1dht.jpg",
-                        "description": "A rare gaming asset with special abilities."
+                        "description": "A rare gaming asset with special abilities.",
+                        "owner": "Bob"
                     }
                 ]
             },
@@ -298,22 +320,25 @@
                 },
                 "nfts": [
                     {
-                        "name": "Gaming-NFTs-007",
+                        "name": "AnIconicIn-game2",
                         "price": 10.5,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952436/g10_bglwmy.jpg",
-                        "description": "An iconic in-game weapon with legendary status."
+                        "description": "An iconic in-game weapon with legendary status.",
+                        "owner": "Alice"
                     },
                     {
-                        "name": "Gaming-NFTs-008",
+                        "name": "ACollectibleAvatar2",
                         "price": 12.0,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952440/g7_ab9obn.jpg",
-                        "description": "A collectible avatar skin for virtual adventures."
+                        "description": "A collectible avatar skin for virtual adventures.",
+                        "owner": "Bob"
                     },
                     {
-                        "name": "Gaming-NFTs-009",
+                        "name": "ARareGaming2",
                         "price": 13.5,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952443/g2_byuwdo.jpg",
-                        "description": "A rare gaming asset with special abilities."
+                        "description": "A rare gaming asset with special abilities.",
+                        "owner": "Diana"
                     }
                 ]
             },
@@ -329,22 +354,25 @@
                 },
                 "nfts": [
                     {
-                        "name": "Gaming-NFTs-010",
+                        "name": "AnIconicIn-game3",
                         "price": 15.0,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952444/g3_v1qqap.jpg",
-                        "description": "An iconic in-game weapon with legendary status."
+                        "description": "An iconic in-game weapon with legendary status.",
+                        "owner": "Eve"
                     },
                     {
-                        "name": "Gaming-NFTs-011",
+                        "name": "ACollectibleAvatar3",
                         "price": 16.5,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952441/g5_o074x2.jpg",
-                        "description": "A collectible avatar skin for virtual adventures."
+                        "description": "A collectible avatar skin for virtual adventures.",
+                        "owner": "Bob"
                     },
                     {
-                        "name": "Gaming-NFTs-012",
+                        "name": "ARareGaming3",
                         "price": 18.0,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952439/g6_yftjqc.jpg",
-                        "description": "A rare gaming asset with special abilities."
+                        "description": "A rare gaming asset with special abilities.",
+                        "owner": "Diana"
                     }
                 ]
             },
@@ -360,22 +388,25 @@
                 },
                 "nfts": [
                     {
-                        "name": "Gaming-NFTs-013",
+                        "name": "AnIconicIn-game4",
                         "price": 19.5,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952442/g4_qdmvis.jpg",
-                        "description": "An iconic in-game weapon with legendary status."
+                        "description": "An iconic in-game weapon with legendary status.",
+                        "owner": "Alice"
                     },
                     {
-                        "name": "Gaming-NFTs-014",
+                        "name": "ACollectibleAvatar4",
                         "price": 21.0,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952440/g12_g28cpd.jpg",
-                        "description": "A collectible avatar skin for virtual adventures."
+                        "description": "A collectible avatar skin for virtual adventures.",
+                        "owner": "Hank"
                     },
                     {
-                        "name": "Gaming-NFTs-015",
+                        "name": "ARareGaming4",
                         "price": 22.5,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952438/g8_azldkk.jpg",
-                        "description": "A rare gaming asset with special abilities."
+                        "description": "A rare gaming asset with special abilities.",
+                        "owner": "Grace"
                     }
                 ]
             },
@@ -391,22 +422,25 @@
                 },
                 "nfts": [
                     {
-                        "name": "Gaming-NFTs-016",
+                        "name": "AnIconicIn-game5",
                         "price": 24.0,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952435/g11_z97is8.jpg",
-                        "description": "An iconic in-game weapon with legendary status."
+                        "description": "An iconic in-game weapon with legendary status.",
+                        "owner": "Frank"
                     },
                     {
-                        "name": "Gaming-NFTs-017",
+                        "name": "ACollectibleAvatar5",
                         "price": 25.5,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952446/g9_clzanq.jpg",
-                        "description": "A collectible avatar skin for virtual adventures."
+                        "description": "A collectible avatar skin for virtual adventures.",
+                        "owner": "Bob"
                     },
                     {
-                        "name": "Gaming-NFTs-018",
+                        "name": "ARareGaming5",
                         "price": 27.0,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952450/g1_xxtfz5.jpg",
-                        "description": "A rare gaming asset with special abilities."
+                        "description": "A rare gaming asset with special abilities.",
+                        "owner": "Frank"
                     }
                 ]
             }
@@ -424,22 +458,25 @@
                 },
                 "nfts": [
                     {
-                        "name": "PFP-NFTs-001",
+                        "name": "ACoolMonkey",
                         "price": 1.5,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952445/bored-6945309_1280_syer7i.png",
-                        "description": "A cool monkey with sunglasses and swag."
+                        "description": "A cool monkey with sunglasses and swag.",
+                        "owner": "Frank"
                     },
                     {
-                        "name": "PFP-NFTs-002",
+                        "name": "AColorfulCartoon",
                         "price": 3.0,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952446/ape-7020995_1280_hjdmem.png",
-                        "description": "A colorful cartoon character with a funky vibe."
+                        "description": "A colorful cartoon character with a funky vibe.",
+                        "owner": "Charlie"
                     },
                     {
-                        "name": "PFP-NFTs-003",
+                        "name": "AFuturisticHumanoid",
                         "price": 4.5,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952429/monkey-7012380_1280_yox7s7.png",
-                        "description": "A futuristic humanoid showcasing advanced tech."
+                        "description": "A futuristic humanoid showcasing advanced tech.",
+                        "owner": "Charlie"
                     }
                 ]
             },
@@ -455,16 +492,18 @@
                 },
                 "nfts": [
                     {
-                        "name": "PFP-NFTs-004",
+                        "name": "ACoolMonkey1",
                         "price": 6.0,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952444/cartoon-7417583_1280_fglwro.png",
-                        "description": "A cool monkey with sunglasses and swag."
+                        "description": "A cool monkey with sunglasses and swag.",
+                        "owner": "Hank"
                     },
                     {
-                        "name": "PFP-NFTs-005",
+                        "name": "AColorfulCartoon1",
                         "price": 7.5,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952444/cartoon-7417582_1280_gmxrk0.png",
-                        "description": "A colorful cartoon character with a funky vibe."
+                        "description": "A colorful cartoon character with a funky vibe.",
+                        "owner": "Grace"
                     }
                 ]
             },
@@ -480,22 +519,25 @@
                 },
                 "nfts": [
                     {
-                        "name": "PFP-NFTs-006",
+                        "name": "AFuturisticHumanoid1",
                         "price": 9.0,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952008/king-306448_1280_dpsznc.png",
-                        "description": "A futuristic humanoid showcasing advanced tech."
+                        "description": "A futuristic humanoid showcasing advanced tech.",
+                        "owner": "Hank"
                     },
                     {
-                        "name": "PFP-NFTs-007",
+                        "name": "ACoolMonkey2",
                         "price": 10.5,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952008/female-8150791_1280_c8xnvl.jpg.jpg",
-                        "description": "A cool monkey with sunglasses and swag."
+                        "description": "A cool monkey with sunglasses and swag.",
+                        "owner": "Charlie"
                     },
                     {
-                        "name": "PFP-NFTs-008",
+                        "name": "AColorfulCartoon2",
                         "price": 12.0,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952008/kid-8150792_1280_znzuqs.jpg.jpg",
-                        "description": "A colorful cartoon character with a funky vibe."
+                        "description": "A colorful cartoon character with a funky vibe.",
+                        "owner": "Alice"
                     }
                 ]
             },
@@ -511,16 +553,18 @@
                 },
                 "nfts": [
                     {
-                        "name": "PFP-NFTs-009",
+                        "name": "AFuturisticHumanoid2",
                         "price": 13.5,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951990/penguin-5487302_1280_wwnjtn.png",
-                        "description": "A futuristic humanoid showcasing advanced tech."
+                        "description": "A futuristic humanoid showcasing advanced tech.",
+                        "owner": "Eve"
                     },
                     {
-                        "name": "PFP-NFTs-010",
+                        "name": "ACoolMonkey3",
                         "price": 15.0,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951989/seagull-7282992_1280_yovbly.png",
-                        "description": "A cool monkey with sunglasses and swag."
+                        "description": "A cool monkey with sunglasses and swag.",
+                        "owner": "Bob"
                     }
                 ]
             },
@@ -536,16 +580,18 @@
                 },
                 "nfts": [
                     {
-                        "name": "PFP-NFTs-011",
+                        "name": "AColorfulCartoon3",
                         "price": 16.5,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951974/technology-7030913_1280_l1yqij.png",
-                        "description": "A colorful cartoon character with a funky vibe."
+                        "description": "A colorful cartoon character with a funky vibe.",
+                        "owner": "Eve"
                     },
                     {
-                        "name": "PFP-NFTs-012",
+                        "name": "AFuturisticHumanoid3",
                         "price": 18.0,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951973/the-simpson-7046041_1280_vyz3hh.png",
-                        "description": "A futuristic humanoid showcasing advanced tech."
+                        "description": "A futuristic humanoid showcasing advanced tech.",
+                        "owner": "Grace"
                     }
                 ]
             },
@@ -561,22 +607,25 @@
                 },
                 "nfts": [
                     {
-                        "name": "PFP-NFTs-013",
+                        "name": "ACoolMonkey4",
                         "price": 19.5,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952430/monkey-7435887_1280_aev6hg.png",
-                        "description": "A cool monkey with sunglasses and swag."
+                        "description": "A cool monkey with sunglasses and swag.",
+                        "owner": "Frank"
                     },
                     {
-                        "name": "PFP-NFTs-014",
+                        "name": "AColorfulCartoon4",
                         "price": 21.0,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952429/monkey-soldier-5113779_1280_llylv1.png",
-                        "description": "A colorful cartoon character with a funky vibe."
+                        "description": "A colorful cartoon character with a funky vibe.",
+                        "owner": "Eve"
                     },
                     {
-                        "name": "PFP-NFTs-015",
+                        "name": "AFuturisticHumanoid4",
                         "price": 22.5,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952431/monkey-king-8336925_1280_ihywbl.png",
-                        "description": "A futuristic humanoid showcasing advanced tech."
+                        "description": "A futuristic humanoid showcasing advanced tech.",
+                        "owner": "Bob"
                     }
                 ]
             }
@@ -594,22 +643,25 @@
                 },
                 "nfts": [
                     {
-                        "name": "Photography-NFTs-001",
+                        "name": "AStunningMountain",
                         "price": 1.5,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951953/nathan-dumlao-p4TKmK4Egvg-unsplash_r0sx1z.jpg",
-                        "description": "A stunning mountain view at sunset."
+                        "description": "A stunning mountain view at sunset.",
+                        "owner": "Eve"
                     },
                     {
-                        "name": "Photography-NFTs-002",
+                        "name": "AnIntricateClose-up",
                         "price": 3.0,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951949/kun-fotografi-gyhT9Sb20XY-unsplash_icfjdr.jpg",
-                        "description": "An intricate close-up shot of a blooming flower."
+                        "description": "An intricate close-up shot of a blooming flower.",
+                        "owner": "Bob"
                     },
                     {
-                        "name": "Photography-NFTs-003",
+                        "name": "ABreathtakingAerial",
                         "price": 4.5,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951945/mylene-tremoyet-Da0pdCekeUs-unsplash_mnoht3.jpg",
-                        "description": "A breathtaking aerial photo of a forest."
+                        "description": "A breathtaking aerial photo of a forest.",
+                        "owner": "Bob"
                     }
                 ]
             },
@@ -625,16 +677,18 @@
                 },
                 "nfts": [
                     {
-                        "name": "Photography-NFTs-004",
+                        "name": "AStunningMountain1",
                         "price": 6.0,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951950/moy-vazquez-UbqvjH69oOQ-unsplash_qeujj8.jpg",
-                        "description": "A stunning mountain view at sunset."
+                        "description": "A stunning mountain view at sunset.",
+                        "owner": "Hank"
                     },
                     {
-                        "name": "Photography-NFTs-005",
+                        "name": "AnIntricateClose-up1",
                         "price": 7.5,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951952/andrew-konstantinov-Jk8tUzZ0O6E-unsplash_rgl9c7.jpg",
-                        "description": "An intricate close-up shot of a blooming flower."
+                        "description": "An intricate close-up shot of a blooming flower.",
+                        "owner": "Hank"
                     }
                 ]
             },
@@ -650,22 +704,25 @@
                 },
                 "nfts": [
                     {
-                        "name": "Photography-NFTs-006",
+                        "name": "ABreathtakingAerial1",
                         "price": 9.0,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951951/krisjanis-kazaks-HTEsx-stj7E-unsplash_hi2qxv.jpg",
-                        "description": "A breathtaking aerial photo of a forest."
+                        "description": "A breathtaking aerial photo of a forest.",
+                        "owner": "Grace"
                     },
                     {
-                        "name": "Photography-NFTs-007",
+                        "name": "AStunningMountain2",
                         "price": 10.5,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951946/mihail-ilchov-UqUh5uTpoY4-unsplash_enypvb.jpg",
-                        "description": "A stunning mountain view at sunset."
+                        "description": "A stunning mountain view at sunset.",
+                        "owner": "Charlie"
                     },
                     {
-                        "name": "Photography-NFTs-008",
+                        "name": "AnIntricateClose-up2",
                         "price": 12.0,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951958/jose-p-ortiz-DuZZ4gOjYdM-unsplash_za9ikv.jpg",
-                        "description": "An intricate close-up shot of a blooming flower."
+                        "description": "An intricate close-up shot of a blooming flower.",
+                        "owner": "Charlie"
                     }
                 ]
             },
@@ -681,22 +738,25 @@
                 },
                 "nfts": [
                     {
-                        "name": "Photography-NFTs-009",
+                        "name": "ABreathtakingAerial2",
                         "price": 13.5,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951955/cin-Y0KFNIZFAyU-unsplash_cnqwoy.jpg",
-                        "description": "A breathtaking aerial photo of a forest."
+                        "description": "A breathtaking aerial photo of a forest.",
+                        "owner": "Eve"
                     },
                     {
-                        "name": "Photography-NFTs-010",
+                        "name": "AStunningMountain3",
                         "price": 15.0,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951953/jon-champaigne-UsVUIGulksk-unsplash_qc3wqd.jpg",
-                        "description": "A stunning mountain view at sunset."
+                        "description": "A stunning mountain view at sunset.",
+                        "owner": "Grace"
                     },
                     {
-                        "name": "Photography-NFTs-011",
+                        "name": "AnIntricateClose-up3",
                         "price": 16.5,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951948/leandra-niederhauser-eaToegj7RI4-unsplash_a6llnf.jpg",
-                        "description": "An intricate close-up shot of a blooming flower."
+                        "description": "An intricate close-up shot of a blooming flower.",
+                        "owner": "Bob"
                     }
                 ]
             },
@@ -712,22 +772,25 @@
                 },
                 "nfts": [
                     {
-                        "name": "Photography-NFTs-012",
+                        "name": "ABreathtakingAerial3",
                         "price": 18.0,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951951/lalitha-d-EZiKSUX-3yg-unsplash_ihsl97..jpg",
-                        "description": "A breathtaking aerial photo of a forest."
+                        "description": "A breathtaking aerial photo of a forest.",
+                        "owner": "Eve"
                     },
                     {
-                        "name": "Photography-NFTs-013",
+                        "name": "AStunningMountain4",
                         "price": 19.5,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951952/jose-p-ortiz-l--RqyZVBCo-unsplash_aixwes.jpg",
-                        "description": "A stunning mountain view at sunset."
+                        "description": "A stunning mountain view at sunset.",
+                        "owner": "Alice"
                     },
                     {
-                        "name": "Photography-NFTs-014",
+                        "name": "AnIntricateClose-up4",
                         "price": 21.0,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951955/baptiste-buisson-Lg-ZYKGZ2k4-unsplash_vveqqb.jpg",
-                        "description": "An intricate close-up shot of a blooming flower."
+                        "description": "An intricate close-up shot of a blooming flower.",
+                        "owner": "Charlie"
                     }
                 ]
             },
@@ -743,22 +806,25 @@
                 },
                 "nfts": [
                     {
-                        "name": "Photography-NFTs-015",
+                        "name": "ABreathtakingAerial4",
                         "price": 22.5,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951956/benjamin-zanatta-WbkfJ2TmSug-unsplash_ndvjhn.jpg",
-                        "description": "A breathtaking aerial photo of a forest."
+                        "description": "A breathtaking aerial photo of a forest.",
+                        "owner": "Diana"
                     },
                     {
-                        "name": "Photography-NFTs-016",
+                        "name": "AStunningMountain5",
                         "price": 24.0,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951949/michael-fousert-_ms3EBwRmjU-unsplash_nhi2ye.jpg",
-                        "description": "A stunning mountain view at sunset."
+                        "description": "A stunning mountain view at sunset.",
+                        "owner": "Hank"
                     },
                     {
-                        "name": "Photography-NFTs-017",
+                        "name": "AnIntricateClose-up5",
                         "price": 25.5,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951943/adham-ragab-6iBJ7GVg09Y-unsplash_ztnt7n.jpg",
-                        "description": "An intricate close-up shot of a blooming flower."
+                        "description": "An intricate close-up shot of a blooming flower.",
+                        "owner": "Bob"
                     }
                 ]
             },
@@ -774,22 +840,25 @@
                 },
                 "nfts": [
                     {
-                        "name": "Photography-NFTs-018",
+                        "name": "ABreathtakingAerial5",
                         "price": 27.0,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951944/mohammad-mardani-BCz_Lhedwvo-unsplash_wqhxcp.jpg",
-                        "description": "A breathtaking aerial photo of a forest."
+                        "description": "A breathtaking aerial photo of a forest.",
+                        "owner": "Grace"
                     },
                     {
-                        "name": "Photography-NFTs-019",
+                        "name": "AStunningMountain6",
                         "price": 28.5,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951955/damian-barczak-U9E423m3Hd8-unsplash_kvmuqq.jpg",
-                        "description": "A stunning mountain view at sunset."
+                        "description": "A stunning mountain view at sunset.",
+                        "owner": "Grace"
                     },
                     {
-                        "name": "Photography-NFTs-020",
+                        "name": "AnIntricateClose-up6",
                         "price": 30.0,
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951955/highzone-p6xd1hgwyZU-unsplash_cznjtc.jpg",
-                        "description": "An intricate close-up shot of a blooming flower."
+                        "description": "An intricate close-up shot of a blooming flower.",
+                        "owner": "Frank"
                     }
                 ]
             }
@@ -807,22 +876,25 @@
                 },
                 "nfts": [
                     {
-                        "name": "Music-NFTs-001",
+                        "name": "ASoothingInstrumental",
                         "price": 1.5,
                         "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952563/m1_jafh59.mp3",
-                        "description": "A soothing instrumental track with serene melodies."
+                        "description": "A soothing instrumental track with serene melodies.",
+                        "owner": "Frank"
                     },
                     {
-                        "name": "Music-NFTs-002",
+                        "name": "AnEnergeticBeat",
                         "price": 3.0,
                         "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952562/m2_m81gif.mp3",
-                        "description": "An energetic beat perfect for the dancefloor."
+                        "description": "An energetic beat perfect for the dancefloor.",
+                        "owner": "Alice"
                     },
                     {
-                        "name": "Music-NFTs-003",
+                        "name": "AHauntingMelody",
                         "price": 4.5,
                         "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952563/m3_vpi6kv.mp3",
-                        "description": "A haunting melody with deep emotional resonance."
+                        "description": "A haunting melody with deep emotional resonance.",
+                        "owner": "Hank"
                     }
                 ]
             },
@@ -838,16 +910,18 @@
                 },
                 "nfts": [
                     {
-                        "name": "Music-NFTs-004",
+                        "name": "ASoothingInstrumental1",
                         "price": 6.0,
                         "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952560/m4_pz9nbg.mp3",
-                        "description": "A soothing instrumental track with serene melodies."
+                        "description": "A soothing instrumental track with serene melodies.",
+                        "owner": "Diana"
                     },
                     {
-                        "name": "Music-NFTs-005",
+                        "name": "AnEnergeticBeat1",
                         "price": 7.5,
                         "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952559/m5_bqxs5k.mp3",
-                        "description": "An energetic beat perfect for the dancefloor."
+                        "description": "An energetic beat perfect for the dancefloor.",
+                        "owner": "Grace"
                     }
                 ]
             },
@@ -863,22 +937,25 @@
                 },
                 "nfts": [
                     {
-                        "name": "Music-NFTs-006",
+                        "name": "AHauntingMelody1",
                         "price": 9.0,
                         "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952558/m8_dlomem.mp3",
-                        "description": "A haunting melody with deep emotional resonance."
+                        "description": "A haunting melody with deep emotional resonance.",
+                        "owner": "Bob"
                     },
                     {
-                        "name": "Music-NFTs-007",
+                        "name": "ASoothingInstrumental2",
                         "price": 10.5,
                         "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952558/m9_qwuu7e.mp3",
-                        "description": "A soothing instrumental track with serene melodies."
+                        "description": "A soothing instrumental track with serene melodies.",
+                        "owner": "Grace"
                     },
                     {
-                        "name": "Music-NFTs-008",
+                        "name": "AnEnergeticBeat2",
                         "price": 12.0,
                         "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952556/m10_ovhu6r.mp3",
-                        "description": "An energetic beat perfect for the dancefloor."
+                        "description": "An energetic beat perfect for the dancefloor.",
+                        "owner": "Alice"
                     }
                 ]
             },
@@ -894,16 +971,18 @@
                 },
                 "nfts": [
                     {
-                        "name": "Music-NFTs-009",
+                        "name": "AHauntingMelody2",
                         "price": 13.5,
                         "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952559/m6_bprj1o.mp3",
-                        "description": "A haunting melody with deep emotional resonance."
+                        "description": "A haunting melody with deep emotional resonance.",
+                        "owner": "Diana"
                     },
                     {
-                        "name": "Music-NFTs-010",
+                        "name": "ASoothingInstrumental3",
                         "price": 15.0,
                         "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952558/m7_vhdzng.mp3",
-                        "description": "A soothing instrumental track with serene melodies."
+                        "description": "A soothing instrumental track with serene melodies.",
+                        "owner": "Eve"
                     }
                 ]
             },
@@ -919,22 +998,25 @@
                 },
                 "nfts": [
                     {
-                        "name": "Music-NFTs-011",
+                        "name": "AnEnergeticBeat3",
                         "price": 16.5,
                         "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952559/m11_ehm1zj.mp3",
-                        "description": "An energetic beat perfect for the dancefloor."
+                        "description": "An energetic beat perfect for the dancefloor.",
+                        "owner": "Hank"
                     },
                     {
-                        "name": "Music-NFTs-012",
+                        "name": "AHauntingMelody3",
                         "price": 18.0,
                         "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952558/m12_qxixnu.mp3",
-                        "description": "A haunting melody with deep emotional resonance."
+                        "description": "A haunting melody with deep emotional resonance.",
+                        "owner": "Eve"
                     },
                     {
-                        "name": "Music-NFTs-013",
+                        "name": "ASoothingInstrumental4",
                         "price": 19.5,
                         "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952559/m13_ttqk1d.mp3",
-                        "description": "A soothing instrumental track with serene melodies."
+                        "description": "A soothing instrumental track with serene melodies.",
+                        "owner": "Charlie"
                     }
                 ]
             },
@@ -950,22 +1032,25 @@
                 },
                 "nfts": [
                     {
-                        "name": "Music-NFTs-014",
+                        "name": "AnEnergeticBeat4",
                         "price": 21.0,
                         "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952555/m14_eafefx.mp3",
-                        "description": "An energetic beat perfect for the dancefloor."
+                        "description": "An energetic beat perfect for the dancefloor.",
+                        "owner": "Eve"
                     },
                     {
-                        "name": "Music-NFTs-015",
+                        "name": "AHauntingMelody4",
                         "price": 22.5,
                         "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952554/m15_c1m6xp.mp3",
-                        "description": "A haunting melody with deep emotional resonance."
+                        "description": "A haunting melody with deep emotional resonance.",
+                        "owner": "Eve"
                     },
                     {
-                        "name": "Music-NFTs-016",
+                        "name": "ASoothingInstrumental5",
                         "price": 24.0,
                         "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952555/m16_k6fi7d.mp3",
-                        "description": "A soothing instrumental track with serene melodies."
+                        "description": "A soothing instrumental track with serene melodies.",
+                        "owner": "Eve"
                     }
                 ]
             },
@@ -981,16 +1066,18 @@
                 },
                 "nfts": [
                     {
-                        "name": "Music-NFTs-017",
+                        "name": "AnEnergeticBeat5",
                         "price": 25.5,
                         "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952472/m17_zozzyv.mp3",
-                        "description": "An energetic beat perfect for the dancefloor."
+                        "description": "An energetic beat perfect for the dancefloor.",
+                        "owner": "Diana"
                     },
                     {
-                        "name": "Music-NFTs-018",
+                        "name": "AHauntingMelody5",
                         "price": 27.0,
                         "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952471/m18_v9jqjb.mp3",
-                        "description": "A haunting melody with deep emotional resonance."
+                        "description": "A haunting melody with deep emotional resonance.",
+                        "owner": "Diana"
                     }
                 ]
             }
