@@ -82,7 +82,7 @@ body{
 }
 /* General Footer Styling */
 footer {
-  background-color: #252020; /* Light gray background */
+  background-color: #252020; 
   padding: 20px 0;
   font-family: Arial, sans-serif;
   color: #fdf8f8;
@@ -237,36 +237,37 @@ a{
 }
 
 #music{
-  background-color: rgba(212, 212, 218, 0.158);
+  background-color: hsla(240, 7%, 84%, 0.158);
 }
 
 .headings{
   font-size: 2em;
-  margin: 10px;
+  margin: 30px;
 }
 /* Container for scrollable section */
-.top-collections {
+.top-music-collections {
 display: flex;
-overflow-x: auto; /* Enable horizontal scrolling */
-gap: 10px; /* Spacing between cards */
+overflow-x: auto; 
+gap: 10px; 
 padding: 10px;
-scroll-behavior: smooth; /* Smooth scrolling */
+scroll-behavior: smooth; 
 white-space: nowrap;
 }
 
 .trending-music {
   display: flex;
-  overflow-x: auto; /* Enable horizontal scrolling */
-  gap: 10px; /* Spacing between cards */
+  overflow-x: auto; 
+  gap: 10px; 
   padding: 10px;
-  scroll-behavior: smooth; /* Smooth scrolling */
+  scroll-behavior: smooth;
   white-space: nowrap;
   }
    
 /* Card styling */
 .card-container {
-flex: 0 0 auto; /* Prevent shrinking */
-width: 250px; /* Fixed card width */
+flex: 0 0 auto; 
+width: 250px; 
+height: 400px;
 background: #1a1a1a;
 color: white;
 border-radius: 8px;
@@ -277,7 +278,8 @@ padding: 10px;
 
 /* Header image styling */
 .card-header img {
-width: 100%; /* Fit image to card width */
+width: 100%; 
+height: 300px;
 border-radius: 8px 8px 0 0;
 }
 
@@ -299,7 +301,7 @@ font-weight: bold;
 color: #ffd700;
 }
 
-.top-collections::-webkit-scrollbar {
+.top-music-collections::-webkit-scrollbar {
   -webkit-appearance: none;
 }
 .trending-music::-webkit-scrollbar {

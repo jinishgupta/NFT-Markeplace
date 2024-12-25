@@ -81,13 +81,6 @@ body{
   display: block;
 }
 /* General Footer Styling */
-footer {
-  background-color: #252020; /* Light gray background */
-  padding: 20px 0;
-  font-family: Arial, sans-serif;
-  color: #fdf8f8;
-}
-
 .footer-container {
   display: flex;
   justify-content: space-around;
@@ -242,42 +235,42 @@ a{
 
 .headings{
   font-size: 2em;
-  margin: 10px;
+  margin: 30px;
 }
 /* Container for scrollable section */
 .top-collections {
 display: flex;
-overflow-x: auto; /* Enable horizontal scrolling */
-gap: 10px; /* Spacing between cards */
+overflow-x: auto; 
+gap: 10px; 
 padding: 10px;
-scroll-behavior: smooth; /* Smooth scrolling */
+scroll-behavior: smooth; 
 white-space: nowrap;
 }
 
 .trending-photography {
   display: flex;
-  overflow-x: auto; /* Enable horizontal scrolling */
-  gap: 10px; /* Spacing between cards */
+  overflow-x: auto; 
+  gap: 10px; 
   padding: 10px;
-  scroll-behavior: smooth; /* Smooth scrolling */
+  scroll-behavior: smooth; 
   white-space: nowrap;
   }
 
 .trending-music {
   display: flex;
-  overflow-x: auto; /* Enable horizontal scrolling */
-  gap: 10px; /* Spacing between cards */
+  overflow-x: auto; 
+  gap: 10px; 
   padding: 10px;
-  scroll-behavior: smooth; /* Smooth scrolling */
+  scroll-behavior: smooth; 
   white-space: nowrap;
   }
 
 .trending-art {
   display: flex;
-  overflow-x: auto; /* Enable horizontal scrolling */
-  gap: 10px; /* Spacing between cards */
+  overflow-x: auto; 
+  gap: 10px; 
   padding: 10px;
-  scroll-behavior: smooth; /* Smooth scrolling */
+  scroll-behavior: smooth; 
   white-space: nowrap;
   }
       
@@ -302,6 +295,7 @@ white-space: nowrap;
 .card-container {
 flex: 0 0 auto; /* Prevent shrinking */
 width: 250px; /* Fixed card width */
+height: 400px;
 background: #1a1a1a;
 color: white;
 border-radius: 8px;
@@ -313,6 +307,7 @@ padding: 10px;
 /* Header image styling */
 .card-header img {
 width: 100%; /* Fit image to card width */
+height:300px;
 border-radius: 8px 8px 0 0;
 }
 
