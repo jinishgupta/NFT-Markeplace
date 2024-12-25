@@ -7,6 +7,7 @@
                     "name": "Beautiful Paintings 1",
                     "totalItems": 3,
                     "createdDate": "2024-12-02",
+                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952455/a14_rquntf.jpg",
                     "floor": "1 ETH",
                     "total volume": "9.0 ETH",
                     "chain": "ethereum"
@@ -35,13 +36,14 @@
                     }
                 ]
             },
-            "Coll2": {
+            "AColl2": {
                 "metadata": {
                     "description": "Featuring unique art-nfts NFTs showcasing A vibrant abstract painting full of energy., A serene landscape capturing the beauty of nature., and more.",
                     "name": "Nice Designs",
                     "totalItems": 2,
                     "createdDate": "2024-12-03",
                     "floor": "0.01 ETH",
+                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952456/a11_kd5xu2.jpg",
                     "total volume": "13.5 ETH",
                     "chain": "ethereum"
                 },
@@ -62,7 +64,7 @@
                     }
                 ]
             },
-            "Coll3": {
+            "AColl3": {
                 "metadata": {
                     "description": "Featuring unique art-nfts NFTs showcasing A vibrant abstract painting full of energy., A serene landscape capturing the beauty of nature., and more.",
                     "name": "Scenic Paintings",
@@ -70,6 +72,7 @@
                     "createdDate": "2024-12-04",
                     "floor": "0.01 ETH",
                     "total volume": "31.5 ETH",
+                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952460/a6_lohibv.jpg",
                     "chain": "ethereum"
                 },
                 "nfts": [
@@ -96,13 +99,14 @@
                     }
                 ]
             },
-            "Coll4": {
+            "AColl4": {
                 "metadata": {
                     "description": "Featuring unique art-nfts NFTs showcasing A vibrant abstract painting full of energy., A serene landscape capturing the beauty of nature., and more.",
                     "name": "Complex Paintings",
                     "totalItems": 2,
                     "createdDate": "2024-12-05",
                     "floor": "0.01 ETH",
+                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952453/a17_wy5gyd.jpg",
                     "total volume": "28.5 ETH",
                     "chain": "ethereum"
                 },
@@ -123,12 +127,13 @@
                     }
                 ]
             },
-            "Coll5": {
+            "AColl5": {
                 "metadata": {
                     "description": "Featuring unique art-nfts NFTs showcasing A vibrant abstract painting full of energy., A serene landscape capturing the beauty of nature., and more.",
                     "name": "Water Colour Paintings",
                     "totalItems": 3,
                     "createdDate": "2024-12-02",
+                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952459/a10_nxtk62.jpg",
                     "floor": "0.01 ETH",
                     "total volume": "54.0 ETH",
                     "chain": "ethereum"
@@ -157,13 +162,14 @@
                     }
                 ]
             },
-            "Coll6": {
+            "AColl6": {
                 "metadata": {
                     "description": "Featuring unique art-nfts NFTs showcasing A vibrant abstract painting full of energy., A serene landscape capturing the beauty of nature., and more.",
                     "name": "Collages",
                     "totalItems": 2,
                     "createdDate": "2024-12-03",
                     "floor": "0.01 ETH",
+                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952465/a1_sx3h38.jpg",
                     "total volume": "43.5 ETH",
                     "chain": "ethereum"
                 },
@@ -184,13 +190,14 @@
                     }
                 ]
             },
-            "Coll7": {
+            "AColl7": {
                 "metadata": {
                     "description": "Featuring unique art-nfts NFTs showcasing A vibrant abstract painting full of energy., A serene landscape capturing the beauty of nature., and more.",
                     "name": "Full of colours",
                     "totalItems": 2,
                     "createdDate": "2024-12-04",
                     "floor": "0.01 ETH",
+                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952451/a19_h95m3w.jpg",
                     "total volume": "49.5 ETH",
                     "chain": "ethereum"
                 },
@@ -211,12 +218,13 @@
                     }
                 ]
             },
-            "Coll8": {
+            "AColl8": {
                 "metadata": {
                     "description": "Featuring unique art-nfts NFTs showcasing A vibrant abstract painting full of energy., A serene landscape capturing the beauty of nature., and more.",
                     "name": "Something Beyond Explanation",
                     "totalItems": 2,
                     "createdDate": "2024-12-05",
+                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952454/a16_hp2cjo.jpg",
                     "floor": "0.01 ETH",
                     "total volume": "55.5 ETH",
                     "chain": "ethereum"
@@ -247,6 +255,7 @@
                     "totalItems": 4,
                     "createdDate": "2024-12-03",
                     "floor": "1 ETH",
+                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952443/g14_p5fh0t.jpg",
                     "total volume": "15.0 ETH",
                     "chain": "ethereum"
                 },
@@ -288,6 +297,7 @@
                     "totalItems": 2,
                     "createdDate": "2024-12-04",
                     "floor": "1 ETH",
+                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952437/g15_moqoql.jpg",
                     "total volume": "16.5 ETH",
                     "chain": "ethereum"
                 },
@@ -314,6 +324,7 @@
                     "name": "Controllers",
                     "totalItems": 3,
                     "createdDate": "2024-12-05",
+                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952440/g7_ab9obn.jpg",
                     "floor": "1 ETH",
                     "total volume": "36.0 ETH",
                     "chain": "ethereum"
@@ -347,6 +358,7 @@
                     "description": "Featuring unique gaming-nfts NFTs showcasing An iconic in-game weapon with legendary status., A collectible avatar skin for virtual adventures., and more.",
                     "name": "Gaming is Fun",
                     "totalItems": 2,
+                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952444/g3_v1qqap.jpg",
                     "createdDate": "2024-12-06",
                     "floor": "1 ETH",
                     "total volume": "49.5 ETH",
@@ -381,6 +393,7 @@
                     "description": "Featuring unique gaming-nfts NFTs showcasing An iconic in-game weapon with legendary status., A collectible avatar skin for virtual adventures., and more.",
                     "name": "Equipments are Cool",
                     "totalItems": 2,
+                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952438/g8_azldkk.jpg",
                     "createdDate": "2024-12-06",
                     "floor": "1 ETH",
                     "total volume": "63.0 ETH",
@@ -416,6 +429,7 @@
                     "name": "Gaming Places",
                     "totalItems": 2,
                     "createdDate": "2024-12-06",
+                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952435/g11_z97is8.jpg",
                     "floor": "1 ETH",
                     "total volume": "76.5 ETH",
                     "chain": "ethereum"
@@ -451,6 +465,7 @@
                     "description": "Featuring unique pfp-nfts NFTs showcasing A cool monkey with sunglasses and swag., A colorful cartoon character with a funky vibe., and more.",
                     "name": "Apes and Monkeys",
                     "totalItems": 3,
+                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952445/bored-6945309_1280_syer7i.png",
                     "createdDate": "2024-12-04",
                     "floor": "1 ETH",
                     "total volume": "9.0 ETH",
@@ -485,6 +500,7 @@
                     "description": "Featuring unique pfp-nfts NFTs showcasing A cool monkey with sunglasses and swag., A colorful cartoon character with a funky vibe., and more.",
                     "name": "Cartoons",
                     "totalItems": 2,
+                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952444/cartoon-7417582_1280_gmxrk0.png",
                     "createdDate": "2024-12-05",
                     "floor": "1 ETH",
                     "total volume": "13.5 ETH",
@@ -512,6 +528,7 @@
                     "description": "Featuring unique pfp-nfts NFTs showcasing A cool monkey with sunglasses and swag., A colorful cartoon character with a funky vibe., and more.",
                     "name": "Different Peoples",
                     "totalItems": 3,
+                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952008/female-8150791_1280_c8xnvl.jpg",
                     "createdDate": "2024-12-06",
                     "floor": "1 ETH",
                     "total volume": "31.5 ETH",
@@ -528,14 +545,14 @@
                     {
                         "name": "ACoolMonkey2",
                         "price": 10.5,
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952008/female-8150791_1280_c8xnvl.jpg.jpg",
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952008/female-8150791_1280_c8xnvl.jpg",
                         "description": "A cool monkey with sunglasses and swag.",
                         "owner": "Charlie"
                     },
                     {
                         "name": "AColorfulCartoon2",
                         "price": 12.0,
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952008/kid-8150792_1280_znzuqs.jpg.jpg",
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952008/kid-8150792_1280_znzuqs.jpg",
                         "description": "A colorful cartoon character with a funky vibe.",
                         "owner": "Alice"
                     }
@@ -545,6 +562,7 @@
                 "metadata": {
                     "description": "Featuring unique pfp-nfts NFTs showcasing A cool monkey with sunglasses and swag., A colorful cartoon character with a funky vibe., and more.",
                     "name": "Animals",
+                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951990/penguin-5487302_1280_wwnjtn.png",
                     "totalItems": 2,
                     "createdDate": "2024-12-07",
                     "floor": "1 ETH",
@@ -574,6 +592,7 @@
                     "name": "Human Like",
                     "totalItems": 2,
                     "createdDate": "2024-12-07",
+                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951973/the-simpson-7046041_1280_vyz3hh.png",
                     "floor": "1 ETH",
                     "total volume": "34.5 ETH",
                     "chain": "ethereum"
@@ -600,6 +619,7 @@
                     "description": "Featuring unique pfp-nfts NFTs showcasing A cool monkey with sunglasses and swag., A colorful cartoon character with a funky vibe., and more.",
                     "name": "Monkey Types",
                     "totalItems": 4,
+                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952429/monkey-soldier-5113779_1280_llylv1.png",
                     "createdDate": "2024-12-07",
                     "floor": "1 ETH",
                     "total volume": "63.0 ETH",
@@ -636,6 +656,7 @@
                     "description": "Featuring unique photography-nfts NFTs showcasing A stunning mountain view at sunset., An intricate close-up shot of a blooming flower., and more.",
                     "name": "Cameras",
                     "totalItems": 3,
+                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951949/kun-fotografi-gyhT9Sb20XY-unsplash_icfjdr.jpg",
                     "createdDate": "2024-12-05",
                     "floor": "1 ETH",
                     "total volume": "9.0 ETH",
@@ -669,6 +690,7 @@
                 "metadata": {
                     "description": "Featuring unique photography-nfts NFTs showcasing A stunning mountain view at sunset., An intricate close-up shot of a blooming flower., and more.",
                     "name": "Lens and Film",
+                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951950/moy-vazquez-UbqvjH69oOQ-unsplash_qeujj8.jpg",
                     "totalItems": 2,
                     "createdDate": "2024-12-06",
                     "floor": "1 ETH",
@@ -696,6 +718,7 @@
                 "metadata": {
                     "description": "Featuring unique photography-nfts NFTs showcasing A stunning mountain view at sunset., An intricate close-up shot of a blooming flower., and more.",
                     "name": "Nature",
+                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951958/jose-p-ortiz-DuZZ4gOjYdM-unsplash_za9ikv.jpg",
                     "totalItems": 3,
                     "createdDate": "2024-12-07",
                     "floor": "1 ETH",
@@ -731,6 +754,7 @@
                     "description": "Featuring unique photography-nfts NFTs showcasing A stunning mountain view at sunset., An intricate close-up shot of a blooming flower., and more.",
                     "name": "Mountains and Views",
                     "totalItems": 3,
+                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951948/leandra-niederhauser-eaToegj7RI4-unsplash_a6llnf.jpg",
                     "createdDate": "2024-12-08",
                     "floor": "1 ETH",
                     "total volume": "45.0 ETH",
@@ -764,6 +788,7 @@
                 "metadata": {
                     "description": "Featuring unique photography-nfts NFTs showcasing A stunning mountain view at sunset., An intricate close-up shot of a blooming flower., and more.",
                     "name": "Beauty of Nature",
+                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951951/lalitha-d-EZiKSUX-3yg-unsplash_ihsl97.jpg",
                     "totalItems": 3,
                     "createdDate": "2024-12-08",
                     "floor": "1 ETH",
@@ -774,7 +799,7 @@
                     {
                         "name": "ABreathtakingAerial3",
                         "price": 18.0,
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951951/lalitha-d-EZiKSUX-3yg-unsplash_ihsl97..jpg",
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951951/lalitha-d-EZiKSUX-3yg-unsplash_ihsl97.jpg",
                         "description": "A breathtaking aerial photo of a forest.",
                         "owner": "Eve"
                     },
@@ -798,6 +823,7 @@
                 "metadata": {
                     "description": "Featuring unique photography-nfts NFTs showcasing A stunning mountain view at sunset., An intricate close-up shot of a blooming flower., and more.",
                     "name": "Random Photos",
+                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951949/michael-fousert-_ms3EBwRmjU-unsplash_nhi2ye.jpg",
                     "totalItems": 3,
                     "createdDate": "2024-12-08",
                     "floor": "1 ETH",
@@ -832,6 +858,7 @@
                 "metadata": {
                     "description": "Featuring unique photography-nfts NFTs showcasing A stunning mountain view at sunset., An intricate close-up shot of a blooming flower., and more.",
                     "name": "Something Random",
+                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951944/mohammad-mardani-BCz_Lhedwvo-unsplash_wqhxcp.jpg",
                     "totalItems": 3,
                     "createdDate": "2024-12-08",
                     "floor": "1 ETH",

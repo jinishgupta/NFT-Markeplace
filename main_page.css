@@ -292,6 +292,102 @@ white-space: nowrap;
   white-space: nowrap;
   }
 /* Card styling */
+.nft-card {
+  background: hsl(0, 0%, 6%);
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  min-width: 250px;
+  text-align: center;
+  transition: ease 0.3s;
+}
+
+.nft-card:hover {
+  transform: translateY(-10px);
+}
+
+.gradient {
+  height: 200px;
+  background: linear-gradient(90deg, #5fd8df, #4e104b);
+  margin: 10px;
+  animation: moveWave 2s infinite linear;
+  border-radius: 10px;
+}
+
+@keyframes moveWave {
+  from {
+    background-position: 0;
+  }
+  to {
+    background-position: 200%;
+  }
+}
+.details {
+  padding: 15px;
+}
+
+.details h2 {
+  font-size: 1.5em;
+  margin: 10px 0 5px;
+  color: #e4e4e4;
+}
+
+.details p {
+  font-size: 1em;
+  color: #aaaaaa;
+  margin-bottom: 15px;
+}
+
+/* Custom Audio Controls */
+.audio-player {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.play-pause {
+  background: #e91e63;
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.play-pause:hover {
+  background: #d81b60;
+}
+
+.seek-bar {
+  flex: 1;
+  height: 5px;
+  background: #555;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+.seek-bar::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 12px;
+  height: 12px;
+  background: #e91e63;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.seek-bar::-webkit-slider-thumb:hover {
+  transform: scale(1.2);
+}
+
+.current-time,
+.duration {
+  font-size: 0.9em;
+  color: #aaa;
+}
+
 .card-container {
 flex: 0 0 auto; /* Prevent shrinking */
 width: 250px; /* Fixed card width */
@@ -302,6 +398,44 @@ border-radius: 8px;
 box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 text-align: center;
 padding: 10px;
+transition: ease 0.3s;
+}
+
+.card-container:hover {
+  transform: translateY(-10px);
+}
+
+
+.nft-container {
+  flex: 0 0 auto;
+  width: 250px;
+  height: 400px;
+  background: #1a1a1a;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  padding: 10px;
+  transition: ease 0.3s;
+
+}
+
+.musicCard-title {
+  border-radius: 10px;
+  background: linear-gradient(90deg, #117f85, #a0309a);
+  height: 300px;
+  margin: 0px;
+  margin-bottom: 20px;
+  font-size: 2.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-wrap:wrap;
+}
+
+.nft-container:hover {
+  transform: translateY(-10px);
 }
 
 /* Header image styling */

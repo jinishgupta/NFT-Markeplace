@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MetaMint</title>
     <link rel="stylesheet" href="main_page.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body class="main-page">
     <div id="navbar">
-        <img src="logo.jpeg" id="image" alt="MetaMint" href="#" >
+        <img src="logo.jpeg" id="image" alt="MetaMint" href="#">
         <a id="name" href="#">MetaMint</a>
         <input id="search" placeholder="  Search NFTs,Collections,owners...">
         <a class="navbar-items" href="collection page/collection.html">Collections</a>
@@ -27,157 +31,155 @@
             </div>
         </div>
     </div>
-<!--CATEGORY SECTION-->
-<div class="category">
-  <p id="all"><a href="#">All</a></p>
-  <p id="art"><a href="art.html">Art</a></p>
-  <p id="gaming"><a href="gaming.html">Gaming</a></p>
-  <p id="pfps"><a href="pfps.html">PFPs</a></p>
-  <p id="photography"><a href="photo.html">Photography</a></p>
-  <p id="music"><a href="music.html">Music</a></p>
-</div>
+    <!--CATEGORY SECTION-->
+    <div class="category">
+        <p id="all"><a href="#">All</a></p>
+        <p id="art"><a href="art.html">Art</a></p>
+        <p id="gaming"><a href="gaming.html">Gaming</a></p>
+        <p id="pfps"><a href="pfps.html">PFPs</a></p>
+        <p id="photography"><a href="photo.html">Photography</a></p>
+        <p id="music"><a href="music.html">Music</a></p>
+    </div>
     <div class="main-scroll-div">
         <div>
             <button class="icon" onclick="scrollr()"><i class="fa-solid fa-angle-left"></i></button>
         </div>
         <div class="cover">
-            <div class="scroll-images">
-                <div class="child"><img class="child-img" src="art_nft3.jpeg" alt="image"></div>
-                <div class="child"><img class="child-img" src="art_nft3.jpeg" alt="image"></div>
-                <div class="child"><img class="child-img" src="art_nft3.jpeg" alt="image"></div>
-                <div class="child"><img class="child-img" src="art_nft3.jpeg" alt="image"></div>
-                <div class="child"><img class="child-img" src="art_nft3.jpeg" alt="image"></div>
-                <div class="child"><img class="child-img" src="art_nft3.jpeg" alt="image"></div>
-            </div>
+            <div class="scroll-images"></div>
         </div>
         <div>
             <button class="icon" onclick="scrolll()"><i class="fa-solid fa-angle-right"></i></button>
         </div>
     </div>
-<!--TOP COLLECTIONS-->
-<div class="headings">
-    <p>Top Collections</p>
-</div>
+    <!--TOP COLLECTIONS-->
+    <div class="headings">
+        <p>Top Collections</p>
+    </div>
     <div class="main-scroll-div">
         <div>
             <button class="icon" onclick="TCscrollr()"><i class="fa-solid fa-angle-left"></i></button>
         </div>
-        <div class="top-collections"></div>    
+        <div class="top-collections"></div>
         <div>
             <button class="icon" onclick="TCscrolll()"><i class="fa-solid fa-angle-right"></i></button>
         </div>
     </div>
 
-<!--TRENDING IN DIFFERENT CATEGORIES-->
-<div class="headings">
-    <p>Trending in Art</p>
-</div>
+    <!--TRENDING IN DIFFERENT CATEGORIES-->
+    <div class="headings">
+        <p>Trending in Art</p>
+    </div>
 
-<div class="main-scroll-div">
-    <div>
-        <button class="icon" onclick="TAscrollr()"><i class="fa-solid fa-angle-left"></i></button>
+    <div class="main-scroll-div">
+        <div>
+            <button class="icon" onclick="TAscrollr()"><i class="fa-solid fa-angle-left"></i></button>
+        </div>
+        <div class="trending-art"></div>
+        <div>
+            <button class="icon" onclick="TAscrolll()"><i class="fa-solid fa-angle-right"></i></button>
+        </div>
     </div>
-    <div class="trending-art"></div>    
-    <div>
-        <button class="icon" onclick="TAscrolll()"><i class="fa-solid fa-angle-right"></i></button>
-    </div>
-</div>
 
-<div class="headings">
-    <p>Trending in Gaming</p>
-</div>
+    <div class="headings">
+        <p>Trending in Gaming</p>
+    </div>
 
-<div class="main-scroll-div">
-    <div>
-        <button class="icon" onclick="TGscrollr()"><i class="fa-solid fa-angle-left"></i></button>
+    <div class="main-scroll-div">
+        <div>
+            <button class="icon" onclick="TGscrollr()"><i class="fa-solid fa-angle-left"></i></button>
+        </div>
+        <div class="trending-gaming"></div>
+        <div>
+            <button class="icon" onclick="TGscrolll()"><i class="fa-solid fa-angle-right"></i></button>
+        </div>
     </div>
-    <div class="trending-gaming"></div>    
-    <div>
-        <button class="icon" onclick="TGscrolll()"><i class="fa-solid fa-angle-right"></i></button>
-    </div>
-</div>
 
-<div class="headings">
-    <p>Trending in PFPs</p>
-</div>
+    <div class="headings">
+        <p>Trending in PFPs</p>
+    </div>
 
-<div class="main-scroll-div">
-    <div>
-        <button class="icon" onclick="TPFscrollr()"><i class="fa-solid fa-angle-left"></i></button>
+    <div class="main-scroll-div">
+        <div>
+            <button class="icon" onclick="TPFscrollr()"><i class="fa-solid fa-angle-left"></i></button>
+        </div>
+        <div class="trending-pfps"></div>
+        <div>
+            <button class="icon" onclick="TPFscrolll()"><i class="fa-solid fa-angle-right"></i></button>
+        </div>
     </div>
-    <div class="trending-pfps"></div>    
-    <div>
-        <button class="icon" onclick="TPFscrolll()"><i class="fa-solid fa-angle-right"></i></button>
-    </div>
-</div>
 
-<div class="headings">
-    <p>Trending in Photography</p>
-</div>
+    <div class="headings">
+        <p>Trending in Photography</p>
+    </div>
 
-<div class="main-scroll-div">
-    <div>
-        <button class="icon" onclick="TPscrollr()"><i class="fa-solid fa-angle-left"></i></button>
+    <div class="main-scroll-div">
+        <div>
+            <button class="icon" onclick="TPscrollr()"><i class="fa-solid fa-angle-left"></i></button>
+        </div>
+        <div class="trending-photography">f</div>
+        <div>
+            <button class="icon" onclick="TPscrolll()"><i class="fa-solid fa-angle-right"></i></button>
+        </div>
     </div>
-    <div class="trending-photography">f</div>    
-    <div>
-        <button class="icon" onclick="TPscrolll()"><i class="fa-solid fa-angle-right"></i></button>
-    </div>
-</div>
 
-<div class="headings">
-    <p>Trending in Music</p>
-</div>
+    <div class="headings">
+        <p>Trending in Music</p>
+    </div>
 
-<div class="main-scroll-div">
-    <div>
-        <button class="icon" onclick="TMscrollr()"><i class="fa-solid fa-angle-left"></i></button>
+    <div class="main-scroll-div">
+        <div>
+            <button class="icon" onclick="TMscrollr()"><i class="fa-solid fa-angle-left"></i></button>
+        </div>
+        <div class="trending-music"></div>
+        <div>
+            <button class="icon" onclick="TMscrolll()"><i class="fa-solid fa-angle-right"></i></button>
+        </div>
     </div>
-    <div class="trending-music"></div>    
-    <div>
-        <button class="icon" onclick="TMscrolll()"><i class="fa-solid fa-angle-right"></i></button>
-    </div>
-</div>
 
     <!--FOOTER-->
     <div class="footer-container">
         <!-- Marketplace Section -->
         <div class="footer-section">
-        <h3>Marketplace</h3>
-        <ul>
-            <li>Types:</li>
-            <li><a href="art.html">Art</a></li>
-            <li><a href="gaming.html">Gaming</a></li>
-            <li><a href="pfps.html">PFPs</a></li>
-            <li><a href="photo.html">Photography</a></li>
-            <li><a href="music.html">Music</a></li>
-        </ul>
+            <h3>Marketplace</h3>
+            <ul>
+                <li>Types:</li>
+                <li><a href="art.html">Art</a></li>
+                <li><a href="gaming.html">Gaming</a></li>
+                <li><a href="pfps.html">PFPs</a></li>
+                <li><a href="photo.html">Photography</a></li>
+                <li><a href="music.html">Music</a></li>
+            </ul>
         </div>
-     
-      <!-- Learn Section -->
+
+        <!-- Learn Section -->
         <div class="footer-section">
-        <h3>Learn</h3>
-        <ul>
-            <li><a href="https://www.youtube.com/watch?v=NNQLJcJEzv0">What is an NFT?</a></li>
-            <li><a href="https://www.youtube.com/watch?v=SQyg9pyJ1Ac">What is a crypto wallet?</a></li>
-            <li><a href="https://www.youtube.com/watch?v=1YyAzVmP9xQ">What is cryptocurrency?</a></li>
-            <li><a href="https://www.youtube.com/watch?v=KTZDEwF55ts">What are gas fees in crypto?</a></li>
-            <li><a href="https://www.youtube.com/watch?v=yubzJw0uiE4">What is a blockchain?</a></li>
-            <li><a href="https://www.youtube.com/watch?v=0tZFQs7qBfQ">What is web3?</a></li>
-            <li><a href="https://www.youtube.com/watch?v=bm2Khh0Hbjg">How to stay protected in web3?</a></li>
-        </ul>
+            <h3>Learn</h3>
+            <ul>
+                <li><a href="https://www.youtube.com/watch?v=NNQLJcJEzv0">What is an NFT?</a></li>
+                <li><a href="https://www.youtube.com/watch?v=SQyg9pyJ1Ac">What is a crypto wallet?</a></li>
+                <li><a href="https://www.youtube.com/watch?v=1YyAzVmP9xQ">What is cryptocurrency?</a></li>
+                <li><a href="https://www.youtube.com/watch?v=KTZDEwF55ts">What are gas fees in crypto?</a></li>
+                <li><a href="https://www.youtube.com/watch?v=yubzJw0uiE4">What is a blockchain?</a></li>
+                <li><a href="https://www.youtube.com/watch?v=0tZFQs7qBfQ">What is web3?</a></li>
+                <li><a href="https://www.youtube.com/watch?v=bm2Khh0Hbjg">How to stay protected in web3?</a></li>
+            </ul>
         </div>
-      
+
         <!-- MetaMint Section -->
         <div class="footer-section">
-        <img src="logo.jpeg" height="50px" width="50px">
-        <h3>MetaMint</h3>
-        <p>Welcome to MetaMint, the ultimate destination for discovering, collecting, and trading unique digital assets. Whether you're an artist, collector, or NFT enthusiast, we offer a seamless platform to explore a diverse range of high-quality NFTs, from art and music to gaming assets and exclusive collectibles. Dive into hand-curated collections, explore trending projects, and unlock the true potential of blockchain-powered ownership.</p>
-        <p>Need help?</p>
-        <p>Contact support</p>
+            <img src="logo.jpeg" height="50px" width="50px">
+            <h3>MetaMint</h3>
+            <p>Welcome to MetaMint, the ultimate destination for discovering, collecting, and trading unique digital
+                assets. Whether you're an artist, collector, or NFT enthusiast, we offer a seamless platform to explore
+                a diverse range of high-quality NFTs, from art and music to gaming assets and exclusive collectibles.
+                Dive into hand-curated collections, explore trending projects, and unlock the true potential of
+                blockchain-powered ownership.</p>
+            <p>Need help?</p>
+            <p>Contact support</p>
         </div>
-    </div>     
-<script src="main_page.js"></script> 
-<script type="module" src="firebase.js"></script>
+    </div>
+    <script src="main_page.js"></script>
+    <script type="module" src="firebase.js"></script>
 </body>
+
 </html>
