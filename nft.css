@@ -4,6 +4,10 @@
   color: white;
 }
 
+body{
+  background-color: black;
+}
+
 #navbar{
   background-color: black;
   color: white;
@@ -98,7 +102,7 @@
   align-items: center;
 }
 
-img {
+#nft-image {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain; 
@@ -112,11 +116,11 @@ img {
   padding: 20px;
 }
 
-h2{
+#nft-name{
   font-size: 4em;
 }
 
-#owner{
+#nft-owner{
   font-size: 1.5em;
   margin-top: 10px;
 }
@@ -131,13 +135,13 @@ h2{
   margin-right: 30px;
 }
 
-#description{
+#nft-description{
   margin-top: 30px;
   margin-bottom: 20px;
   font-size: 2em;
 }
 
-#price{
+#nft-price{
   font-size: 1.8em;
   margin-bottom: 10px;
 }
@@ -155,4 +159,42 @@ button {
 
 button:hover{
   background-color: #26853c;
+}
+/* General Footer Styling */
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  width: 100%;
+  position: absolute;
+  height: 400px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: rgb(46, 44, 44);
+}
+
+.footer-section {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.footer-section h3 {
+  color: black;
+  font-size: 18px;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 3px;
+  font-size: 16px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }

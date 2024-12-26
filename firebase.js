@@ -89,6 +89,10 @@ function appendCollectionCard(collection, container) {
         </div>
       </div>
     `;
+    card.addEventListener("click", () => {
+      window.location.href = `collection.html?name=${collection.metadata.name}`;
+    });
+  
   container.appendChild(card);
 }
 
@@ -139,6 +143,10 @@ function appendNFTCard(nft, container) {
         </div>
       </div>
     `;
+    card.addEventListener("click", () => {
+      window.location.href = `nft.html?name=${nft.name}`;
+    });
+
   container.appendChild(card);
 }
 
