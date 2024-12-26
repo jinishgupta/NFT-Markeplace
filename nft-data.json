@@ -102,7 +102,7 @@
             "AColl4": {
                 "metadata": {
                     "description": "Featuring unique art-nfts NFTs showcasing A vibrant abstract painting full of energy., A serene landscape capturing the beauty of nature., and more.",
-                    "name": "Complex Paintings",
+                    "name": "ComplexPaintings",
                     "totalItems": 2,
                     "createdDate": "2024-12-05",
                     "floor": "0.01 ETH",
@@ -357,10 +357,10 @@
                 "metadata": {
                     "description": "Featuring unique gaming-nfts NFTs showcasing An iconic in-game weapon with legendary status., A collectible avatar skin for virtual adventures., and more.",
                     "name": "Gaming is Fun",
-                    "totalItems": 2,
+                    "totalItems": 3,
                     "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952444/g3_v1qqap.jpg",
                     "createdDate": "2024-12-06",
-                    "floor": "1 ETH",
+                    "floor": "15 ETH",
                     "total volume": "49.5 ETH",
                     "chain": "ethereum"
                 },
@@ -382,7 +382,7 @@
                     {
                         "name": "ARareGaming3",
                         "price": 18.0,
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952439/g6_yftjqc.jpg",
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952439/g6_yftjgc.jpg",
                         "description": "A rare gaming asset with special abilities.",
                         "owner": "Diana"
                     }
