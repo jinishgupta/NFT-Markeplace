@@ -35,92 +35,139 @@
     </div>
 
     <div class="social-buttons">
-            <img src="google.webp" alt="Continue With Google" id="google-btn">
-            <img src="metamask.png" alt="Continue With MetaMask" id="metamask-btn">
+            <img src="google.webp" alt="Continue With Google" id="google-btn" onclick="googleSignUp()">
+            <img src="metamask.png" alt="Continue With MetaMask" id="metamask-btn" onclick="metaMaskSignUp()">
       </div>
   </div>
   <script type="module">
      // Import the functions you need from the SDKs you need
- import { initializeApp } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-app.js";
- import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-analytics.js";
- import {getAuth, createUserWithEmailAndPassword, GoogleAuthProvider, signInWithPopup } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-auth.js";
- // TODO: Add SDKs for Firebase products that you want to use
- // https://firebase.google.com/docs/web/setup#available-libraries
+     import { initializeApp } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-app.js";
+import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-analytics.js";
+import {
+  getAuth,
+  createUserWithEmailAndPassword,
+  GoogleAuthProvider,
+  signInWithPopup,
+} from "https://www.gstatic.com/firebasejs/11.1.0/firebase-auth.js";
+import { getDatabase, ref, set } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-database.js";
 
- // Your web app's Firebase configuration
- // For Firebase JS SDK v7.20.0 and later, measurementId is optional
- const firebaseConfig = {
-   apiKey: "AIzaSyCFj5ZjLfmG18d6uawRrESmR0iadVek-H4",
-   authDomain: "nft-marketplace-9a468.firebaseapp.com",
-   projectId: "nft-marketplace-9a468",
-   storageBucket: "nft-marketplace-9a468.firebasestorage.app",
-   messagingSenderId: "208333584068",
-   appId: "1:208333584068:web:b0bd814d46324504d4fb91",
-   measurementId: "G-5JRN00H2YD"
- };
+// Firebase Configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyCFj5ZjLfmG18d6uawRrESmR0iadVek-H4",
+  authDomain: "nft-marketplace-9a468.firebaseapp.com",
+  projectId: "nft-marketplace-9a468",
+  storageBucket: "nft-marketplace-9a468.appspot.com",
+  messagingSenderId: "208333584068",
+  appId: "1:208333584068:web:b0bd814d46324504d4fb91",
+  measurementId: "G-5JRN00H2YD",
+};
 
- const app = initializeApp(firebaseConfig);
- const analytics = getAnalytics(app);
- const auth = getAuth();
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+const auth = getAuth();
+const db = getDatabase(app);
 
-    //----- New Registration code start	  
-    document.getElementById("signup-button").addEventListener("click", function(event) {
-      event.preventDefault();
-      var email =  document.getElementById("email").value;
-      var password = document.getElementById("password").value;
-      
-      if (!email || !password) {
-        alert("Email and password are required.");
-        return;
+// Save New User to Database
+async function saveNewUserToDatabase(user, additionalData = {}) {
+  const userRef = ref(db, `users/${user.uid}`);
+  const userData = {
+    name: additionalData.name || user.displayName || "Anonymous",
+    email: user.email || "No Email",
+    wallet: additionalData.wallet || "No Wallet",
+  };
+
+  try {
+    await set(userRef, userData);
+  } catch (error) {
+    console.error("Error saving user to database:", error);
+  }
+}
+
+// Sign-Up with Email/Password
+document.getElementById("signup-form")
+  .addEventListener("submit", async (event) => {
+    event.preventDefault();
+
+    const name = document.getElementById("name").value.trim();
+    const email = document.getElementById("email").value.trim();
+    const password = document.getElementById("password").value;
+    const confirmPassword = document.getElementById("confirm-password").value;
+
+    if (!email || !password || !name) {
+      alert("All fields are required.");
+      return;
     }
 
-      //For new registration
-        createUserWithEmailAndPassword(auth, email, password)
-        .then((userCredential) => {
-          // Signed in 
-          const user = userCredential.user;
-          console.log(user);
-          window.location.href="main_page.html";
-        })
-        .catch((error) => {
-          const errorMessage = error.message;
-          console.log(errorMessage);
-          alert(error);
-        });		  		  
-    });
+    if (password !== confirmPassword) {
+      alert("Passwords do not match.");
+      return;
+    }
 
-//Sign In With Google!
-auth.languageCode='en';
- const provider = new GoogleAuthProvider();
+    try {
+      const userCredential = await createUserWithEmailAndPassword(auth, email, password);
+      const user = userCredential.user;
 
- const googleLogin = document.getElementById("google-btn");
-googleLogin.addEventListener("click",function() {
-  signInWithPopup(auth,provider)
-  .then((result) => {
-    const credential = GoogleAuthProvider.credentialFromResult(result);
-    const token = credential.accessToken;
+      // Save user details to the database
+      await saveNewUserToDatabase(user, { name });
+
+      // Redirect to main page
+      window.location.href = "main_page.html";
+    } catch (error) {
+      console.error("Error during sign-up:", error);
+      alert(error.message);
+    }
+  });
+
+// Google Sign-Up
+document.getElementById("google-btn").addEventListener("click", async () => {
+  const provider = new GoogleAuthProvider();
+
+  try {
+    const result = await signInWithPopup(auth, provider);
     const user = result.user;
-    window.location.href ="../main_page.html";
-  })
-  .catch((error) => {
-    const errorMessage = error.message;
-    console.log(errorMessage);
-    alert(error);
-  })
-})
-const metamaskLogin = document.getElementById("metamask-btn");
-metamaskLogin.addEventListener("click",function() {
-  if(window.ethereum) {
-      window.ethereum.request({
-        method:'eth_requestAccounts'
-      }).then(result => {
-      console.log(result[0]);
-      window.location.href="main_page.html";
-      })
-      } else {
-        alert("Please install MetaMask");
-      }
-})
+
+    // Save user details to the database
+    await saveNewUserToDatabase(user);
+
+    // Redirect to main page
+    window.location.href = "main_page.html";
+  } catch (error) {
+    console.error("Error during Google Sign-Up:", error);
+    alert("Error during Google Sign-Up: " + error.message);
+  }
+});
+
+// MetaMask Sign-Up
+document.getElementById("metamask-btn").addEventListener("click", async () => {
+  if (typeof window.ethereum !== "undefined") {
+    try {
+      const accounts = await window.ethereum.request({ method: "eth_requestAccounts" });
+      const walletAddress = accounts[0];
+
+      // Simulate MetaMask user
+      const fakeUserId = `metamask-${walletAddress}`;
+      const user = {
+        uid: fakeUserId,
+        displayName: "MetaMask User",
+        email: null,
+        wallet: walletAddress,
+      };
+
+      // Save user details to the database
+      await saveNewUserToDatabase(user, { wallet: walletAddress });
+
+      // Redirect to main page
+      window.location.href = "main_page.html";
+    } catch (error) {
+      console.error("Error during MetaMask Sign-Up:", error);
+      alert("Error during MetaMask Sign-Up: " + error.message);
+    }
+  } else {
+    alert("MetaMask is not installed.");
+  }
+});
+
 </script>
 </body>
 </html>
