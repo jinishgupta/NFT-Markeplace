@@ -113,19 +113,6 @@ body{
   margin-bottom: 5px;
 }
 
-.help-text, .support-text {
-  margin-top: 10px;
-  font-size: 14px;
-  color: #555;
-}
-
-.help-text {
-  font-weight: bold;
-}
-
-.support-text {
-  font-style: italic;
-}
 .main-scroll-div {
   width: 100%;
   height: 400px;

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mint NFTs</title>
+    <link rel="stylesheet" href="mintNFT.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <!--Navbar-->
+  <div id="navbar">
+    <img src="logo.jpeg" id="image" alt="MetaMint" href="#">
+    <a id="name" href="#">MetaMint</a>
+    <input id="search" placeholder="  Search NFTs,Collections,owners...">
+    <a class="navbar-items" href="collection.html">Collections</a>
+    <a class="navbar-items" href="profile.html">Profile</a>
+    <a class="navbar-items" href="login.html">Login</a>
+    <a class="navbar-items" id="wallet">Connect Wallet</a>
+    <div class="dropdown">
+        <i class="fa-regular fa-user" id="user-icon"></i>
+        <div class="dropdown-content">
+            <a href="#">Mint NFTs</a>
+            <a href="uploadNFT.html">Upload NFTs</a>
+            <a>Language</a>
+            <a>Learn</a>
+            <a>Support</a>
+            <a id="logout">Logout</a>
+        </div>
+    </div>
+</div>
+<!--Mint NFTs Section-->
+    <div id="mint-section">
+      <h1>Mint Your NFT</h1>
+  
+      <!-- Collection Selection -->
+      <div id="collection-selection">
+        <label>
+          <input type="radio" name="collection-type" value="new" checked /> Create New Collection
+        </label>
+        <label>
+          <input type="radio" name="collection-type" value="existing" /> Add to Existing Collection
+        </label>
+      </div>
+  
+      <!-- New Collection Metadata -->
+      <div id="new-collection-section">
+        <h2>New Collection Metadata</h2>
+        <label for="collection-id">ID of the collection :</label>
+        <input type="text" id="collection-id" placeholder="Collection ID" /><br>
+        <label for="collection-category">Category of the collection :</label>
+        <input type="text" id="collection-category" placeholder="Category" /><br>
+        <label for="collection-name">Name of the collection :</label>
+        <input type="text" id="collection-name" placeholder="Collection Name" /><br>
+        <label for="collection-description">Description of the collection :</label>
+        <input type="text" id="collection-description" placeholder="Collection Description" /><br>
+        <label for="collection-chain">blockchain of the collection :</label>
+        <input type="text" id="collection-chain" placeholder="Blockchain" /><br>
+        <label for="cover-imageUrl">ImageUrl of the collection's cover image :</label>
+        <input type="text" id="cover-imageUrl" placeholder="url of cover image" />
+      </div>
+  
+      <!-- Existing Collection Selection -->
+      <div id="existing-collection-section" style="display: none;">
+        <label for="collection-id">ID of the collection :</label>
+        <input type="text" id="existingCollection-id" placeholder="Collection ID" /><br>
+        <label for="collection-category">Category of the collection :</label>
+        <input type="text" id="existingCollection-category" placeholder="Category" /><br>  
+      </div>
+  
+      <!-- NFT Minting Form -->
+      <div id="nft-minting-section">
+        <h2>Mint NFT</h2>
+        <label for="collection-name">Name :</label>
+        <input type="text" id="nft-name" placeholder="NFT Name" /><br>
+        <label for="collection-name">Description :</label>
+        <input type="text" id="nft-description" placeholder="NFT Description"/><br>
+        <label for="collection-name">Price :</label>
+        <input type="text" id="nft-price" placeholder="Price (ETH)" /><br>
+        <label for="collection-name">ImageUrl :</label>
+        <input type="text" id="nft-image" accept="https://" placeholder="imageUrl"/><br>
+        <button id="mint-button">Mint NFT</button>
+      </div>
+    </div>
+  <!--FOOTER-->
+  <div class="footer-container">
+    <!-- Marketplace Section -->
+    <div class="footer-section">
+        <h3>Marketplace</h3>
+        <ul>
+            <li>Types:</li>
+            <li><a href="art.html">Art</a></li>
+            <li><a href="gaming.html">Gaming</a></li>
+            <li><a href="pfps.html">PFPs</a></li>
+            <li><a href="photo.html">Photography</a></li>
+            <li><a href="music.html">Music</a></li>
+        </ul>
+    </div>
+
+    <!-- Learn Section -->
+    <div class="footer-section">
+        <h3>Learn</h3>
+        <ul>
+            <li><a href="https://www.youtube.com/watch?v=NNQLJcJEzv0">What is an NFT?</a></li>
+            <li><a href="https://www.youtube.com/watch?v=SQyg9pyJ1Ac">What is a crypto wallet?</a></li>
+            <li><a href="https://www.youtube.com/watch?v=1YyAzVmP9xQ">What is cryptocurrency?</a></li>
+            <li><a href="https://www.youtube.com/watch?v=KTZDEwF55ts">What are gas fees in crypto?</a></li>
+            <li><a href="https://www.youtube.com/watch?v=yubzJw0uiE4">What is a blockchain?</a></li>
+            <li><a href="https://www.youtube.com/watch?v=0tZFQs7qBfQ">What is web3?</a></li>
+            <li><a href="https://www.youtube.com/watch?v=bm2Khh0Hbjg">How to stay protected in web3?</a></li>
+        </ul>
+    </div>
+
+    <!-- MetaMint Section -->
+    <div class="footer-section">
+        <img src="logo.jpeg" height="50px" width="50px">
+        <h3>MetaMint</h3>
+        <p>Welcome to MetaMint, the ultimate destination for discovering, collecting, and trading unique digital
+            assets. Whether you're an artist, collector, or NFT enthusiast, we offer a seamless platform to explore
+            a diverse range of high-quality NFTs, from art and music to gaming assets and exclusive collectibles.
+            Dive into hand-curated collections, explore trending projects, and unlock the true potential of
+            blockchain-powered ownership.</p>
+        <p>Need help?</p>
+        <p>Contact support</p>
+    </div>
+</div>
+<script type="module" src="mintNFT.js"></script>
+</body>
+</html>
