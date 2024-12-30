@@ -60,3 +60,30 @@ function TMscrollr() {
     var right = document.querySelector(".trending-music");
     right.scrollBy(-350, 0)
 }
+
+const button = document.getElementById("wallet");
+button.addEventListener("click", connectMetaMask());
+
+async function connectMetaMask() {
+    if (window.ethereum) {
+        try {
+            // Request account access
+            const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' });
+            console.log(accounts[0]);
+        } catch (error) {
+            console.error('User rejected the request.');
+        }
+    } else {
+        alert('MetaMask is not installed. Please install MetaMask and try again.');
+    }
+}
+
+function redirectToResultsPage(event) {
+    if (event.key === "Enter") {
+        const query = document.getElementById("search").value.trim();
+        console.log(query);
+        if (query) {
+            window.location.href = `resultPage.html?query=${encodeURIComponent(query)}`;
+        }
+    }
+}
