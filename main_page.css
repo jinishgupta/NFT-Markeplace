@@ -48,6 +48,7 @@ body{
 .navbar-items {
   margin: 40px;
   font-size: 20px;
+  cursor: pointer;
 }
 
 .navbar-items:hover{

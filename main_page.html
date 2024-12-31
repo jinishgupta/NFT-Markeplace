@@ -16,10 +16,11 @@
         <img src="logo.jpeg" id="image" alt="MetaMint" href="#">
         <a id="name" href="#">MetaMint</a>
         <input id="search" placeholder="  Search NFTs..."   onkeypress="redirectToResultsPage(event)">
-        <a class="navbar-items" href="collection.html">Collections</a>
+        <p class="navbar-items" id="all-nfts" onclick="displayAllNFTs()">NFTs</p>
+        <p class="navbar-items" id="all-collections" onclick="displayAllCollections()">Collections</p>
         <a class="navbar-items" href="profile.html">Profile</a>
         <a class="navbar-items" href="login.html">Login</a>
-        <button class="navbar-items" id="wallet">Connect Wallet</button>
+        <a class="navbar-items" id="wallet">Connect Wallet</a>
         <div class="dropdown">
             <i class="fa-regular fa-user" id="user-icon"></i>
             <div class="dropdown-content">

@@ -87,3 +87,10 @@ function redirectToResultsPage(event) {
         }
     }
 }
+
+function displayAllCollections() {
+    window.location.href = `resultPage.html?query=allCollections` ;
+}
+function displayAllNFTs() {
+    window.location.href = `resultPage.html?query=allNFTs` ;
+}
