@@ -76,6 +76,7 @@ function populateNFTdetails(nftName) {
                 nfts.forEach((nft) => {
                     if (nft.name === nftName) {
                         selectedNFT = nft;
+                        console.log(nft);
                     }
                 });
 
@@ -228,7 +229,7 @@ onAuthStateChanged(auth, (user) => {
         });
 
         //Favorite NFTs  
-        async function findNFT(nftName) {
+        async function findNFTRef(nftName) {
             const dbRef = ref(db, "All-nfts");
             const snapshot = await get(dbRef);
 
@@ -257,13 +258,7 @@ onAuthStateChanged(auth, (user) => {
         async function handleFavorite(userId, nftName, isAdding) {
             const userFavoritesRef = ref(db, `UserFavorites/${userId}`);
             try {
-                const { nftRef, nft } = await findNFT(nftName);
-
-                // Update the favorites count transactionally
-                await set(nftRef.child("favorites"), (current) => {
-                    const updatedCount = current || 0;
-                    return isAdding ? updatedCount + 1 : Math.max(updatedCount - 1, 0);
-                });
+                const {nftRef,nft} = await findNFTRef(nftName);
 
                 // Update the user's favorites list
                 const userFavoritesSnapshot = await get(userFavoritesRef);
@@ -271,8 +266,12 @@ onAuthStateChanged(auth, (user) => {
 
                 if (isAdding && !userFavorites.includes(nftName)) {
                     userFavorites.push(nftName);
+                    await set(nftRef,{...nft, favorites: (nft.favorites || 0)+1});
+                    console.log("Count updated successfully");    
                 } else if (!isAdding && userFavorites.includes(nftName)) {
                     userFavorites = userFavorites.filter((name) => name !== nftName);
+                    await set(nftRef,{...nft, favorites: Math.max((nft.favorites || 0) -1 || 0)});
+                    console.log("Count updated successfully");    
                 }
 
                 await set(userFavoritesRef, userFavorites);
@@ -288,13 +287,11 @@ onAuthStateChanged(auth, (user) => {
 
         // Event Listeners for Favorites
         document.getElementById("non-favorites").addEventListener("click", async () => {
-            const userId = auth.currentUser?.uid;
             if (!userId) return alert("Please log in to favorite NFTs.");
             await handleFavorite(userId, nftName, true);
         });
 
         document.getElementById("favorites").addEventListener("click", async () => {
-            const userId = auth.currentUser?.uid;
             if (!userId) return alert("Please log in to unfavorite NFTs.");
             await handleFavorite(userId, nftName, false);
         });
@@ -345,53 +342,5 @@ onAuthStateChanged(auth, (user) => {
     } else {
         console.error("User not authenticated. Writing to the database is restricted.");
         alert("Please log in to buy NFTs.");
-    }
-});
-document.addEventListener("DOMContentLoaded", async () => {
-    try {
-        const dbRef = ref(db, "All-nfts");
-        const snapshot = await get(dbRef);
-
-        if (snapshot.exists()) {
-            const nftData = snapshot.val();
-
-            for (const category in nftData) {
-                const collections = nftData[category];
-
-                for (const collectionKey in collections) {
-                    const collection = collections[collectionKey];
-
-                    if (collection.nfts && Array.isArray(collection.nfts)) {
-                        const nftIndex = collection.nfts.findIndex(
-                            (nft) => nft.name === nftName
-                        );
-
-                        if (nftIndex !== -1) {
-                            const nft = collection.nfts[nftIndex];
-                            const favorites = nft.favorites || 0;
-
-                            document.getElementById("favorite-count").innerText = favorites;
-
-                            const nonFavoriteIcon = document.getElementById("non-favorites");
-                            const favoriteIcon = document.getElementById("favorites");
-
-                            if (favorites > 0) {
-                                nonFavoriteIcon.style.display = "none";
-                                favoriteIcon.style.display = "block";
-                            } else {
-                                nonFavoriteIcon.style.display = "block";
-                                favoriteIcon.style.display = "none";
-                            }
-                            return;
-                        }
-                    }
-                }
-            }
-            console.error("NFT not found for updating UI.");
-        } else {
-            console.error("No data found in the database.");
-        }
-    } catch (error) {
-        console.error("Error fetching NFT data on page load.", error);
     }
 });

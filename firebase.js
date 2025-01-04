@@ -1,6 +1,6 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-app.js";
-import { getAuth, signOut } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-auth.js";
+import { getAuth, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-auth.js";
 import { getDatabase, ref, get } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-database.js";
 
 const firebaseConfig = {
@@ -18,14 +18,23 @@ const app = initializeApp(firebaseConfig);
 const auth = getAuth();
 console.log(app);
 
-// Logout code 	  
-document.getElementById("logout").addEventListener("click", function () {
-  signOut(auth).then(() => {
-    console.log('Log-out successful.');
-    window.location.href = "login.html";
-  }).catch((error) => {
-    console.log('An error happened.', error);
-  });
+onAuthStateChanged(auth, (user) => {
+  if (user) {
+    const Inelement = document.getElementById("login");
+    Inelement.innerHTML = "Logout";
+    Inelement.addEventListener("click", function () {
+      signOut(auth).then(() => {
+        console.log('Log-out successful.');
+        window.location.href = "login.html";
+      }).catch((error) => {
+        console.log('An error happened.', error);
+      });
+    });
+  } else {
+    const Outelement = document.getElementById("login");
+    Outelement.innerHTML="Login";
+    Outelement.href = "login.html";
+  }
 });
 
 // Realtime Database

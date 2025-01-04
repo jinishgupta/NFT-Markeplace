@@ -207,9 +207,11 @@ body{
 }
 .category{
   display: flex;
+  color: var(--text-color);
 }
 a{
   text-decoration: none;
+  color: white;
 }
 .category p{
   margin-left: 15px;
@@ -270,19 +272,19 @@ white-space: nowrap;
       
 .trending-gaming {
   display: flex;
-  overflow-x: auto; /* Enable horizontal scrolling */
-  gap: 10px; /* Spacing between cards */
+  overflow-x: auto; 
+  gap: 10px; 
   padding: 10px;
-  scroll-behavior: smooth; /* Smooth scrolling */
+  scroll-behavior: smooth; 
   white-space: nowrap;
   }
         
 .trending-pfps {
   display: flex;
-  overflow-x: auto; /* Enable horizontal scrolling */
-  gap: 10px; /* Spacing between cards */
+  overflow-x: auto; 
+  gap: 10px; 
   padding: 10px;
-  scroll-behavior: smooth; /* Smooth scrolling */
+  scroll-behavior: smooth; 
   white-space: nowrap;
   }
 /* Card styling */
@@ -294,6 +296,7 @@ white-space: nowrap;
   min-width: 250px;
   text-align: center;
   transition: ease 0.3s;
+  color: white;
 }
 
 .nft-card:hover {

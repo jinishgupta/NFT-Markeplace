@@ -989,7 +989,7 @@
                         "category": "Photography"
                     },
                     {
-                        "name": "Serene Aerial",
+                        "name": "Serene Aerials",
                         "price": 10.5,
                         "owner": "Charlie",
                         "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
@@ -1144,7 +1144,7 @@
                         "category": "Photography"
                     },
                     {
-                        "name": "Majestic Close-up",
+                        "name": "Majestic Close-ups",
                         "price": 25.5,
                         "owner": "Bob",
                         "description": "A masterful creation blending musical flows into an engaging visual or auditory experience.",
@@ -1170,7 +1170,7 @@
                 },
                 "nfts": [
                     {
-                        "name": "Timeless Nature",
+                        "name": "Timeless Natures",
                         "price": 27.0,
                         "owner": "Grace",
                         "description": "A masterful creation blending surreal emotions into an engaging visual or auditory experience.",
@@ -1209,7 +1209,7 @@
             "MColl1": {
                 "metadata": {
                     "description": "Featuring unique music-nfts NFTs showcasing A soothing instrumental track with serene melodies., An energetic beat perfect for the dancefloor., and more.",
-                    "name": "Description of SubBranch1 in branch5",
+                    "name": "Music is Life",
                     "totalItems": 3,
                     "createdDate": "2024-12-06",
                     "floor": "1.5 ETH",
@@ -1260,7 +1260,7 @@
             "MColl2": {
                 "metadata": {
                     "description": "Featuring unique music-nfts NFTs showcasing A soothing instrumental track with serene melodies., An energetic beat perfect for the dancefloor., and more.",
-                    "name": "Description of SubBranch2 in branch5",
+                    "name": "Beautiful Sound",
                     "totalItems": 2,
                     "createdDate": "2024-12-07",
                     "floor": "6.0 ETH",
@@ -1299,7 +1299,7 @@
             "MColl3": {
                 "metadata": {
                     "description": "Featuring unique music-nfts NFTs showcasing A soothing instrumental track with serene melodies., An energetic beat perfect for the dancefloor., and more.",
-                    "name": "Description of SubBranch3 in branch5",
+                    "name": "Nice Music",
                     "totalItems": 3,
                     "createdDate": "2024-12-08",
                     "floor": "9.0 ETH",
@@ -1322,7 +1322,7 @@
                         "category": "Music"
                     },
                     {
-                        "name": "Radiant Beat",
+                        "name": "Radiant Beats",
                         "price": 10.5,
                         "owner": "Grace",
                         "description": "A masterful creation blending musical flows into an engaging visual or auditory experience.",
@@ -1350,7 +1350,7 @@
             "MColl4": {
                 "metadata": {
                     "description": "Featuring unique music-nfts NFTs showcasing A soothing instrumental track with serene melodies., An energetic beat perfect for the dancefloor., and more.",
-                    "name": "Description of SubBranch4 in branch5",
+                    "name": "A Nice Chorus",
                     "totalItems": 2,
                     "createdDate": "2024-12-09",
                     "floor": "13.5 ETH",
@@ -1389,7 +1389,7 @@
             "MColl5": {
                 "metadata": {
                     "description": "Featuring unique music-nfts NFTs showcasing A soothing instrumental track with serene melodies., An energetic beat perfect for the dancefloor., and more.",
-                    "name": "Description of SubBranch3 in branch5",
+                    "name": "A Beautiful Symphony",
                     "totalItems": 3,
                     "createdDate": "2024-12-08",
                     "floor": "16.5 ETH",
@@ -1440,7 +1440,7 @@
             "MColl6": {
                 "metadata": {
                     "description": "Featuring unique music-nfts NFTs showcasing A soothing instrumental track with serene melodies., An energetic beat perfect for the dancefloor., and more.",
-                    "name": "Description of SubBranch3 in branch5",
+                    "name": "Beats",
                     "totalItems": 3,
                     "createdDate": "2024-12-08",
                     "floor": "21.0 ETH",
@@ -1475,7 +1475,7 @@
                         "category": "Music"
                     },
                     {
-                        "name": "Dynamic Beat",
+                        "name": "Dynamic Beats",
                         "price": 24.0,
                         "owner": "Eve",
                         "description": "A masterful creation blending tranquil moments into an engaging visual or auditory experience.",
@@ -1491,7 +1491,7 @@
             "MColl7": {
                 "metadata": {
                     "description": "Featuring unique music-nfts NFTs showcasing A soothing instrumental track with serene melodies., An energetic beat perfect for the dancefloor., and more.",
-                    "name": "Description of SubBranch3 in branch5",
+                    "name":"Melodies",
                     "totalItems": 2,
                     "createdDate": "2024-12-08",
                     "floor": "25.5 ETH",
