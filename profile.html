@@ -5,60 +5,57 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Profile</title>
   <link rel="stylesheet" href="profile.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-  <!--NavBar at top-->
+  <!--Navbar-->
   <div id="navbar">
-    <img src="logo.jpeg" id="image" alt="MetaMint" href="#" >
-    <a id="name">MetaMint</a>
-    <input id="search" placeholder="  Search NFTs,Collections,owners...">
-    <a class="navbar-items">Collections</a>
-    <a class="navbar-items">Profile</a>
-    <a class="navbar-items">Login</a>
-    <a class="navbar-items">Connect Wallet</a>
+    <img src="logo.jpeg" id="image" alt="MetaMint" href="main_page.html">
+    <a id="name" href="main_page.html">MetaMint</a>
+    <input id="search" placeholder="  Search NFTs..." onkeypress="redirectToResultsPage(event)">
+    <p class="navbar-items" id="all-nfts" onclick="displayAllNFTs()">NFTs</p>
+    <p class="navbar-items" id="all-collections" onclick="displayAllCollections()">Collections</p>
+    <a class="navbar-items" href="#">Profile</a>
+    <a class="navbar-items" href="login.html">Login</a>
+    <a class="navbar-items" id="wallet">Connect Wallet</a>
     <div class="dropdown">
-        <i class="fa-regular fa-user" id="user-icon"></i>
-        <div class="dropdown-content">
-            <a>Watchlist</a>
-            <a>Studio</a>
-            <a>Language</a>
-            <a>Learn</a>
-            <a>Support</a>
-        </div>
+      <i class="fa-regular fa-user" id="user-icon"></i>
+      <div class="dropdown-content">
+        <a href="mintNFT.html">Mint NFTs</a>
+        <a href="uploadNFT.html">Upload NFTs</a>
+        <a href="learn.html">Learn</a>
+        <a>Support</a>
+        <a id="logout">Logout</a>
+      </div>
     </div>
-</div>
-<!--Profile Page-->
-    <!--Cover Image-->
-   <div class="image-container"> 
+  </div>
+  <!--Profile Page-->
+  <!--Cover Image-->
+  <div class="image-container">
     <div id="cover-image">
-      <img src="background.jpg" >
+      <img src="background.jpg">
     </div>
     <!--Profile Picture-->
     <div class="profile-image">
-      <img src="logo.jpeg" alt="User Avatar" >
+      <img src="logo.jpeg" alt="User Avatar">
     </div>
   </div>
-    <div class="profile-info">
-        <h1 id="username"></h1>
-        <p>Joined January 2023</p>
-        <p id="address"></p>
-        <button class="edit">Edit Profile</button>
-        <button class="share">Share</button>
-    </div >
-      <button class="categories">Owned NFTs</button> 
-      <button class="categories">Favorites</button>
-    </div>
-      <div class="nft-grid">
-        <div class="nft-card">
-        <img src="logo.jpeg" class="nft-card">
-        <p>Logo of website</p>
-        </div>
-        <div class="nft-card">
-        <img src="art_nft3.jpeg" class="nft-card">
-        <p>art nft</p>
-      </div>
-    </div> 
-<script type="module" src="profile.js"></script>
+  <!--Profile Info-->
+  <div class="profile-info">
+    <h1 id="username"></h1>
+    <p>Joined January 2023</p>
+    <p id="address"></p>
+    <button id="share">Share</button>
+  </div>
+  <!--Owned/Favorite NFTs-->
+  <button class="categories" id="ownedNFTs">Owned NFTs</button>
+  <button class="categories" id="favoriteNFTs">Favorites</button>
+  </div>
+  <div id="ownedNFT-grid" class="nft-grid"></div>
+  <div id="favoriteNFT-grid" class="nft-grid"></div>
+  <script type="module" src="profile.js"></script>
+  <script src="main_page.js"></script>
 </body>
 </html>

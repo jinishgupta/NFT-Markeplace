@@ -1,35 +1,41 @@
-*{
+* {
   margin: 0;
   padding: 0;
   color: white;
 }
-body{
+
+body {
   background-color: black;
 }
-#navbar{
+
+#navbar {
   background-color: black;
-  height:100px;
+  height: 100px;
   display: flex;
   align-items: center;
-  
+
 }
+
 #image {
-  width:70px;
-  height:70px;
+  width: 70px;
+  height: 70px;
   border-radius: 50px;
 }
-#name{
+
+#name {
   font-size: 25px;
   font-weight: bold;
 }
 
-#name:hover{
+#name:hover {
   color: green;
 }
-#wallet{
-  width:250px;
+
+#wallet {
+  width: 250px;
 }
-#search{
+
+#search {
   margin: 300px;
   width: 600px;
   height: 40px;
@@ -44,7 +50,7 @@ body{
   font-size: 20px;
 }
 
-.navbar-items:hover{
+.navbar-items:hover {
   color: green;
 }
 
@@ -80,9 +86,10 @@ body{
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
 /* General Footer Styling */
 footer {
-  background-color: #252020; 
+  background-color: #252020;
   padding: 20px 0;
   font-family: Arial, sans-serif;
   color: #fdf8f8;
@@ -120,7 +127,8 @@ footer {
   margin-bottom: 5px;
 }
 
-.help-text, .support-text {
+.help-text,
+.support-text {
   margin-top: 10px;
   font-size: 14px;
   color: #555;
@@ -133,6 +141,7 @@ footer {
 .support-text {
   font-style: italic;
 }
+
 .main-scroll-div {
   width: 100%;
   height: 400px;
@@ -202,9 +211,10 @@ footer {
   transition: transform .5s ease;
 }
 
-.child-img:hover{
+.child-img:hover {
   transform: scale(1.1);
 }
+
 .icon {
   color: rgb(67, 247, 76);
   background-color: black;
@@ -218,13 +228,16 @@ footer {
 .icon:hover {
   color: yellow;
 }
-.category{
+
+.category {
   display: flex;
 }
-a{
+
+a {
   text-decoration: none;
 }
-.category p{
+
+.category p {
   margin-left: 15px;
   border-radius: 12px;
   font-size: 1.3em;
@@ -232,42 +245,42 @@ a{
   padding: 10px 15px;
 }
 
-.category p:hover{
+.category p:hover {
   background-color: rgba(212, 212, 218, 0.158);
 }
 
-#music{
+#music {
   background-color: hsla(240, 7%, 84%, 0.158);
 }
 
-.headings{
+.headings {
   font-size: 2em;
   margin: 30px;
 }
+
 /* Container for scrollable section */
 .top-music-collections {
-display: flex;
-overflow-x: auto; 
-gap: 10px; 
-padding: 10px;
-scroll-behavior: smooth; 
-white-space: nowrap;
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  padding: 10px;
+  scroll-behavior: smooth;
+  white-space: nowrap;
 }
 
 .trending-music {
   display: flex;
-  overflow-x: auto; 
-  gap: 10px; 
+  overflow-x: auto;
+  gap: 10px;
   padding: 10px;
   scroll-behavior: smooth;
   white-space: nowrap;
-  }
-   
+}
 
-.nft-container {
+.card-container {
   flex: 0 0 auto;
   width: 250px;
-  height: 400px;
+  height: 420px;
   background: #1a1a1a;
   color: white;
   border-radius: 8px;
@@ -275,58 +288,61 @@ white-space: nowrap;
   text-align: center;
   padding: 10px;
   transition: ease 0.3s;
-
 }
 
-.musicCard-title {
-  border-radius: 10px;
-  height: 300px;
-  background: linear-gradient(90deg, #117f85, #a0309a);
-  margin: 0px;
-  margin-bottom: 20px;
-  font-size: 2.5em;
-  font-family: Arial, Helvetica, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-wrap:wrap;
-}
-
-.nft-container:hover {
+.card-container:hover {
   transform: translateY(-10px);
 }
 
+.card-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+  }
+  
+  .info {
+  font-size: 14px;
+  margin-top: 8px;
+  color: #ddd;
+  }
+  
+  .value {
+  font-weight: bold;
+  color: #ffd700;
+  }
+  
 /* Card styling */
 .nft-card {
   background: hsl(0, 0%, 6%);
   border-radius: 10px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
   overflow: hidden;
-  min-width: 250px;
+  min-width: 300px;
   text-align: center;
   transition: ease 0.3s;
+  margin-top: 20px;
 }
 
 .nft-card:hover {
   transform: translateY(-10px);
 }
 
-.gradient {
-  height: 200px;
-  background: linear-gradient(90deg, #5fd8df, #4e104b);
-  margin: 10px;
-  animation: moveWave 2s infinite linear;
-  border-radius: 10px;
+.card-header img {
+  width: 100%;
+  height: 300px;
+  padding: 5px;
 }
 
 @keyframes moveWave {
   from {
     background-position: 0;
   }
+
   to {
     background-position: 200%;
   }
 }
+
 .details {
   padding: 15px;
 }
@@ -396,6 +412,7 @@ white-space: nowrap;
 .top-music-collections::-webkit-scrollbar {
   -webkit-appearance: none;
 }
+
 .trending-music::-webkit-scrollbar {
   -webkit-appearance: none;
 }

@@ -8,9 +8,10 @@
                     "totalItems": 3,
                     "createdDate": "2024-12-02",
                     "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952455/a14_rquntf.jpg",
-                    "floor": "1 ETH",
+                    "floor": "1.5 ETH",
                     "totalVolume": "9.0 ETH",
-                    "chain": "ethereum"
+                    "chain": "ethereum",
+                    "category": "Art"
                 },
                 "nfts": [
                     {
@@ -20,7 +21,9 @@
                         "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
                         "unique_id": "rnHMGEBUmeFPEF9O",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952455/a14_rquntf.jpg",
-                        "audioUrl": null
+                        "views": 42,
+                        "favorites": 15,
+                        "category": "Art"
                     },
                     {
                         "name": "Mystic Abstract",
@@ -29,7 +32,9 @@
                         "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
                         "unique_id": "S5z8rIZmKdNnhSSY",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952453/a13_h9ahcb.jpg",
-                        "audioUrl": null
+                        "views": 90,
+                        "favorites": 12,
+                        "category": "Art"
                     },
                     {
                         "name": "Radiant Edge",
@@ -38,7 +43,9 @@
                         "description": "A masterful creation blending vivid artistry into an engaging visual or auditory experience.",
                         "unique_id": "R76QAslXx1nqZjk1",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952450/a15_ng5nlb.jpg",
-                        "audioUrl": null
+                        "views": 23,
+                        "favorites": 18,
+                        "category": "Art"
                     }
                 ]
             },
@@ -48,10 +55,11 @@
                     "name": "Nice Designs",
                     "totalItems": 2,
                     "createdDate": "2024-12-03",
-                    "floor": "0.01 ETH",
+                    "floor": "6.0 ETH",
                     "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952456/a11_kd5xu2.jpg",
-                    "total volume": "13.5 ETH",
-                    "chain": "ethereum"
+                    "chain": "ethereum",
+                    "totalVolume": "13.5 ETH",
+                    "category": "Art"
                 },
                 "nfts": [
                     {
@@ -61,7 +69,9 @@
                         "description": "A masterful creation blending musical flows into an engaging visual or auditory experience.",
                         "unique_id": "Ue6umud7ZbSbRHMW",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952456/a11_kd5xu2.jpg",
-                        "audioUrl": null
+                        "views": 14,
+                        "favorites": 7,
+                        "category": "Art"
                     },
                     {
                         "name": "Dynamic Canvas",
@@ -70,7 +80,9 @@
                         "description": "A masterful creation blending tranquil moments into an engaging visual or auditory experience.",
                         "unique_id": "BSeUuMQ3QUNW0JkG",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952457/a12_m5jvoc.jpg",
-                        "audioUrl": null
+                        "views": 13,
+                        "favorites": 12,
+                        "category": "Art"
                     }
                 ]
             },
@@ -80,10 +92,11 @@
                     "name": "Scenic Paintings",
                     "totalItems": 3,
                     "createdDate": "2024-12-04",
-                    "floor": "0.01 ETH",
-                    "total volume": "31.5 ETH",
+                    "floor": "9.0 ETH",
                     "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952460/a6_lohibv.jpg",
-                    "chain": "ethereum"
+                    "chain": "ethereum",
+                    "totalVolume": "31.5 ETH",
+                    "category": "Art"
                 },
                 "nfts": [
                     {
@@ -93,7 +106,9 @@
                         "description": "A masterful creation blending dynamic movements into an engaging visual or auditory experience.",
                         "unique_id": "ayDMrg2CF46aJlaS",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952461/a5_xdnbpp.jpg",
-                        "audioUrl": null
+                        "views": 82,
+                        "favorites": 5,
+                        "category": "Art"
                     },
                     {
                         "name": "Majestic Edge",
@@ -102,7 +117,9 @@
                         "description": "A masterful creation blending tranquil moments into an engaging visual or auditory experience.",
                         "unique_id": "4t0Y6tD4FDXYdVR4",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952460/a6_lohibv.jpg",
-                        "audioUrl": null
+                        "views": 90,
+                        "favorites": 20,
+                        "category": "Art"
                     },
                     {
                         "name": "Timeless Harmony",
@@ -111,7 +128,9 @@
                         "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
                         "unique_id": "UO7LktdHdBb0tRRd",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952458/a7_qmhmai.jpg",
-                        "audioUrl": null
+                        "views": 11,
+                        "favorites": 5,
+                        "category": "Art"
                     }
                 ]
             },
@@ -121,10 +140,11 @@
                     "name": "ComplexPaintings",
                     "totalItems": 2,
                     "createdDate": "2024-12-05",
-                    "floor": "0.01 ETH",
+                    "floor": "13.5 ETH",
                     "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952453/a17_wy5gyd.jpg",
-                    "total volume": "28.5 ETH",
-                    "chain": "ethereum"
+                    "chain": "ethereum",
+                    "totalVolume": "28.5 ETH",
+                    "category": "Art"
                 },
                 "nfts": [
                     {
@@ -134,7 +154,9 @@
                         "description": "A masterful creation blending modern design into an engaging visual or auditory experience.",
                         "unique_id": "yqxJD5EBDwFSiWNA",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952461/a2_lxiexm.jpg",
-                        "audioUrl": null
+                        "views": 42,
+                        "favorites": 5,
+                        "category": "Art"
                     },
                     {
                         "name": "Bold Bloom",
@@ -143,7 +165,9 @@
                         "description": "A masterful creation blending tranquil moments into an engaging visual or auditory experience.",
                         "unique_id": "Slw089stM8mUm4bT",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952453/a17_wy5gyd.jpg",
-                        "audioUrl": null
+                        "views": 12,
+                        "favorites": 14,
+                        "category": "Art"
                     }
                 ]
             },
@@ -154,9 +178,10 @@
                     "totalItems": 3,
                     "createdDate": "2024-12-02",
                     "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952459/a10_nxtk62.jpg",
-                    "floor": "0.01 ETH",
-                    "total volume": "54.0 ETH",
-                    "chain": "ethereum"
+                    "floor": "16.5 ETH",
+                    "chain": "ethereum",
+                    "totalVolume": "54.0 ETH",
+                    "category": "Art"
                 },
                 "nfts": [
                     {
@@ -166,7 +191,9 @@
                         "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
                         "unique_id": "LRL8RD4I7qgSCWN6",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952459/a8_dkqc2v.jpg",
-                        "audioUrl": null
+                        "views": 11,
+                        "favorites": 2,
+                        "category": "Art"
                     },
                     {
                         "name": "Bold Bloom",
@@ -175,7 +202,9 @@
                         "description": "A masterful creation blending modern design into an engaging visual or auditory experience.",
                         "unique_id": "JFh3fKuF6G8tW3wo",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952458/a18_elgrcu.jpg",
-                        "audioUrl": null
+                        "views": 35,
+                        "favorites": 1,
+                        "category": "Art"
                     },
                     {
                         "name": "Mystic Fusion",
@@ -184,7 +213,9 @@
                         "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
                         "unique_id": "VEsWz6n3xsLgeqoH",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952459/a10_nxtk62.jpg",
-                        "audioUrl": null
+                        "views": 61,
+                        "favorites": 2,
+                        "category": "Art"
                     }
                 ]
             },
@@ -194,10 +225,11 @@
                     "name": "Collages",
                     "totalItems": 2,
                     "createdDate": "2024-12-03",
-                    "floor": "0.01 ETH",
+                    "floor": "21.0 ETH",
                     "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952465/a1_sx3h38.jpg",
-                    "total volume": "43.5 ETH",
-                    "chain": "ethereum"
+                    "chain": "ethereum",
+                    "totalVolume": "43.5 ETH",
+                    "category": "Art"
                 },
                 "nfts": [
                     {
@@ -207,7 +239,9 @@
                         "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
                         "unique_id": "cGdZofmyq9tTxxnn",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952465/a1_sx3h38.jpg",
-                        "audioUrl": null
+                        "views": 50,
+                        "favorites": 14,
+                        "category": "Art"
                     },
                     {
                         "name": "Majestic Vivid",
@@ -216,7 +250,9 @@
                         "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
                         "unique_id": "jallsNQM3DhMAAuq",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952464/a3_vhn4y1.jpg",
-                        "audioUrl": null
+                        "views": 46,
+                        "favorites": 6,
+                        "category": "Art"
                     }
                 ]
             },
@@ -226,10 +262,11 @@
                     "name": "Full of colours",
                     "totalItems": 2,
                     "createdDate": "2024-12-04",
-                    "floor": "0.01 ETH",
+                    "floor": "24.0 ETH",
                     "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952451/a19_h95m3w.jpg",
-                    "total volume": "49.5 ETH",
-                    "chain": "ethereum"
+                    "chain": "ethereum",
+                    "totalVolume": "49.5 ETH",
+                    "category": "Art"
                 },
                 "nfts": [
                     {
@@ -239,7 +276,9 @@
                         "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
                         "unique_id": "7umwoAaiig119QCh",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952451/a19_h95m3w.jpg",
-                        "audioUrl": null
+                        "views": 81,
+                        "favorites": 16,
+                        "category": "Art"
                     },
                     {
                         "name": "Radiant Edge",
@@ -248,7 +287,9 @@
                         "description": "A masterful creation blending dynamic movements into an engaging visual or auditory experience.",
                         "unique_id": "Kb4DQG3t3JZb8gkt",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952446/a20_qsitdn.jpg",
-                        "audioUrl": null
+                        "views": 38,
+                        "favorites": 3,
+                        "category": "Art"
                     }
                 ]
             },
@@ -259,9 +300,10 @@
                     "totalItems": 2,
                     "createdDate": "2024-12-05",
                     "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952454/a16_hp2cjo.jpg",
-                    "floor": "0.01 ETH",
-                    "total volume": "55.5 ETH",
-                    "chain": "ethereum"
+                    "floor": "27.0 ETH",
+                    "chain": "ethereum",
+                    "totalVolume": "55.5 ETH",
+                    "category": "Art"
                 },
                 "nfts": [
                     {
@@ -271,7 +313,9 @@
                         "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
                         "unique_id": "1VgS4GVWcthoTwmB",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952459/a9_wwtzao.jpg",
-                        "audioUrl": null
+                        "views": 19,
+                        "favorites": 11,
+                        "category": "Art"
                     },
                     {
                         "name": "Dynamic Vivid",
@@ -280,7 +324,9 @@
                         "description": "A masterful creation blending surreal emotions into an engaging visual or auditory experience.",
                         "unique_id": "qYuoknKhaTgKHfMY",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952454/a16_hp2cjo.jpg",
-                        "audioUrl": null
+                        "views": 15,
+                        "favorites": 9,
+                        "category": "Art"
                     }
                 ]
             }
@@ -292,10 +338,11 @@
                     "name": "Inside Game 1",
                     "totalItems": 4,
                     "createdDate": "2024-12-03",
-                    "floor": "1 ETH",
+                    "floor": "1.5 ETH",
                     "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952443/g14_p5fh0t.jpg",
-                    "total volume": "15.0 ETH",
-                    "chain": "ethereum"
+                    "chain": "ethereum",
+                    "totalVolume": "15.0 ETH",
+                    "category": "Gaming"
                 },
                 "nfts": [
                     {
@@ -305,7 +352,9 @@
                         "description": "A masterful creation blending tranquil moments into an engaging visual or auditory experience.",
                         "unique_id": "Hs6QAdqeRCvVm8xp",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952444/g16_vz4n2b.jpg",
-                        "audioUrl": null
+                        "views": 56,
+                        "favorites": 10,
+                        "category": "Gaming"
                     },
                     {
                         "name": "Mystic Champion",
@@ -314,7 +363,9 @@
                         "description": "A masterful creation blending modern design into an engaging visual or auditory experience.",
                         "unique_id": "78HkCRlMaYhRiFGJ",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952443/g14_p5fh0t.jpg",
-                        "audioUrl": null
+                        "views": 76,
+                        "favorites": 9,
+                        "category": "Gaming"
                     },
                     {
                         "name": "Dynamic Legendary",
@@ -323,7 +374,9 @@
                         "description": "A masterful creation blending dynamic movements into an engaging visual or auditory experience.",
                         "unique_id": "9eJPwYQY8ZA8oicy",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952432/g18_sgfoqu.jpg",
-                        "audioUrl": null
+                        "views": 63,
+                        "favorites": 19,
+                        "category": "Gaming"
                     },
                     {
                         "name": "Ethereal Avatar",
@@ -332,7 +385,9 @@
                         "description": "A masterful creation blending dynamic movements into an engaging visual or auditory experience.",
                         "unique_id": "HzOVuPdzmfl9BILX",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952431/g17_zucja5.jpg",
-                        "audioUrl": null
+                        "views": 28,
+                        "favorites": 10,
+                        "category": "Gaming"
                     }
                 ]
             },
@@ -342,10 +397,11 @@
                     "name": "Inside Game 2",
                     "totalItems": 2,
                     "createdDate": "2024-12-04",
-                    "floor": "1 ETH",
+                    "floor": "7.5 ETH",
                     "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952437/g15_moqoql.jpg",
-                    "total volume": "16.5 ETH",
-                    "chain": "ethereum"
+                    "chain": "ethereum",
+                    "totalVolume": "16.5 ETH",
+                    "category": "Gaming"
                 },
                 "nfts": [
                     {
@@ -355,7 +411,9 @@
                         "description": "A masterful creation blending vivid artistry into an engaging visual or auditory experience.",
                         "unique_id": "X6Y92CtQvuEhKBoJ",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952437/g15_moqoql.jpg",
-                        "audioUrl": null
+                        "views": 19,
+                        "favorites": 12,
+                        "category": "Gaming"
                     },
                     {
                         "name": "Dynamic Quest",
@@ -364,7 +422,9 @@
                         "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
                         "unique_id": "U2zV1k2VAhNz1Yuz",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952432/g13_ox1dht.jpg",
-                        "audioUrl": null
+                        "views": 49,
+                        "favorites": 16,
+                        "category": "Gaming"
                     }
                 ]
             },
@@ -375,9 +435,10 @@
                     "totalItems": 3,
                     "createdDate": "2024-12-05",
                     "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952440/g7_ab9obn.jpg",
-                    "floor": "1 ETH",
-                    "total volume": "36.0 ETH",
-                    "chain": "ethereum"
+                    "floor": "10.5 ETH",
+                    "chain": "ethereum",
+                    "totalVolume": "36.0 ETH",
+                    "category": "Gaming"
                 },
                 "nfts": [
                     {
@@ -387,7 +448,9 @@
                         "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
                         "unique_id": "uFgM1rd2xyzl5O8n",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952436/g10_bglwmy.jpg",
-                        "audioUrl": null
+                        "views": 21,
+                        "favorites": 8,
+                        "category": "Gaming"
                     },
                     {
                         "name": "Mystic Epic",
@@ -396,7 +459,9 @@
                         "description": "A masterful creation blending vivid artistry into an engaging visual or auditory experience.",
                         "unique_id": "nlcWCjFt0WnAC8sx",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952440/g7_ab9obn.jpg",
-                        "audioUrl": null
+                        "views": 57,
+                        "favorites": 3,
+                        "category": "Gaming"
                     },
                     {
                         "name": "Majestic Realm",
@@ -405,7 +470,9 @@
                         "description": "A masterful creation blending tranquil moments into an engaging visual or auditory experience.",
                         "unique_id": "zklE2eP0g6ftW4J1",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952443/g2_byuwdo.jpg",
-                        "audioUrl": null
+                        "views": 27,
+                        "favorites": 8,
+                        "category": "Gaming"
                     }
                 ]
             },
@@ -416,9 +483,10 @@
                     "totalItems": 3,
                     "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952444/g3_v1qqap.jpg",
                     "createdDate": "2024-12-06",
-                    "floor": "15 ETH",
-                    "total volume": "49.5 ETH",
-                    "chain": "ethereum"
+                    "floor": "15.0 ETH",
+                    "chain": "ethereum",
+                    "totalVolume": "49.5 ETH",
+                    "category": "Gaming"
                 },
                 "nfts": [
                     {
@@ -428,7 +496,9 @@
                         "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
                         "unique_id": "pFsPESFFijwzfcF8",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952444/g3_v1qqap.jpg",
-                        "audioUrl": null
+                        "views": 28,
+                        "favorites": 12,
+                        "category": "Gaming"
                     },
                     {
                         "name": "Ethereal Battle",
@@ -437,7 +507,9 @@
                         "description": "A masterful creation blending dynamic movements into an engaging visual or auditory experience.",
                         "unique_id": "iKarIRHBn17bVstz",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952441/g5_o074x2.jpg",
-                        "audioUrl": null
+                        "views": 80,
+                        "favorites": 17,
+                        "category": "Gaming"
                     },
                     {
                         "name": "Majestic Quest",
@@ -446,7 +518,9 @@
                         "description": "A masterful creation blending tranquil moments into an engaging visual or auditory experience.",
                         "unique_id": "pgx7hIq8kYmWQGlL",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952439/g6_yftjgc.jpg",
-                        "audioUrl": null
+                        "views": 56,
+                        "favorites": 5,
+                        "category": "Gaming"
                     }
                 ]
             },
@@ -454,12 +528,13 @@
                 "metadata": {
                     "description": "Featuring unique gaming-nfts NFTs showcasing An iconic in-game weapon with legendary status., A collectible avatar skin for virtual adventures., and more.",
                     "name": "Equipments are Cool",
-                    "totalItems": 2,
+                    "totalItems": 3,
                     "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952438/g8_azldkk.jpg",
                     "createdDate": "2024-12-06",
-                    "floor": "1 ETH",
-                    "total volume": "63.0 ETH",
-                    "chain": "ethereum"
+                    "floor": "19.5 ETH",
+                    "chain": "ethereum",
+                    "totalVolume": "63.0 ETH",
+                    "category": "Gaming"
                 },
                 "nfts": [
                     {
@@ -469,7 +544,9 @@
                         "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
                         "unique_id": "kx2TcR2UQ3cZJTeY",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952442/g4_qdmvis.jpg",
-                        "audioUrl": null
+                        "views": 52,
+                        "favorites": 20,
+                        "category": "Gaming"
                     },
                     {
                         "name": "Bold Legendary",
@@ -478,7 +555,9 @@
                         "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
                         "unique_id": "Fx7X8Ylm13uPfHlC",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952440/g12_g28cpd.jpg",
-                        "audioUrl": null
+                        "views": 47,
+                        "favorites": 20,
+                        "category": "Gaming"
                     },
                     {
                         "name": "Serene Legendary",
@@ -487,7 +566,9 @@
                         "description": "A masterful creation blending musical flows into an engaging visual or auditory experience.",
                         "unique_id": "CfhU8f3MqI5j0gad",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952438/g8_azldkk.jpg",
-                        "audioUrl": null
+                        "views": 78,
+                        "favorites": 1,
+                        "category": "Gaming"
                     }
                 ]
             },
@@ -495,12 +576,13 @@
                 "metadata": {
                     "description": "Featuring unique gaming-nfts NFTs showcasing An iconic in-game weapon with legendary status., A collectible avatar skin for virtual adventures., and more.",
                     "name": "Gaming Places",
-                    "totalItems": 2,
+                    "totalItems": 3,
                     "createdDate": "2024-12-06",
                     "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952435/g11_z97is8.jpg",
-                    "floor": "1 ETH",
-                    "total volume": "76.5 ETH",
-                    "chain": "ethereum"
+                    "floor": "24.0 ETH",
+                    "chain": "ethereum",
+                    "totalVolume": "76.5 ETH",
+                    "category": "Gaming"
                 },
                 "nfts": [
                     {
@@ -510,7 +592,9 @@
                         "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
                         "unique_id": "UohI5zPA2YFLc1CE",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952435/g11_z97is8.jpg",
-                        "audioUrl": null
+                        "views": 11,
+                        "favorites": 20,
+                        "category": "Gaming"
                     },
                     {
                         "name": "Bold Epic",
@@ -519,7 +603,9 @@
                         "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
                         "unique_id": "HPh4Edw66Fb9vsIZ",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952446/g9_clzanq.jpg",
-                        "audioUrl": null
+                        "views": 23,
+                        "favorites": 4,
+                        "category": "Gaming"
                     },
                     {
                         "name": "Majestic Weapon",
@@ -528,7 +614,9 @@
                         "description": "A masterful creation blending modern design into an engaging visual or auditory experience.",
                         "unique_id": "11LU9QeJpzUqPBu1",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952450/g1_xxtfz5.jpg",
-                        "audioUrl": null
+                        "views": 14,
+                        "favorites": 4,
+                        "category": "Gaming"
                     }
                 ]
             }
@@ -541,9 +629,10 @@
                     "totalItems": 3,
                     "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952445/bored-6945309_1280_syer7i.png",
                     "createdDate": "2024-12-04",
-                    "floor": "1 ETH",
-                    "total volume": "9.0 ETH",
-                    "chain": "ethereum"
+                    "floor": "1.5 ETH",
+                    "chain": "ethereum",
+                    "totalVolume": "9.0 ETH",
+                    "category": "PFP"
                 },
                 "nfts": [
                     {
@@ -553,7 +642,9 @@
                         "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
                         "unique_id": "46De2t0OYkZis2E4",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952445/bored-6945309_1280_syer7i.png",
-                        "audioUrl": null
+                        "views": 76,
+                        "favorites": 4,
+                        "category": "PFP"
                     },
                     {
                         "name": "Radiant Humanoid",
@@ -562,7 +653,9 @@
                         "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
                         "unique_id": "KWsLGQGR7Ea37dMI",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952446/ape-7020995_1280_hjdmem.png",
-                        "audioUrl": null
+                        "views": 10,
+                        "favorites": 1,
+                        "category": "PFP"
                     },
                     {
                         "name": "Ethereal Figure",
@@ -571,7 +664,9 @@
                         "description": "A masterful creation blending modern design into an engaging visual or auditory experience.",
                         "unique_id": "0kZvivhhEXBugYE9",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952429/monkey-7012380_1280_yox7s7.png",
-                        "audioUrl": null
+                        "views": 34,
+                        "favorites": 9,
+                        "category": "PFP"
                     }
                 ]
             },
@@ -582,9 +677,10 @@
                     "totalItems": 2,
                     "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952444/cartoon-7417582_1280_gmxrk0.png",
                     "createdDate": "2024-12-05",
-                    "floor": "1 ETH",
-                    "total volume": "13.5 ETH",
-                    "chain": "ethereum"
+                    "floor": "6.0 ETH",
+                    "chain": "ethereum",
+                    "totalVolume": "13.5 ETH",
+                    "category": "PFP"
                 },
                 "nfts": [
                     {
@@ -594,7 +690,9 @@
                         "description": "A masterful creation blending musical flows into an engaging visual or auditory experience.",
                         "unique_id": "L1HMtXAOgoZV8cQU",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952444/cartoon-7417583_1280_fglwro.png",
-                        "audioUrl": null
+                        "views": 54,
+                        "favorites": 20,
+                        "category": "PFP"
                     },
                     {
                         "name": "Dynamic Character",
@@ -603,7 +701,9 @@
                         "description": "A masterful creation blending dynamic movements into an engaging visual or auditory experience.",
                         "unique_id": "iArfK1aFMtvNFn37",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952444/cartoon-7417582_1280_gmxrk0.png",
-                        "audioUrl": null
+                        "views": 89,
+                        "favorites": 4,
+                        "category": "PFP"
                     }
                 ]
             },
@@ -614,9 +714,10 @@
                     "totalItems": 3,
                     "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952008/female-8150791_1280_c8xnvl.jpg",
                     "createdDate": "2024-12-06",
-                    "floor": "1 ETH",
-                    "total volume": "31.5 ETH",
-                    "chain": "ethereum"
+                    "floor": "9.0 ETH",
+                    "chain": "ethereum",
+                    "totalVolume": "31.5 ETH",
+                    "category": "PFP"
                 },
                 "nfts": [
                     {
@@ -626,7 +727,9 @@
                         "description": "A masterful creation blending tranquil moments into an engaging visual or auditory experience.",
                         "unique_id": "Vq4uTPB7rZ69rktd",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952008/king-306448_1280_dpsznc.png",
-                        "audioUrl": null
+                        "views": 44,
+                        "favorites": 6,
+                        "category": "PFP"
                     },
                     {
                         "name": "Mystic Animal",
@@ -635,7 +738,9 @@
                         "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
                         "unique_id": "LXA1Cvqm25OHOqLB",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952008/female-8150791_1280_c8xnvl.jpg",
-                        "audioUrl": null
+                        "views": 79,
+                        "favorites": 11,
+                        "category": "PFP"
                     },
                     {
                         "name": "Bold Style",
@@ -644,7 +749,9 @@
                         "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
                         "unique_id": "iKzOCMAzV9ENLc25",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952008/kid-8150792_1280_znzuqs.jpg",
-                        "audioUrl": null
+                        "views": 47,
+                        "favorites": 1,
+                        "category": "PFP"
                     }
                 ]
             },
@@ -655,9 +762,10 @@
                     "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951990/penguin-5487302_1280_wwnjtn.png",
                     "totalItems": 2,
                     "createdDate": "2024-12-07",
-                    "floor": "1 ETH",
-                    "total volume": "28.5 ETH",
-                    "chain": "ethereum"
+                    "floor": "13.5 ETH",
+                    "chain": "ethereum",
+                    "totalVolume": "28.5 ETH",
+                    "category": "PFP"
                 },
                 "nfts": [
                     {
@@ -667,7 +775,9 @@
                         "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
                         "unique_id": "TWe07VGy2OlEZNim",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951990/penguin-5487302_1280_wwnjtn.png",
-                        "audioUrl": null
+                        "views": 65,
+                        "favorites": 12,
+                        "category": "PFP"
                     },
                     {
                         "name": "Mystic Monkey",
@@ -676,7 +786,9 @@
                         "description": "A masterful creation blending modern design into an engaging visual or auditory experience.",
                         "unique_id": "1FCjkhBMY8fX6Adw",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951989/seagull-7282992_1280_yovbly.png",
-                        "audioUrl": null
+                        "views": 56,
+                        "favorites": 19,
+                        "category": "PFP"
                     }
                 ]
             },
@@ -687,9 +799,10 @@
                     "totalItems": 2,
                     "createdDate": "2024-12-07",
                     "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951973/the-simpson-7046041_1280_vyz3hh.png",
-                    "floor": "1 ETH",
-                    "total volume": "34.5 ETH",
-                    "chain": "ethereum"
+                    "floor": "16.5 ETH",
+                    "chain": "ethereum",
+                    "totalVolume": "34.5 ETH",
+                    "category": "PFP"
                 },
                 "nfts": [
                     {
@@ -699,7 +812,9 @@
                         "description": "A masterful creation blending modern design into an engaging visual or auditory experience.",
                         "unique_id": "pVybiCImi5wVmwkK",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951974/technology-7030913_1280_l1yqij.png",
-                        "audioUrl": null
+                        "views": 26,
+                        "favorites": 6,
+                        "category": "PFP"
                     },
                     {
                         "name": "Dynamic Style",
@@ -708,7 +823,9 @@
                         "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
                         "unique_id": "UbW2U3IB55TzpaQS",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951973/the-simpson-7046041_1280_vyz3hh.png",
-                        "audioUrl": null
+                        "views": 74,
+                        "favorites": 9,
+                        "category": "PFP"
                     }
                 ]
             },
@@ -716,12 +833,13 @@
                 "metadata": {
                     "description": "Featuring unique pfp-nfts NFTs showcasing A cool monkey with sunglasses and swag., A colorful cartoon character with a funky vibe., and more.",
                     "name": "Monkey Types",
-                    "totalItems": 4,
+                    "totalItems": 3,
                     "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952429/monkey-soldier-5113779_1280_llylv1.png",
                     "createdDate": "2024-12-07",
-                    "floor": "1 ETH",
-                    "total volume": "63.0 ETH",
-                    "chain": "ethereum"
+                    "floor": "19.5 ETH",
+                    "chain": "ethereum",
+                    "totalVolume": "63.0 ETH",
+                    "category": "PFP"
                 },
                 "nfts": [
                     {
@@ -731,7 +849,9 @@
                         "description": "A masterful creation blending surreal emotions into an engaging visual or auditory experience.",
                         "unique_id": "LYJ2NJMK5TxoxuYV",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952430/monkey-7435887_1280_aev6hg.png",
-                        "audioUrl": null
+                        "views": 58,
+                        "favorites": 8,
+                        "category": "PFP"
                     },
                     {
                         "name": "Bold Animal",
@@ -740,7 +860,9 @@
                         "description": "A masterful creation blending vivid artistry into an engaging visual or auditory experience.",
                         "unique_id": "POjULtHrlFqzb9lz",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952429/monkey-soldier-5113779_1280_llylv1.png",
-                        "audioUrl": null
+                        "views": 97,
+                        "favorites": 20,
+                        "category": "PFP"
                     },
                     {
                         "name": "Ethereal Figure",
@@ -749,7 +871,9 @@
                         "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
                         "unique_id": "rfshRrqtQfWegAPK",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952431/monkey-king-8336925_1280_ihywbl.png",
-                        "audioUrl": null
+                        "views": 15,
+                        "favorites": 1,
+                        "category": "PFP"
                     }
                 ]
             }
@@ -762,9 +886,10 @@
                     "totalItems": 3,
                     "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951949/kun-fotografi-gyhT9Sb20XY-unsplash_icfjdr.jpg",
                     "createdDate": "2024-12-05",
-                    "floor": "1 ETH",
-                    "total volume": "9.0 ETH",
-                    "chain": "ethereum"
+                    "floor": "1.5 ETH",
+                    "chain": "ethereum",
+                    "totalVolume": "9.0 ETH",
+                    "category": "Photography"
                 },
                 "nfts": [
                     {
@@ -774,7 +899,9 @@
                         "description": "A masterful creation blending tranquil moments into an engaging visual or auditory experience.",
                         "unique_id": "PZzRQdd6TW3suEU4",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951953/nathan-dumlao-p4TKmK4Egvg-unsplash_r0sx1z.jpg",
-                        "audioUrl": null
+                        "views": 61,
+                        "favorites": 11,
+                        "category": "Photography"
                     },
                     {
                         "name": "Timeless Nature",
@@ -783,7 +910,9 @@
                         "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
                         "unique_id": "vr2BobODPDxUBNHh",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951949/kun-fotografi-gyhT9Sb20XY-unsplash_icfjdr.jpg",
-                        "audioUrl": null
+                        "views": 51,
+                        "favorites": 10,
+                        "category": "Photography"
                     },
                     {
                         "name": "Majestic Close-up",
@@ -792,7 +921,9 @@
                         "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
                         "unique_id": "BA0EtwCILJ9kL7lb",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951945/mylene-tremoyet-Da0pdCekeUs-unsplash_mnoht3.jpg",
-                        "audioUrl": null
+                        "views": 88,
+                        "favorites": 3,
+                        "category": "Photography"
                     }
                 ]
             },
@@ -803,9 +934,10 @@
                     "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951950/moy-vazquez-UbqvjH69oOQ-unsplash_qeujj8.jpg",
                     "totalItems": 2,
                     "createdDate": "2024-12-06",
-                    "floor": "1 ETH",
-                    "total volume": "13.5 ETH",
-                    "chain": "ethereum"
+                    "floor": "6.0 ETH",
+                    "chain": "ethereum",
+                    "totalVolume": "13.5 ETH",
+                    "category": "Photography"
                 },
                 "nfts": [
                     {
@@ -815,7 +947,9 @@
                         "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
                         "unique_id": "uW6hHagpYXaHEf5e",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951950/moy-vazquez-UbqvjH69oOQ-unsplash_qeujj8.jpg",
-                        "audioUrl": null
+                        "views": 70,
+                        "favorites": 16,
+                        "category": "Photography"
                     },
                     {
                         "name": "Bold Scene",
@@ -824,7 +958,9 @@
                         "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
                         "unique_id": "9vO6FLF0f0MVJo2g",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951952/andrew-konstantinov-Jk8tUzZ0O6E-unsplash_rgl9c7.jpg",
-                        "audioUrl": null
+                        "views": 66,
+                        "favorites": 2,
+                        "category": "Photography"
                     }
                 ]
             },
@@ -835,9 +971,10 @@
                     "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951958/jose-p-ortiz-DuZZ4gOjYdM-unsplash_za9ikv.jpg",
                     "totalItems": 3,
                     "createdDate": "2024-12-07",
-                    "floor": "1 ETH",
-                    "total volume": "31.5 ETH",
-                    "chain": "ethereum"
+                    "floor": "9.0 ETH",
+                    "chain": "ethereum",
+                    "totalVolume": "31.5 ETH",
+                    "category": "Photography"
                 },
                 "nfts": [
                     {
@@ -847,7 +984,9 @@
                         "description": "A masterful creation blending modern design into an engaging visual or auditory experience.",
                         "unique_id": "KqMhhqvnp9CvJYmY",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951951/krisjanis-kazaks-HTEsx-stj7E-unsplash_hi2qxv.jpg",
-                        "audioUrl": null
+                        "views": 71,
+                        "favorites": 14,
+                        "category": "Photography"
                     },
                     {
                         "name": "Serene Aerial",
@@ -856,7 +995,9 @@
                         "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
                         "unique_id": "uHKwNwhVkXOKJTiK",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951946/mihail-ilchov-UqUh5uTpoY4-unsplash_enypvb.jpg",
-                        "audioUrl": null
+                        "views": 77,
+                        "favorites": 17,
+                        "category": "Photography"
                     },
                     {
                         "name": "Serene Landscape",
@@ -865,7 +1006,9 @@
                         "description": "A masterful creation blending musical flows into an engaging visual or auditory experience.",
                         "unique_id": "fv9PgTWvoKLibZEn",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951958/jose-p-ortiz-DuZZ4gOjYdM-unsplash_za9ikv.jpg",
-                        "audioUrl": null
+                        "views": 36,
+                        "favorites": 5,
+                        "category": "Photography"
                     }
                 ]
             },
@@ -876,9 +1019,10 @@
                     "totalItems": 3,
                     "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951948/leandra-niederhauser-eaToegj7RI4-unsplash_a6llnf.jpg",
                     "createdDate": "2024-12-08",
-                    "floor": "1 ETH",
-                    "total volume": "45.0 ETH",
-                    "chain": "ethereum"
+                    "floor": "13.5 ETH",
+                    "chain": "ethereum",
+                    "totalVolume": "45.0 ETH",
+                    "category": "Photography"
                 },
                 "nfts": [
                     {
@@ -888,7 +1032,9 @@
                         "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
                         "unique_id": "RhPUnwSYccejvbDy",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951955/cin-Y0KFNIZFAyU-unsplash_cnqwoy.jpg",
-                        "audioUrl": null
+                        "views": 22,
+                        "favorites": 7,
+                        "category": "Photography"
                     },
                     {
                         "name": "Majestic Landscape",
@@ -897,7 +1043,9 @@
                         "description": "A masterful creation blending modern design into an engaging visual or auditory experience.",
                         "unique_id": "Udn0D9UZKgqnylIF",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951953/jon-champaigne-UsVUIGulksk-unsplash_qc3wqd.jpg",
-                        "audioUrl": null
+                        "views": 16,
+                        "favorites": 11,
+                        "category": "Photography"
                     },
                     {
                         "name": "Serene Aerial",
@@ -906,7 +1054,9 @@
                         "description": "A masterful creation blending vivid artistry into an engaging visual or auditory experience.",
                         "unique_id": "alZkS2BdKwXFfT9N",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951948/leandra-niederhauser-eaToegj7RI4-unsplash_a6llnf.jpg",
-                        "audioUrl": null
+                        "views": 75,
+                        "favorites": 3,
+                        "category": "Photography"
                     }
                 ]
             },
@@ -917,9 +1067,10 @@
                     "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951951/lalitha-d-EZiKSUX-3yg-unsplash_ihsl97.jpg",
                     "totalItems": 3,
                     "createdDate": "2024-12-08",
-                    "floor": "1 ETH",
-                    "total volume": "58.5 ETH",
-                    "chain": "ethereum"
+                    "floor": "18.0 ETH",
+                    "chain": "ethereum",
+                    "totalVolume": "58.5 ETH",
+                    "category": "Photography"
                 },
                 "nfts": [
                     {
@@ -929,7 +1080,9 @@
                         "description": "A masterful creation blending dynamic movements into an engaging visual or auditory experience.",
                         "unique_id": "KEiK0PTzr1akSr7f",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951951/lalitha-d-EZiKSUX-3yg-unsplash_ihsl97.jpg",
-                        "audioUrl": null
+                        "views": 81,
+                        "favorites": 5,
+                        "category": "Photography"
                     },
                     {
                         "name": "Mystic Sunset",
@@ -938,7 +1091,9 @@
                         "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
                         "unique_id": "2yEDe3hYMedhIa8y",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951952/jose-p-ortiz-l--RqyZVBCo-unsplash_aixwes.jpg",
-                        "audioUrl": null
+                        "views": 26,
+                        "favorites": 13,
+                        "category": "Photography"
                     },
                     {
                         "name": "Radiant Aerial",
@@ -947,7 +1102,9 @@
                         "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
                         "unique_id": "aYrHNazkVCmFz3rq",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951955/baptiste-buisson-Lg-ZYKGZ2k4-unsplash_vveqqb.jpg",
-                        "audioUrl": null
+                        "views": 75,
+                        "favorites": 4,
+                        "category": "Photography"
                     }
                 ]
             },
@@ -958,9 +1115,10 @@
                     "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951949/michael-fousert-_ms3EBwRmjU-unsplash_nhi2ye.jpg",
                     "totalItems": 3,
                     "createdDate": "2024-12-08",
-                    "floor": "1 ETH",
-                    "total volume": "72.0 ETH",
-                    "chain": "ethereum"
+                    "floor": "22.5 ETH",
+                    "chain": "ethereum",
+                    "totalVolume": "72.0 ETH",
+                    "category": "Photography"
                 },
                 "nfts": [
                     {
@@ -970,7 +1128,9 @@
                         "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
                         "unique_id": "8tANNerUBvI6lKEl",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951956/benjamin-zanatta-WbkfJ2TmSug-unsplash_ndvjhn.jpg",
-                        "audioUrl": null
+                        "views": 55,
+                        "favorites": 18,
+                        "category": "Photography"
                     },
                     {
                         "name": "Ethereal Mountain",
@@ -979,7 +1139,9 @@
                         "description": "A masterful creation blending surreal emotions into an engaging visual or auditory experience.",
                         "unique_id": "LXUU7uiNhJBn0fsG",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951949/michael-fousert-_ms3EBwRmjU-unsplash_nhi2ye.jpg",
-                        "audioUrl": null
+                        "views": 99,
+                        "favorites": 6,
+                        "category": "Photography"
                     },
                     {
                         "name": "Majestic Close-up",
@@ -988,7 +1150,9 @@
                         "description": "A masterful creation blending musical flows into an engaging visual or auditory experience.",
                         "unique_id": "bF6gcLMG2qi96I9U",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951943/adham-ragab-6iBJ7GVg09Y-unsplash_ztnt7n.jpg",
-                        "audioUrl": null
+                        "views": 40,
+                        "favorites": 7,
+                        "category": "Photography"
                     }
                 ]
             },
@@ -999,9 +1163,10 @@
                     "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951944/mohammad-mardani-BCz_Lhedwvo-unsplash_wqhxcp.jpg",
                     "totalItems": 3,
                     "createdDate": "2024-12-08",
-                    "floor": "1 ETH",
-                    "total volume": "85.5 ETH",
-                    "chain": "ethereum"
+                    "floor": "27.0 ETH",
+                    "chain": "ethereum",
+                    "totalVolume": "85.5 ETH",
+                    "category": "Photography"
                 },
                 "nfts": [
                     {
@@ -1011,7 +1176,9 @@
                         "description": "A masterful creation blending surreal emotions into an engaging visual or auditory experience.",
                         "unique_id": "JLCrsJaUEFzFAbkD",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951944/mohammad-mardani-BCz_Lhedwvo-unsplash_wqhxcp.jpg",
-                        "audioUrl": null
+                        "views": 24,
+                        "favorites": 8,
+                        "category": "Photography"
                     },
                     {
                         "name": "Dynamic View",
@@ -1020,7 +1187,9 @@
                         "description": "A masterful creation blending surreal emotions into an engaging visual or auditory experience.",
                         "unique_id": "F63eoULDTXmteB6V",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951955/damian-barczak-U9E423m3Hd8-unsplash_kvmuqq.jpg",
-                        "audioUrl": null
+                        "views": 81,
+                        "favorites": 5,
+                        "category": "Photography"
                     },
                     {
                         "name": "Bold View",
@@ -1029,7 +1198,9 @@
                         "description": "A masterful creation blending dynamic movements into an engaging visual or auditory experience.",
                         "unique_id": "nUe6cI9iQc5LJg22",
                         "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951955/highzone-p6xd1hgwyZU-unsplash_cznjtc.jpg",
-                        "audioUrl": null
+                        "views": 10,
+                        "favorites": 15,
+                        "category": "Photography"
                     }
                 ]
             }
@@ -1041,9 +1212,11 @@
                     "name": "Description of SubBranch1 in branch5",
                     "totalItems": 3,
                     "createdDate": "2024-12-06",
-                    "floor": "1 ETH",
-                    "total volume": "9.0 ETH",
-                    "chain": "ethereum"
+                    "floor": "1.5 ETH",
+                    "chain": "ethereum",
+                    "totalVolume": "9.0 ETH",
+                    "category": "Music",
+                    "imageUrl":"https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641320/note2_ozekfw.avif"
                 },
                 "nfts": [
                     {
@@ -1052,8 +1225,11 @@
                         "owner": "Frank",
                         "description": "A masterful creation blending vivid artistry into an engaging visual or auditory experience.",
                         "unique_id": "wNPQWmGKPzF4OAV2",
-                        "imageUrl": "",
-                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952563/m1_jafh59.mp3"
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641320/note2_ozekfw.avif",
+                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952563/m1_jafh59.mp3",
+                        "views": 68,
+                        "favorites": 8,
+                        "category": "Music"
                     },
                     {
                         "name": "Dynamic Chorus",
@@ -1061,8 +1237,11 @@
                         "owner": "Alice",
                         "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
                         "unique_id": "wfZwYc3ls7EbpgCv",
-                        "imageUrl": "",
-                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952562/m2_m81gif.mp3"
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641320/note2_ozekfw.avif",
+                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952562/m2_m81gif.mp3",
+                        "views": 68,
+                        "favorites": 20,
+                        "category": "Music"
                     },
                     {
                         "name": "Radiant Beat",
@@ -1070,8 +1249,11 @@
                         "owner": "Hank",
                         "description": "A masterful creation blending surreal emotions into an engaging visual or auditory experience.",
                         "unique_id": "kpbpoEStL0WvOOji",
-                        "imageUrl": "",
-                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952563/m3_vpi6kv.mp3"
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641320/note2_ozekfw.avif",
+                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952563/m3_vpi6kv.mp3",
+                        "views": 25,
+                        "favorites": 15,
+                        "category": "Music"
                     }
                 ]
             },
@@ -1081,9 +1263,11 @@
                     "name": "Description of SubBranch2 in branch5",
                     "totalItems": 2,
                     "createdDate": "2024-12-07",
-                    "floor": "1 ETH",
-                    "total volume": "13.5 ETH",
-                    "chain": "ethereum"
+                    "floor": "6.0 ETH",
+                    "chain": "ethereum",
+                    "totalVolume": "13.5 ETH",
+                    "category": "Music",
+                    "imageUrl":"https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641471/note3_vibptc_c_crop_h_250_xmez6b.webp"
                 },
                 "nfts": [
                     {
@@ -1092,8 +1276,11 @@
                         "owner": "Diana",
                         "description": "A masterful creation blending musical flows into an engaging visual or auditory experience.",
                         "unique_id": "RMmnjIiHZ3yGQzD0",
-                        "imageUrl": "",
-                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952560/m4_pz9nbg.mp3"
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641471/note3_vibptc_c_crop_h_250_xmez6b.webp",
+                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952560/m4_pz9nbg.mp3",
+                        "views": 55,
+                        "favorites": 4,
+                        "category": "Music"
                     },
                     {
                         "name": "Mystic Symphony",
@@ -1101,8 +1288,11 @@
                         "owner": "Grace",
                         "description": "A masterful creation blending vivid artistry into an engaging visual or auditory experience.",
                         "unique_id": "PyZuPRXCeA63ShBr",
-                        "imageUrl": "",
-                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952559/m5_bqxs5k.mp3"
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641471/note3_vibptc_c_crop_h_250_xmez6b.webp",
+                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952559/m5_bqxs5k.mp3",
+                        "views": 20,
+                        "favorites": 8,
+                        "category": "Music"
                     }
                 ]
             },
@@ -1112,9 +1302,11 @@
                     "name": "Description of SubBranch3 in branch5",
                     "totalItems": 3,
                     "createdDate": "2024-12-08",
-                    "floor": "1 ETH",
-                    "total volume": "31.5 ETH",
-                    "chain": "ethereum"
+                    "floor": "9.0 ETH",
+                    "chain": "ethereum",
+                    "totalVolume": "31.5 ETH",
+                    "category": "Music",
+                    "imageUrl":"https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641569/note4_s6uttx.webp"
                 },
                 "nfts": [
                     {
@@ -1123,8 +1315,11 @@
                         "owner": "Bob",
                         "description": "A masterful creation blending modern design into an engaging visual or auditory experience.",
                         "unique_id": "s15uGofzp0SBJpuP",
-                        "imageUrl": "",
-                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952558/m8_dlomem.mp3"
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641569/note4_s6uttx.webp",
+                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952558/m8_dlomem.mp3",
+                        "views": 85,
+                        "favorites": 5,
+                        "category": "Music"
                     },
                     {
                         "name": "Radiant Beat",
@@ -1132,8 +1327,11 @@
                         "owner": "Grace",
                         "description": "A masterful creation blending musical flows into an engaging visual or auditory experience.",
                         "unique_id": "gkltsMti2OzEzTPU",
-                        "imageUrl": "",
-                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952558/m9_qwuu7e.mp3"
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641569/note4_s6uttx.webp",
+                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952558/m9_qwuu7e.mp3",
+                        "views": 82,
+                        "favorites": 3,
+                        "category": "Music"
                     },
                     {
                         "name": "Bold Chorus",
@@ -1141,8 +1339,11 @@
                         "owner": "Alice",
                         "description": "A masterful creation blending surreal emotions into an engaging visual or auditory experience.",
                         "unique_id": "0vXd25WAzXX8DWO7",
-                        "imageUrl": "",
-                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952556/m10_ovhu6r.mp3"
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641569/note4_s6uttx.webp",
+                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952556/m10_ovhu6r.mp3",
+                        "views": 99,
+                        "favorites": 20,
+                        "category": "Music"
                     }
                 ]
             },
@@ -1152,9 +1353,11 @@
                     "name": "Description of SubBranch4 in branch5",
                     "totalItems": 2,
                     "createdDate": "2024-12-09",
-                    "floor": "1 ETH",
-                    "total volume": "28.5 ETH",
-                    "chain": "ethereum"
+                    "floor": "13.5 ETH",
+                    "chain": "ethereum",
+                    "totalVolume": "28.5 ETH",
+                    "category": "Music",
+                    "imageUrl":"https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641320/note7_hujij5.avif"
                 },
                 "nfts": [
                     {
@@ -1163,8 +1366,11 @@
                         "owner": "Diana",
                         "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
                         "unique_id": "lvoimhnzJonxXle4",
-                        "imageUrl": "",
-                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952559/m6_bprj1o.mp3"
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641320/note7_hujij5.avif",
+                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952559/m6_bprj1o.mp3",
+                        "views": 25,
+                        "favorites": 3,
+                        "category": "Music"
                     },
                     {
                         "name": "Serene Beat",
@@ -1172,8 +1378,11 @@
                         "owner": "Eve",
                         "description": "A masterful creation blending modern design into an engaging visual or auditory experience.",
                         "unique_id": "fcWkp3mAVcIWKlwJ",
-                        "imageUrl": "",
-                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952558/m7_vhdzng.mp3"
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641320/note7_hujij5.avif",
+                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952558/m7_vhdzng.mp3",
+                        "views": 14,
+                        "favorites": 11,
+                        "category": "Music"
                     }
                 ]
             },
@@ -1183,9 +1392,11 @@
                     "name": "Description of SubBranch3 in branch5",
                     "totalItems": 3,
                     "createdDate": "2024-12-08",
-                    "floor": "1 ETH",
-                    "total volume": "54.0 ETH",
-                    "chain": "ethereum"
+                    "floor": "16.5 ETH",
+                    "chain": "ethereum",
+                    "totalVolume": "54.0 ETH",
+                    "category": "Music",
+                    "imageUrl":"https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641320/note5_ixb1bb.jpg"
                 },
                 "nfts": [
                     {
@@ -1194,8 +1405,11 @@
                         "owner": "Hank",
                         "description": "A masterful creation blending surreal emotions into an engaging visual or auditory experience.",
                         "unique_id": "CtX7G5Yvp5fpaEfS",
-                        "imageUrl": "",
-                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952559/m11_ehm1zj.mp3"
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641320/note5_ixb1bb.jpg",
+                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952559/m11_ehm1zj.mp3",
+                        "views": 20,
+                        "favorites": 17,
+                        "category": "Music"
                     },
                     {
                         "name": "Majestic Symphony",
@@ -1203,8 +1417,11 @@
                         "owner": "Eve",
                         "description": "A masterful creation blending tranquil moments into an engaging visual or auditory experience.",
                         "unique_id": "1QKKIy1uZWXneYxd",
-                        "imageUrl": "",
-                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952558/m12_qxixnu.mp3"
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641320/note5_ixb1bb.jpg",
+                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952558/m12_qxixnu.mp3",
+                        "views": 55,
+                        "favorites": 12,
+                        "category": "Music"
                     },
                     {
                         "name": "Timeless Symphony",
@@ -1212,8 +1429,11 @@
                         "owner": "Charlie",
                         "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
                         "unique_id": "2jLdl6UkM3Zwq8Eu",
-                        "imageUrl": "",
-                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952559/m13_ttqk1d.mp3"
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641320/note5_ixb1bb.jpg",
+                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952559/m13_ttqk1d.mp3",
+                        "views": 64,
+                        "favorites": 13,
+                        "category": "Music"
                     }
                 ]
             },
@@ -1223,9 +1443,11 @@
                     "name": "Description of SubBranch3 in branch5",
                     "totalItems": 3,
                     "createdDate": "2024-12-08",
-                    "floor": "1 ETH",
-                    "total volume": "67.5 ETH",
-                    "chain": "ethereum"
+                    "floor": "21.0 ETH",
+                    "chain": "ethereum",
+                    "totalVolume": "67.5 ETH",
+                    "category": "Music",
+                    "imageUrl":"https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641321/note1_zf7azy.jpg"
                 },
                 "nfts": [
                     {
@@ -1234,8 +1456,11 @@
                         "owner": "Eve",
                         "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
                         "unique_id": "98CheZcmIMEVJ2wu",
-                        "imageUrl": "",
-                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952555/m14_eafefx.mp3"
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641321/note1_zf7azy.jpg",
+                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952555/m14_eafefx.mp3",
+                        "views": 42,
+                        "favorites": 9,
+                        "category": "Music"
                     },
                     {
                         "name": "Mystic Melody",
@@ -1243,8 +1468,11 @@
                         "owner": "Eve",
                         "description": "A masterful creation blending dynamic movements into an engaging visual or auditory experience.",
                         "unique_id": "mSAPPKvhq86fFYUP",
-                        "imageUrl": "",
-                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952554/m15_c1m6xp.mp3"
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641321/note1_zf7azy.jpg",
+                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952554/m15_c1m6xp.mp3",
+                        "views": 49,
+                        "favorites": 7,
+                        "category": "Music"
                     },
                     {
                         "name": "Dynamic Beat",
@@ -1252,8 +1480,11 @@
                         "owner": "Eve",
                         "description": "A masterful creation blending tranquil moments into an engaging visual or auditory experience.",
                         "unique_id": "lvIpNSu81g3nT9iQ",
-                        "imageUrl": "",
-                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952555/m16_k6fi7d.mp3"
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641321/note1_zf7azy.jpg",
+                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952555/m16_k6fi7d.mp3",
+                        "views": 36,
+                        "favorites": 17,
+                        "category": "Music"
                     }
                 ]
             },
@@ -1263,9 +1494,11 @@
                     "name": "Description of SubBranch3 in branch5",
                     "totalItems": 2,
                     "createdDate": "2024-12-08",
-                    "floor": "1 ETH",
-                    "total volume": "52.5 ETH",
-                    "chain": "ethereum"
+                    "floor": "25.5 ETH",
+                    "chain": "ethereum",
+                    "totalVolume": "52.5 ETH",
+                    "category": "Music",
+                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641320/note6_hu1acb.jpg"
                 },
                 "nfts": [
                     {
@@ -1274,8 +1507,11 @@
                         "owner": "Diana",
                         "description": "A masterful creation blending dynamic movements into an engaging visual or auditory experience.",
                         "unique_id": "i9MDZSrzwvyDRW7t",
-                        "imageUrl": "",
-                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952472/m17_zozzyv.mp3"
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641320/note6_hu1acb.jpg",
+                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952472/m17_zozzyv.mp3",
+                        "views": 19,
+                        "favorites": 4,
+                        "category": "Music"
                     },
                     {
                         "name": "Dynamic Beat",
@@ -1283,8 +1519,11 @@
                         "owner": "Diana",
                         "description": "A masterful creation blending vivid artistry into an engaging visual or auditory experience.",
                         "unique_id": "Jldfgjl7mJ9MPAsR",
-                        "imageUrl": "",
-                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952471/m18_v9jqjb.mp3"
+                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641320/note6_hu1acb.jpg",
+                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952471/m18_v9jqjb.mp3",
+                        "views": 18,
+                        "favorites": 9,
+                        "category": "Music"
                     }
                 ]
             }

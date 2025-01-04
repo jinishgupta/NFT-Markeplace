@@ -10,10 +10,11 @@
 <body>
   <!--Navbar-->
   <div id="navbar">
-    <img src="logo.jpeg" id="image" alt="MetaMint" href="#">
-    <a id="name" href="#">MetaMint</a>
-    <input id="search" placeholder="  Search NFTs,Collections,owners...">
-    <a class="navbar-items" href="collection.html">Collections</a>
+    <img src="logo.jpeg" id="image" alt="MetaMint" href="main_page.html">
+    <a id="name" href="main_page.html">MetaMint</a>
+    <input id="search" placeholder="  Search NFTs..."   onkeypress="redirectToResultsPage(event)">
+    <p class="navbar-items" id="all-nfts" onclick="displayAllNFTs()">NFTs</p>
+    <p class="navbar-items" id="all-collections" onclick="displayAllCollections()">Collections</p>
     <a class="navbar-items" href="profile.html">Profile</a>
     <a class="navbar-items" href="login.html">Login</a>
     <a class="navbar-items" id="wallet">Connect Wallet</a>
@@ -22,9 +23,8 @@
         <div class="dropdown-content">
             <a href="#">Mint NFTs</a>
             <a href="uploadNFT.html">Upload NFTs</a>
-            <a>Language</a>
-            <a>Learn</a>
-            <a>Support</a>
+            <a href="learn.html">Learn</a>
+            <a href="#support">Support</a>
             <a id="logout">Logout</a>
         </div>
     </div>
@@ -121,9 +121,12 @@
             Dive into hand-curated collections, explore trending projects, and unlock the true potential of
             blockchain-powered ownership.</p>
         <p>Need help?</p>
-        <p>Contact support</p>
+        <p id="support">Contact support:</p>
+        <p>Mobile:1234567890</p>
+        <p>Email:qwerty12@gmail.com</p>
     </div>
 </div>
 <script type="module" src="mintNFT.js"></script>
+<script src="main_page.js"></script>
 </body>
 </html>

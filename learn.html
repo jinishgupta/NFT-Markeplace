@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Search Results</title>
-    <link rel="stylesheet" href="resultPage.css">
+    <title>Learn</title>
+    <link rel="stylesheet" href="learn.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
-    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-    <!--NavBar-->
+    <!--Navbar-->
     <div id="navbar">
         <img src="logo.jpeg" id="image" alt="MetaMint" href="main_page.html">
         <a id="name" href="main_page.html">MetaMint</a>
-        <input id="search" placeholder="  Search NFTs..."   onkeypress="redirectToResultsPage(event)">
+        <input id="search" placeholder="  Search NFTs..." onkeypress="redirectToResultsPage(event)">
         <p class="navbar-items" id="all-nfts" onclick="displayAllNFTs()">NFTs</p>
         <p class="navbar-items" id="all-collections" onclick="displayAllCollections()">Collections</p>
         <a class="navbar-items" href="profile.html">Profile</a>
@@ -25,44 +27,37 @@
             <div class="dropdown-content">
                 <a href="mintNFT.html">Mint NFTs</a>
                 <a href="uploadNFT.html">Upload NFTs</a>
-                <a href="learn.html">Learn</a>
+                <a href="#">Learn</a>
                 <a href="#support">Support</a>
                 <a id="logout">Logout</a>
             </div>
         </div>
     </div>
-    <!--Display Section-->
-    <div>
-        <label for="sort-criteria">Sort by:</label>
-        <select id="sort-criteria">
-          <option value="none">None</option>
-          <option value="name">Name</option>
-          <option value="price">Price</option>
-        </select>
-      
-        <label for="sort-order">Order:</label>
-        <select id="sort-order">
-          <option value="asc">Ascending</option>
-          <option value="desc">Descending</option>
-        </select>
-      
-        <label for="category-filter">Category:</label>
-        <select id="category-filter">
-          <option value="All">All</option>
-          <option value="Art">Art</option>
-          <option value="Music">Music</option>
-          <option value="Gaming">Gaming</option>
-          <option value="PFPs">PFPs</option>
-          <option value="Photography">Photography</option>
-        </select>
-      
-        <button id="sort">Sort</button>
-      </div>
-      
-      <div id="nft-container"></div>
-      
-    <div id="results"></div>
-
+    <!--Main Body-->
+    <h1>Learn Section</h1>
+    <div class="video-grid">
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/NNQLJcJEzv0" title="What is an NFT" allowfullscreen></iframe>
+        </div>
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/SQyg9pyJ1Ac" title="What is a crypto wallet" allowfullscreen></iframe>
+        </div>
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/1YyAzVmP9xQ" title="What is cryptocurrency" allowfullscreen></iframe>
+        </div>
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/KTZDEwF55ts" title="What are gas fees in crypto" allowfullscreen></iframe>
+        </div>
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/yubzJw0uiE4" title="What is a blockchain" allowfullscreen></iframe>
+        </div>
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/0tZFQs7qBfQ" title="What is web3" allowfullscreen></iframe>
+        </div>
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/bm2Khh0Hbjg" title="How to stay protected in web3" allowfullscreen></iframe>
+        </div>
+    </div>
     <!--FOOTER-->
     <div class="footer-container">
         <!-- Marketplace Section -->
@@ -107,7 +102,6 @@
             <p>Email:qwerty12@gmail.com</p>
             </div>
     </div>
-<script type="module" src="resultPage.js"></script>
-<script src="main_page.js"></script>
 </body>
+
 </html>

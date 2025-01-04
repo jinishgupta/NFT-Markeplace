@@ -47,27 +47,6 @@ function appendCollectionCard(collection, container) {
   container.appendChild(card);
 }
 
-// Utility function to append music collection cards with metadata
-function appendMusicCollectionCard(collection, container) {
-  const card = document.createElement("div");
-  card.className = "nft-container";
-
-  card.innerHTML = `
-       <div class="musicCard-title">${collection.metadata.name}</div>
-    <div class="info"> 
-      <div>
-        Floor Price<br>
-        <span class="value">${collection.metadata.floor}</span>
-      </div>
-      <div>
-        Volume<br>
-        <span class="value">${collection.metadata.totalVolume}</span>
-      </div>
-    </div>
-    `;
-  container.appendChild(card);
-}
-
 // Utility function to append nft cards
 function appendNFTCard(nft, container) {
   const card = document.createElement("div");
@@ -262,11 +241,7 @@ async function fetchResults(query) {
     });
     resultsContainer.innerHTML = "";
     resultCollections.forEach((collection) => {
-      if (collection.category == "music") {
-        appendMusicCollectionCard(collection, resultsContainer);
-      } else {
         appendCollectionCard(collection, resultsContainer);
-      }
     });
   } else {
     const nfts = await fetchNfts("All");
@@ -323,10 +298,6 @@ async function handleSort(query) {
   const criteria = document.getElementById("sort-criteria").value;
   const order = document.getElementById("sort-order").value;
   const category = document.getElementById("category-filter").value;
-console.log(query);
-console.log(criteria);
-console.log(order);
-console.log(category);
 
   if(query =="allNFTs") {
     const nfts = await fetchNfts(category);

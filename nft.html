@@ -6,43 +6,48 @@
   <title>NFT Details</title>
   <link rel="stylesheet" href="nft.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
 </head>
 <body>
-  <div id="navbar">
-      <img src="logo.jpeg" id="image" alt="MetaMint" href="#" >
-      <a id="name">MetaMint</a>
-      <input id="search" placeholder="  Search NFTs,Collections,owners...">
-      <a class="navbar-items">Collections</a>
-      <a class="navbar-items">Profile</a>
-      <a class="navbar-items">Login</a>
-      <a class="navbar-items" id="wallet">Connect Wallet</a>
-      <div class="dropdown">
-          <i class="fa-regular fa-user" id="user-icon"></i>
-          <div class="dropdown-content">
-              <a>Watchlist</a>
-              <a>Studio</a>
-              <a>Language</a>
-              <a>Learn</a>
-              <a>Support</a>
-          </div>
-      </div>
-  </div>
+    <!--NavBar-->
+    <div id="navbar">
+        <img src="logo.jpeg" id="image" alt="MetaMint" href="main_page.html">
+        <a id="name" href="main_page.html">MetaMint</a>
+        <input id="search" placeholder="  Search NFTs..."   onkeypress="redirectToResultsPage(event)">
+        <p class="navbar-items" id="all-nfts" onclick="displayAllNFTs()">NFTs</p>
+        <p class="navbar-items" id="all-collections" onclick="displayAllCollections()">Collections</p>
+        <a class="navbar-items" href="profile.html">Profile</a>
+        <a class="navbar-items" href="login.html">Login</a>
+        <a class="navbar-items" id="wallet">Connect Wallet</a>
+        <div class="dropdown">
+            <i class="fa-regular fa-user" id="user-icon"></i>
+            <div class="dropdown-content">
+                <a href="mintNFT.html">Mint NFTs</a>
+                <a href="uploadNFT.html">Upload NFTs</a>
+                <a href="learn.html">Learn</a>
+                <a href="#support">Support</a>
+                <a id="logout">Logout</a>
+            </div>
+        </div>
+    </div>
+    <!--Main Content-->
       <div class="container">
           <div class="left">
               <img src="" alt="NFT Image" id="nft-image">
           </div>
           <div class="right">
                   <h2 id="nft-name"></h2>
+                  <p id="nft-id"></p>
                   <p id="nft-owner"></p>
                 <div id="specs">
                   <p id="nft-category"></p>
-                  <p id="views"><strong>Views:</strong> 100</p>
-                  <p id="favorite"><strong>Favorite:</strong> 3</p>
+                  <p id="nft-views"></p>
+                  <p id="nft-favorite"></p>
+                  <i id="non-favorites" class="fa-regular fa-heart" display="block"></i>
+                  <i id="favorites" class="fa-solid fa-heart" display="none"></i>
                 </div>
                 <p id="nft-description"></p>
                   <p id="nft-price"></p>
-                  <button>Buy Now</button>
+                  <button id="buy">Buy Now</button>
           </div>
       </div>  
   <!--FOOTER-->
@@ -84,8 +89,10 @@
             Dive into hand-curated collections, explore trending projects, and unlock the true potential of
             blockchain-powered ownership.</p>
         <p>Need help?</p>
-        <p>Contact support</p>
-    </div>
+        <p id="support">Contact support:</p>
+        <p>Mobile:1234567890</p>
+        <p>Email:qwerty12@gmail.com</p>
+    </div>    
   </div>        
 <script type="module" src="nft.js"></script>
 </body>

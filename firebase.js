@@ -39,21 +39,11 @@ function appendNFTsInScroll(nft, container) {
   card.innerHTML = `
     <img class="child-img" src="${nft.imageUrl}" alt=${nft.name}></img>
   `;
-  container.appendChild(card);
-}
 
-function appendMusicNFTsInScroll(nft, container) {
-  const card = document.createElement("div");
-  card.className = "child";
-
-  card.style.background = `linear-gradient(90deg,#4e104b,#5fd8df)`;
-  card.textContent = `${nft.name}`;
-  card.style.fontSize = `3em`;
-  card.style.fontWeight = `bold`;
-  card.style.display = `flex`;
-  card.style.justifyContent = `center`;
-  card.style.alignItems = `center`;
-
+  card.addEventListener("click", () => {
+    window.location.href = `nft.html?name=${nft.name}`;
+  });
+  
   container.appendChild(card);
 }
 
@@ -88,28 +78,6 @@ function appendCollectionCard(collection, container) {
 
   container.appendChild(card);
 }
-
-// Utility function to append music collection cards with metadata
-function appendMusicCollectionCard(collection, container) {
-  const card = document.createElement("div");
-  card.className = "nft-container";
-
-  card.innerHTML = `
-       <div class="musicCard-title">${collection.metadata.name}</div>
-    <div class="info"> 
-      <div>
-        Floor Price<br>
-        <span class="value">${collection.metadata.floor}</span>
-      </div>
-      <div>
-        Volume<br>
-        <span class="value">${collection.metadata.totalVolume}</span>
-      </div>
-    </div>
-    `;
-  container.appendChild(card);
-}
-
 
 // Utility function to append NFT cards
 function appendNFTCard(nft, container) {
@@ -156,7 +124,9 @@ function appendMusicNFTCard(nft, container) {
   card.className = "nft-card";
 
   card.innerHTML = `
-      <div class="gradient"></div>
+      <div class="card-header">
+      <img src=${nft.imageUrl} alt=${nft.name}>
+      </div>
       <div class="details">
         <h2>${nft.name}</h2>
         <p>${nft.price} ETH</p>
@@ -172,6 +142,10 @@ function appendMusicNFTCard(nft, container) {
       </div>
     `;
   container.appendChild(card);
+
+  card.addEventListener("click", () => {
+    window.location.href = `nft.html?name=${nft.name}`;
+  });
 
   // Add play/pause and seek functionality
   const audio = card.querySelector(".audios");
@@ -245,21 +219,13 @@ function fetchNFTsForPage() {
 
           const shuffledNFTs = nfts.sort(() => Math.random() - 0.5);
           shuffledNFTs.slice(0, 6).forEach((nft) => {
-            if (nft.imageUrl) {
               appendNFTsInScroll(nft, scrollNFTs);
-            } else {
-              appendMusicNFTsInScroll(nft, scrollNFTs);
-            }
           }
           );
 
           const shuffledCollections = collections.sort(() => Math.random() - 0.5);
           shuffledCollections.slice(0, 10).forEach((collection) => {
-            if (collection.metadata.imageUrl) {
               appendCollectionCard(collection, topCollectionsContainer);
-            } else {
-              appendMusicCollectionCard(collection, topCollectionsContainer);
-            }
           }
           );
 
@@ -291,7 +257,7 @@ function fetchNFTsForPage() {
 
           const musiccollections = Object.values(nftData["Music-NFTs"]);
           musiccollections.forEach((collection) =>
-            appendMusicCollectionCard(collection, topMusicCollectionsContainer)
+            appendCollectionCard(collection, topMusicCollectionsContainer)
           );
           populateCategory("Music-NFTs", trendingMusicContainer, nftData);
           populateSmallCategory("Music-NFTs", scrollNFTs, nftData);
@@ -358,11 +324,7 @@ function populateCategory(category, container, nftData) {
 function populateSmallCategory(category, container, nftData) {
   const nfts = Object.values(nftData[category] || {}).flatMap((collection) => collection.nfts);
   const shuffledNFTs = nfts.sort(() => Math.random() - 0.5);
-  if (category == "Music-NFTs") {
-    shuffledNFTs.slice(0, 6).forEach((nft) => appendMusicNFTsInScroll(nft, container));
-  } else {
-    shuffledNFTs.slice(0, 6).forEach((nft) => appendNFTsInScroll(nft, container));
-  }
+  shuffledNFTs.slice(0, 6).forEach((nft) => appendNFTsInScroll(nft, container));
 }
 
 // Fetch NFTs when the page loads
