@@ -105,6 +105,12 @@ function renderNFTDetails(nft) {
     document.getElementById("nft-price").innerHTML = `<strong>Price</strong>: ${nft.price} ETH`;
     document.getElementById("nft-views").innerHTML = `<strong>Views</strong>: ${nft.views} `;
     document.getElementById("nft-favorite").innerHTML = `<strong>Favorite</strong>: ${nft.favorites} `;
+    
+    if (nft.category == "Music") {
+        document.getElementById("music").src = nft.audioUrl;
+    }else {
+        document.getElementById("music").style.display="none";
+    }
     const image = document.getElementById("nft-image");
     image.src = nft.imageUrl;
 }
