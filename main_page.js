@@ -62,7 +62,9 @@ function TMscrollr() {
 }
 
 const button = document.getElementById("wallet");
-button.addEventListener("click", connectMetaMask());
+button.addEventListener("click", ()=>{
+    connectMetaMask();
+});
 
 async function connectMetaMask() {
     if (window.ethereum) {
@@ -70,6 +72,7 @@ async function connectMetaMask() {
             // Request account access
             const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' });
             console.log(accounts[0]);
+            button.textContent = "Wallet Connected";
         } catch (error) {
             console.error('User rejected the request.');
         }
