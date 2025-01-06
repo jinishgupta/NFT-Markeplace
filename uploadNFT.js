@@ -1,7 +1,7 @@
 // Import Firebase modules
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-app.js";
 import { getAuth ,onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-auth.js";
-import { getDatabase, ref, set, push,get, child , update} from "https://www.gstatic.com/firebasejs/11.1.0/firebase-database.js";
+import { getDatabase, ref, set, push,get , update} from "https://www.gstatic.com/firebasejs/11.1.0/firebase-database.js";
 
 // Firebase configuration
 const firebaseConfig = {
@@ -17,7 +17,26 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig);
 const db = getDatabase(app);
-const auth = getAuth()
+const auth = getAuth();
+
+onAuthStateChanged(auth, (user) => {
+  if (user) {
+    const Inelement = document.getElementById("login");
+    Inelement.innerHTML = "Logout";
+    Inelement.addEventListener("click", function () {
+      signOut(auth).then(() => {
+        console.log('Log-out successful.');
+        window.location.href = "login.html";
+      }).catch((error) => {
+        console.log('An error happened.', error);
+      });
+    });
+  } else {
+    const Outelement = document.getElementById("login");
+    Outelement.innerHTML="Login";
+    Outelement.href = "login.html";
+  }
+});
 
 const collectionTypeRadios = document.getElementsByName("collection-type");
 const newCollectionSection = document.getElementById("new-collection-section");
@@ -64,6 +83,9 @@ onAuthStateChanged(auth, (user) => {
           imageUrl: nftImageUrl,
           owner: userData.name,
           nftId: nftId,
+          category:collectionCategory,
+          views: 0,
+          favorites: 0,
         };
 
         // Check if creating a new collection or adding to an existing one

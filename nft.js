@@ -17,7 +17,26 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig);
 const db = getDatabase(app);
-const auth = getAuth()
+const auth = getAuth();
+
+onAuthStateChanged(auth, (user) => {
+  if (user) {
+    const Inelement = document.getElementById("login");
+    Inelement.innerHTML = "Logout";
+    Inelement.addEventListener("click", function () {
+      signOut(auth).then(() => {
+        console.log('Log-out successful.');
+        window.location.href = "login.html";
+      }).catch((error) => {
+        console.log('An error happened.', error);
+      });
+    });
+  } else {
+    const Outelement = document.getElementById("login");
+    Outelement.innerHTML="Login";
+    Outelement.href = "login.html";
+  }
+});
 
 function getNFTNameFromURL() {
     const params = new URLSearchParams(window.location.search);

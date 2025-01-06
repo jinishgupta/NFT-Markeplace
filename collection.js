@@ -1,7 +1,7 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-app.js";
-import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-analytics.js";
 import { getDatabase, ref, get } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-database.js";
+import { getAuth ,onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-auth.js";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
@@ -16,8 +16,27 @@ const firebaseConfig = {
 };
 
 const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
 const db = getDatabase(app);
+const auth = getAuth();
+
+onAuthStateChanged(auth, (user) => {
+    if (user) {
+      const Inelement = document.getElementById("login");
+      Inelement.innerHTML = "Logout";
+      Inelement.addEventListener("click", function () {
+        signOut(auth).then(() => {
+          console.log('Log-out successful.');
+          window.location.href = "login.html";
+        }).catch((error) => {
+          console.log('An error happened.', error);
+        });
+      });
+    } else {
+      const Outelement = document.getElementById("login");
+      Outelement.innerHTML="Login";
+      Outelement.href = "login.html";
+    }
+  });
 
 function getCollectionNameFromURL() {
     const params = new URLSearchParams(window.location.search);

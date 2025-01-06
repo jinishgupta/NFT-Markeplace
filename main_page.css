@@ -33,8 +33,10 @@ body{
   color: green;
 }
 #wallet{
-  width:250px;
+  width:300px;
+  text-align: center;
 }
+
 #search{
   margin: 300px;
   width: 600px;
