@@ -65,6 +65,7 @@ onAuthStateChanged(auth, (user) => {
       const nftDescription = document.getElementById("nft-description").value;
       const nftPrice = document.getElementById("nft-price").value;
       const nftImageUrl = document.getElementById("nft-image").value;
+      const nftCategory = document.getElementById("nft-category").value;
       const userRef = ref(db, `users/${userId}`);
       const snapshot = await get(userRef);
       const userData = snapshot.val();
@@ -83,7 +84,7 @@ onAuthStateChanged(auth, (user) => {
           imageUrl: nftImageUrl,
           owner: userData.name,
           nftId: nftId,
-          category:collectionCategory,
+          category:nftCategory,
           views: 0,
           favorites: 0,
         };

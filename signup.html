@@ -112,7 +112,7 @@ document.getElementById("signup-form")
       await saveNewUserToDatabase(user, { name });
 
       // Redirect to main page
-      window.location.href = "main_page.html";
+      window.location.href = "index.html";
     } catch (error) {
       console.error("Error during sign-up:", error);
       alert(error.message);
@@ -131,7 +131,7 @@ document.getElementById("google-btn").addEventListener("click", async () => {
     await saveNewUserToDatabase(user);
 
     // Redirect to main page
-    window.location.href = "main_page.html";
+    window.location.href = "index.html";
   } catch (error) {
     console.error("Error during Google Sign-Up:", error);
     alert("Error during Google Sign-Up: " + error.message);
@@ -158,7 +158,7 @@ document.getElementById("metamask-btn").addEventListener("click", async () => {
       await saveNewUserToDatabase(user, { wallet: walletAddress });
 
       // Redirect to main page
-      window.location.href = "main_page.html";
+      window.location.href = "index.html";
     } catch (error) {
       console.error("Error during MetaMask Sign-Up:", error);
       alert("Error during MetaMask Sign-Up: " + error.message);
