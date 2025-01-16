@@ -1,18 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Kantumruy+Pro:ital,wght@0,500;1,500&display=swap');
+
 *{
   margin: 0;
   padding: 0;
   color: white;
+  font-family: Kantumruy Pro;
 }
 body{
-  background-color: black;
-}
+  background-color: #1f1f1f;
+} 
 #navbar{
-  background-color: black;
+  background-color: #1a1919;
   height:100px;
   display: flex;
   align-items: center;
-  
+  margin-bottom: 10px;
+  width:100%;
 }
+
 #navbar button{
   background-color: black;
   color: white;
@@ -25,7 +30,8 @@ body{
   border-radius: 50px;
 }
 #name{
-  font-size: 25px;
+  font-size: 2.3em;
+  margin-left: 10px;
   font-weight: bold;
 }
 
@@ -39,16 +45,16 @@ body{
 
 #search{
   margin: 300px;
-  width: 600px;
+  width: 650px;
   height: 40px;
-  background-color: rgb(39, 37, 37);
+  background-color: #353434;
   color: white;
   border-radius: 5px;
   border: none;
 }
 
 .navbar-items {
-  margin: 40px;
+  margin: 30px;
   font-size: 20px;
   cursor: pointer;
 }
@@ -70,8 +76,9 @@ body{
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  min-width: 160px;
+  min-width: 140px;
   z-index: 1;
+  right: 0px;
 }
 
 .dropdown-content a {
@@ -98,12 +105,14 @@ body{
   position: absolute;
   height: 300px;
   margin: 0 auto;
-  background-color: rgb(46, 44, 44);
+  background-color: rgb(26, 25, 25);
 }
 
 .footer-section {
   flex: 1;
   padding: 0 20px;
+  margin-top: 10px;
+  width: 100%;
 }
 
 .footer-section h3 {
@@ -121,7 +130,7 @@ body{
 .footer-section ul li {
   margin-bottom: 5px;
 }
-
+/* Main Content */
 .main-scroll-div {
   width: 100%;
   height: 400px;
@@ -131,35 +140,8 @@ body{
   margin-bottom: 50px;
 }
 
-.cover {
-  position: relative;
-  width: 90%;
-  height: 400px;
-}
-
-.cover::before {
-  position: absolute;
-  content: "";
-  left: 0;
-  top: 0;
-  z-index: 99;
-  height: 100%;
-  width: 150px;
-  background-image: linear-gradient(90deg, black, transparent);
-}
-
-.cover::after {
-  position: absolute;
-  content: "";
-  right: 0;
-  top: 0;
-  z-index: 99;
-  height: 100%;
-  width: 150px;
-  background-image: linear-gradient(-90deg, black, transparent);
-}
-
 .scroll-images {
+  margin-top: 30px;
   width: 100%;
   height: auto;
   display: flex;
@@ -195,8 +177,7 @@ body{
   transform: scale(1.1);
 }
 .icon {
-  color: rgb(67, 247, 76);
-  background-color: black;
+  background-color: #1f1f1f;
   font-size: 50px;
   outline: none;
   border: none;
@@ -204,9 +185,6 @@ body{
   cursor: pointer;
 }
 
-.icon:hover {
-  color: yellow;
-}
 .category{
   display: flex;
   color: var(--text-color);
@@ -291,11 +269,11 @@ white-space: nowrap;
   }
 /* Card styling */
 .nft-card {
-  background: hsl(0, 0%, 6%);
+  background: #111111;
   border-radius: 10px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
   overflow: hidden;
-  min-width: 250px;
+  min-width: 260px;
   text-align: center;
   transition: ease 0.3s;
   color: white;
@@ -380,8 +358,8 @@ white-space: nowrap;
 }
 
 .card-container {
-flex: 0 0 auto; /* Prevent shrinking */
-width: 250px; /* Fixed card width */
+flex: 0 0 auto; 
+width: 250px;
 height: 400px;
 background: #1a1a1a;
 color: white;
