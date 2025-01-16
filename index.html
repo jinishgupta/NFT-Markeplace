@@ -13,7 +13,7 @@
 
 <body class="main-page">
     <div id="navbar">
-        <img src="logo.jpeg" id="image" alt="MetaMint" href="#">
+        <i id="image" href="index.html" class="fa-brands fa-mintbit fa-flip-horizontal"></i>
         <a id="name" href="#">MetaMint</a>
         <input id="search" placeholder="  Search NFTs..." onkeypress="redirectToResultsPage(event)">
         <p class="navbar-items" id="all-nfts" onclick="displayAllNFTs()">NFTs</p>
@@ -44,9 +44,9 @@
         <div>
             <button class="icon" onclick="scrollr()"><i class="fa-solid fa-angle-left"></i></button>
         </div>
-            <div class="scroll-images"></div>
+        <div class="scroll-images"></div>
         <div>
-            <button class="icon" onclick="scrolll()"><i class="fa-solid fa-angle-right"></i></button>
+            <button class="icon" id="right" onclick="scrolll()"><i class="fa-solid fa-angle-right"></i></button>
         </div>
     </div>
     <!--TOP COLLECTIONS-->
@@ -59,7 +59,7 @@
         </div>
         <div class="top-collections"></div>
         <div>
-            <button class="icon" onclick="TCscrolll()"><i class="fa-solid fa-angle-right"></i></button>
+            <button class="icon" id="right" onclick="TCscrolll()"><i class="fa-solid fa-angle-right"></i></button>
         </div>
     </div>
 
@@ -74,7 +74,7 @@
         </div>
         <div class="trending-art"></div>
         <div>
-            <button class="icon" onclick="TAscrolll()"><i class="fa-solid fa-angle-right"></i></button>
+            <button class="icon" id="right" onclick="TAscrolll()"><i class="fa-solid fa-angle-right"></i></button>
         </div>
     </div>
 
@@ -88,7 +88,7 @@
         </div>
         <div class="trending-gaming"></div>
         <div>
-            <button class="icon" onclick="TGscrolll()"><i class="fa-solid fa-angle-right"></i></button>
+            <button class="icon" id="right" onclick="TGscrolll()"><i class="fa-solid fa-angle-right"></i></button>
         </div>
     </div>
 
@@ -102,7 +102,7 @@
         </div>
         <div class="trending-pfps"></div>
         <div>
-            <button class="icon" onclick="TPFscrolll()"><i class="fa-solid fa-angle-right"></i></button>
+            <button class="icon" id="right" onclick="TPFscrolll()"><i class="fa-solid fa-angle-right"></i></button>
         </div>
     </div>
 
@@ -116,7 +116,7 @@
         </div>
         <div class="trending-photography"></div>
         <div>
-            <button class="icon" onclick="TPscrolll()"><i class="fa-solid fa-angle-right"></i></button>
+            <button class="icon" id="right" onclick="TPscrolll()"><i class="fa-solid fa-angle-right"></i></button>
         </div>
     </div>
 
@@ -130,7 +130,7 @@
         </div>
         <div class="trending-music"></div>
         <div>
-            <button class="icon" onclick="TMscrolll()"><i class="fa-solid fa-angle-right"></i></button>
+            <button class="icon" id="right" onclick="TMscrolll()"><i class="fa-solid fa-angle-right"></i></button>
         </div>
     </div>
 
@@ -165,13 +165,16 @@
 
         <!-- MetaMint Section -->
         <div class="footer-section">
-            <img src="logo.jpeg" height="50px" width="50px">
-            <h3>MetaMint</h3>
+            <div id="fHead">
+                <i id="fImage" href="index.html" class="fa-brands fa-mintbit fa-flip-horizontal"></i>
+                <h3>MetaMint</h3>
+            </div>
             <p>Welcome to MetaMint, the ultimate destination for discovering, collecting, and trading unique digital
                 assets. Whether you're an artist, collector, or NFT enthusiast, we offer a seamless platform to explore
                 a diverse range of high-quality NFTs, from art and music to gaming assets and exclusive collectibles.
                 Dive into hand-curated collections, explore trending projects, and unlock the true potential of
                 blockchain-powered ownership.</p>
+            <br>
             <p>Need help?</p>
             <p id="support">Contact support:</p>
             <p>Mobile:1234567890</p>

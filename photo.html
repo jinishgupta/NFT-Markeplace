@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Explore Photography NFTs</title>
-    <link rel="stylesheet" href="photo.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="main_page.css">
+    <link rel="stylesheet" href="specific_category.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body class="photography-page">
     <div id="navbar">
-        <img src="logo.jpeg" id="image" alt="MetaMint" href="index.html">
+        <i id="image" href="index.html" class="fa-brands fa-mintbit fa-flip-horizontal"></i>
         <a id="name" href="index.html">MetaMint</a>
-        <input id="search" placeholder="  Search NFTs..."   onkeypress="redirectToResultsPage(event)">
+        <input id="search" placeholder="  Search NFTs..." onkeypress="redirectToResultsPage(event)">
         <p class="navbar-items" id="all-nfts" onclick="displayAllNFTs()">NFTs</p>
         <p class="navbar-items" id="all-collections" onclick="displayAllCollections()">Collections</p>
         <a class="navbar-items" href="profile.html">Profile</a>
@@ -27,97 +32,102 @@
             </div>
         </div>
     </div>
-<!--CATEGORY SECTION-->
-<div class="category">
-  <p id="all"><a href="index.html">All</a></p>
-  <p id="art"><a href="art.html">Art</a></p>
-  <p id="gaming"><a href="gaming.html">Gaming</a></p>
-  <p id="pfps"><a href="pfps.html">PFPs</a></p>
-  <p id="photography"><a href="#">Photography</a></p>
-  <p id="music"><a href="music.html">Music</a></p>
-</div>
+    <!--CATEGORY SECTION-->
+    <div class="category">
+        <p><a href="index.html">All</a></p>
+        <p><a href="art.html">Art</a></p>
+        <p><a href="gaming.html">Gaming</a></p>
+        <p><a href="pfps.html">PFPs</a></p>
+        <p id="photography"><a href="#">Photography</a></p>
+        <p><a href="music.html">Music</a></p>
+    </div>
     <div class="main-scroll-div">
         <div>
             <button class="icon" onclick="scrollr()"><i class="fa-solid fa-angle-left"></i></button>
         </div>
-        <div class="cover">
-            <div class="scroll-images"></div>
-        </div>
+        <div class="scroll-images"></div>
         <div>
-            <button class="icon" onclick="scrolll()"><i class="fa-solid fa-angle-right"></i></button>
+            <button class="icon" id="right" onclick="scrolll()"><i class="fa-solid fa-angle-right"></i></button>
         </div>
     </div>
-<!--TOP COLLECTIONS-->
-<div class="headings">
-    <p>Top Photography Collections</p>
-</div>
+    <!--TOP COLLECTIONS-->
+    <div class="headings">
+        <p>Top Photography Collections</p>
+    </div>
     <div class="main-scroll-div">
         <div>
             <button class="icon" onclick="TCscrollr()"><i class="fa-solid fa-angle-left"></i></button>
         </div>
-        <div class="top-photography-collections"></div>    
+        <div class="top-photography-collections"></div>
         <div>
-            <button class="icon" onclick="TCscrolll()"><i class="fa-solid fa-angle-right"></i></button>
+            <button class="icon" id="right" onclick="TCscrolll()"><i class="fa-solid fa-angle-right"></i></button>
         </div>
     </div>
 
-<!--TRENDING IN DIFFERENT CATEGORIES-->
-<div class="headings">
-    <p>Trending NFTs in Photography</p>
-</div>
+    <!--TRENDING IN DIFFERENT CATEGORIES-->
+    <div class="headings">
+        <p>Trending NFTs in Photography</p>
+    </div>
 
-<div class="main-scroll-div">
-    <div>
-        <button class="icon" onclick="TPscrollr()"><i class="fa-solid fa-angle-left"></i></button>
+    <div class="main-scroll-div">
+        <div>
+            <button class="icon" onclick="TPscrollr()"><i class="fa-solid fa-angle-left"></i></button>
+        </div>
+        <div class="trending-photography"></div>
+        <div>
+            <button class="icon" id="right" onclick="TPscrolll()"><i class="fa-solid fa-angle-right"></i></button>
+        </div>
     </div>
-    <div class="trending-photography"></div>    
-    <div>
-        <button class="icon" onclick="TPscrolll()"><i class="fa-solid fa-angle-right"></i></button>
-    </div>
-</div>
 
     <!--FOOTER-->
     <div class="footer-container">
         <!-- Marketplace Section -->
         <div class="footer-section">
-        <h3>Marketplace</h3>
-        <ul>
-            <li>Types:</li>
-            <li><a href="art.html">Art</a></li>
-            <li><a href="gaming.html">Gaming</a></li>
-            <li><a href="pfps.html">PFPs</a></li>
-            <li><a href="#">Photography</a></li>
-            <li><a href="music.html">Music</a></li>
-        </ul>
+            <h3>Marketplace</h3>
+            <ul>
+                <li>Types:</li>
+                <li><a href="art.html">Art</a></li>
+                <li><a href="gaming.html">Gaming</a></li>
+                <li><a href="pfps.html">PFPs</a></li>
+                <li><a href="#">Photography</a></li>
+                <li><a href="music.html">Music</a></li>
+            </ul>
         </div>
-     
-      <!-- Learn Section -->
+
+        <!-- Learn Section -->
         <div class="footer-section">
-        <h3>Learn</h3>
-        <ul>
-            <li><a href="https://www.youtube.com/watch?v=NNQLJcJEzv0">What is an NFT?</a></li>
-            <li><a href="https://www.youtube.com/watch?v=SQyg9pyJ1Ac">What is a crypto wallet?</a></li>
-            <li><a href="https://www.youtube.com/watch?v=1YyAzVmP9xQ">What is cryptocurrency?</a></li>
-            <li><a href="https://www.youtube.com/watch?v=KTZDEwF55ts">What are gas fees in crypto?</a></li>
-            <li><a href="https://www.youtube.com/watch?v=yubzJw0uiE4">What is a blockchain?</a></li>
-            <li><a href="https://www.youtube.com/watch?v=0tZFQs7qBfQ">What is web3?</a></li>
-            <li><a href="https://www.youtube.com/watch?v=bm2Khh0Hbjg">How to stay protected in web3?</a></li>
-        </ul>
+            <h3>Learn</h3>
+            <ul>
+                <li><a href="https://www.youtube.com/watch?v=NNQLJcJEzv0">What is an NFT?</a></li>
+                <li><a href="https://www.youtube.com/watch?v=SQyg9pyJ1Ac">What is a crypto wallet?</a></li>
+                <li><a href="https://www.youtube.com/watch?v=1YyAzVmP9xQ">What is cryptocurrency?</a></li>
+                <li><a href="https://www.youtube.com/watch?v=KTZDEwF55ts">What are gas fees in crypto?</a></li>
+                <li><a href="https://www.youtube.com/watch?v=yubzJw0uiE4">What is a blockchain?</a></li>
+                <li><a href="https://www.youtube.com/watch?v=0tZFQs7qBfQ">What is web3?</a></li>
+                <li><a href="https://www.youtube.com/watch?v=bm2Khh0Hbjg">How to stay protected in web3?</a></li>
+            </ul>
         </div>
-      
+
         <!-- MetaMint Section -->
         <div class="footer-section">
-        <img src="logo.jpeg" height="50px" width="50px">
-        <h3>MetaMint</h3>
-        <p>Welcome to MetaMint, the ultimate destination for discovering, collecting, and trading unique digital assets. Whether you're an artist, collector, or NFT enthusiast, we offer a seamless platform to explore a diverse range of high-quality NFTs, from art and music to gaming assets and exclusive collectibles. Dive into hand-curated collections, explore trending projects, and unlock the true potential of blockchain-powered ownership.</p>
-        
-        <p>Need help?</p>
-        <p id="support">Contact support:</p>
-        <p>Mobile:1234567890</p>
-        <p>Email:qwerty12@gmail.com</p>
+            <div id="fHead">
+                <i id="fImage" href="index.html" class="fa-brands fa-mintbit fa-flip-horizontal"></i>
+                <h3>MetaMint</h3>
+            </div>
+            <p>Welcome to MetaMint, the ultimate destination for discovering, collecting, and trading unique digital
+                assets. Whether you're an artist, collector, or NFT enthusiast, we offer a seamless platform to explore
+                a diverse range of high-quality NFTs, from art and music to gaming assets and exclusive collectibles.
+                Dive into hand-curated collections, explore trending projects, and unlock the true potential of
+                blockchain-powered ownership.</p>
+            <br>
+            <p>Need help?</p>
+            <p id="support">Contact support:</p>
+            <p>Mobile:1234567890</p>
+            <p>Email:qwerty12@gmail.com</p>
         </div>
-    </div>     
-<script src="main_page.js"></script> 
-<script type="module" src="firebase.js"></script>
+    </div>
+    <script src="main_page.js"></script>
+    <script type="module" src="firebase.js"></script>
 </body>
+
 </html>
