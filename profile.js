@@ -42,6 +42,7 @@ onAuthStateChanged(auth, (user) => {
 function fetchUserProfile() {
   onAuthStateChanged(auth, async (user) => {
     if (user) {
+      const userId = user.uid;
       const userRef = ref(db, `users/${user.uid}`);
       const snapshot = await get(userRef);
 
@@ -49,6 +50,7 @@ function fetchUserProfile() {
         const userData = snapshot.val();
         document.getElementById("username").innerText = userData.name || "No Name Provided";
         document.getElementById("address").innerText = userData.wallet || "No Wallet Connected";
+        document.getElementById("profile-letter").innerHTML  = `<p>${userData.name.slice(0,1)}</p>`;
       } else {
         console.log("User data does not exist in the database.");
       }
@@ -257,9 +259,6 @@ onAuthStateChanged(auth, (user) => {
       }
     }
     document.getElementById("ownedNFTs").addEventListener("click", () => {
-      OwnedNFTDisplay(userId);
-    });
-    document.addEventListener("DOMContentLoaded", () => {
       OwnedNFTDisplay(userId);
     });
     document.getElementById("favoriteNFTs").addEventListener("click", () => {

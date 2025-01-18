@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NFT Details</title>
-  <link rel="stylesheet" href="nft.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT Details</title>
+    <link rel="stylesheet" href="nft.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <!--NavBar-->
     <div id="navbar">
-        <img src="logo.jpeg" id="image" alt="MetaMint" href="index.html">
+        <i id="image" href="index.html" class="fa-brands fa-mintbit fa-flip-horizontal"></i>
         <a id="name" href="index.html">MetaMint</a>
-        <input id="search" placeholder="  Search NFTs..."   onkeypress="redirectToResultsPage(event)">
+        <input id="search" placeholder="  Search NFTs..." onkeypress="redirectToResultsPage(event)">
         <p class="navbar-items" id="all-nfts" onclick="displayAllNFTs()">NFTs</p>
         <p class="navbar-items" id="all-collections" onclick="displayAllCollections()">Collections</p>
         <a class="navbar-items" href="profile.html">Profile</a>
@@ -29,72 +33,95 @@
         </div>
     </div>
     <!--Main Content-->
-      <div class="container">
-          <div class="left">
-              <img src="" alt="NFT Image" id="nft-image">
-          </div>
-          <div class="right">
-                  <h2 id="nft-name"></h2>
-                  <p id="nft-id"></p>
-                  <p id="nft-owner"></p>
-                <div id="specs">
-                  <p id="nft-category"></p>
-                  <p id="nft-views"></p>
-                  <p id="nft-favorite"></p>
-                  <i id="non-favorites" class="fa-regular fa-heart" display="block"></i>
-                  <i id="favorites" class="fa-solid fa-heart" display="none"></i>
-                </div>
-                <p id="nft-description"></p>
-                <audio id="music" controls></audio>
-                  <p id="nft-price"></p>
-                  <button id="buy">Buy Now</button>
-          </div>
-      </div>  
-  <!--FOOTER-->
-  <div class="footer-container">
-    <!-- Marketplace Section -->
-    <div class="footer-section">
-        <h3>Marketplace</h3>
-        <ul>
-            <li>Types:</li>
-            <li><a href="art.html">Art</a></li>
-            <li><a href="gaming.html">Gaming</a></li>
-            <li><a href="pfps.html">PFPs</a></li>
-            <li><a href="photo.html">Photography</a></li>
-            <li><a href="music.html">Music</a></li>
-        </ul>
+    <div class="container">
+        <div class="left">
+            <img src="" alt="NFT Image" id="nft-image">
+        </div>
+        <div class="right">
+            <h1 id="nft-name" class="data"></h1><br>
+            <h2>About the NFT:</h2>
+            <p id="nft-description" class="data"></p><br>
+            <h3>Details</h3>
+            <table>
+                <tr>
+                    <td>Id:</td>
+                    <td id="nft-id" class="data"></td>
+                </tr>
+                <tr>
+                    <td>Owner:</td>
+                    <td id="nft-owner" class="data"></td>
+                </tr>
+                <tr>
+                    <td>Category:</td>
+                    <td id="nft-category" class="data"></td>
+                </tr>
+                <tr>
+                    <td>Views:</td>
+                    <td id="nft-views" class="data"></td>
+                </tr>
+                <tr>
+                    <td>Favorites:</td>
+                    <td id="nft-favorite" class="data"></td>
+                </tr>
+                <tr>
+                    <td>Price:</td>
+                    <td id="nft-price" class="data"></td>
+                </tr>
+            </table>
+                <i id="non-favorites" class="fa-regular fa-heart" display="block"></i>
+                <i id="favorites" class="fa-solid fa-heart" display="none"></i>
+            <audio id="music" controls></audio>
+            <button id="buy">Buy Now</button>
+        </div>
     </div>
+    <!--FOOTER-->
+    <div class="footer-container">
+        <!-- Marketplace Section -->
+        <div class="footer-section">
+            <h3>Marketplace</h3>
+            <ul>
+                <li>Types:</li>
+                <li><a href="art.html">Art</a></li>
+                <li><a href="gaming.html">Gaming</a></li>
+                <li><a href="pfps.html">PFPs</a></li>
+                <li><a href="photo.html">Photography</a></li>
+                <li><a href="music.html">Music</a></li>
+            </ul>
+        </div>
 
-    <!-- Learn Section -->
-    <div class="footer-section">
-        <h3>Learn</h3>
-        <ul>
-            <li><a href="https://www.youtube.com/watch?v=NNQLJcJEzv0">What is an NFT?</a></li>
-            <li><a href="https://www.youtube.com/watch?v=SQyg9pyJ1Ac">What is a crypto wallet?</a></li>
-            <li><a href="https://www.youtube.com/watch?v=1YyAzVmP9xQ">What is cryptocurrency?</a></li>
-            <li><a href="https://www.youtube.com/watch?v=KTZDEwF55ts">What are gas fees in crypto?</a></li>
-            <li><a href="https://www.youtube.com/watch?v=yubzJw0uiE4">What is a blockchain?</a></li>
-            <li><a href="https://www.youtube.com/watch?v=0tZFQs7qBfQ">What is web3?</a></li>
-            <li><a href="https://www.youtube.com/watch?v=bm2Khh0Hbjg">How to stay protected in web3?</a></li>
-        </ul>
+        <!-- Learn Section -->
+        <div class="footer-section">
+            <h3>Learn</h3>
+            <ul>
+                <li><a href="https://www.youtube.com/watch?v=NNQLJcJEzv0">What is an NFT?</a></li>
+                <li><a href="https://www.youtube.com/watch?v=SQyg9pyJ1Ac">What is a crypto wallet?</a></li>
+                <li><a href="https://www.youtube.com/watch?v=1YyAzVmP9xQ">What is cryptocurrency?</a></li>
+                <li><a href="https://www.youtube.com/watch?v=KTZDEwF55ts">What are gas fees in crypto?</a></li>
+                <li><a href="https://www.youtube.com/watch?v=yubzJw0uiE4">What is a blockchain?</a></li>
+                <li><a href="https://www.youtube.com/watch?v=0tZFQs7qBfQ">What is web3?</a></li>
+                <li><a href="https://www.youtube.com/watch?v=bm2Khh0Hbjg">How to stay protected in web3?</a></li>
+            </ul>
+        </div>
+
+        <!-- MetaMint Section -->
+        <div class="footer-section">
+            <div id="fHead">
+                <i id="fImage" href="index.html" class="fa-brands fa-mintbit fa-flip-horizontal"></i>
+                <h3>MetaMint</h3>
+            </div>
+            <p>Welcome to MetaMint, the ultimate destination for discovering, collecting, and trading unique digital
+                assets. Whether you're an artist, collector, or NFT enthusiast, we offer a seamless platform to explore
+                a diverse range of high-quality NFTs, from art and music to gaming assets and exclusive collectibles.
+                Dive into hand-curated collections, explore trending projects, and unlock the true potential of
+                blockchain-powered ownership.</p>
+            <p>Need help?</p>
+            <p id="support">Contact support:</p>
+            <p>Mobile:1234567890</p>
+            <p>Email:qwerty12@gmail.com</p>
+        </div>
     </div>
-
-    <!-- MetaMint Section -->
-    <div class="footer-section">
-        <img src="logo.jpeg" height="50px" width="50px">
-        <h3>MetaMint</h3>
-        <p>Welcome to MetaMint, the ultimate destination for discovering, collecting, and trading unique digital
-            assets. Whether you're an artist, collector, or NFT enthusiast, we offer a seamless platform to explore
-            a diverse range of high-quality NFTs, from art and music to gaming assets and exclusive collectibles.
-            Dive into hand-curated collections, explore trending projects, and unlock the true potential of
-            blockchain-powered ownership.</p>
-        <p>Need help?</p>
-        <p id="support">Contact support:</p>
-        <p>Mobile:1234567890</p>
-        <p>Email:qwerty12@gmail.com</p>
-    </div>    
-  </div>        
-<script type="module" src="nft.js"></script>
-<script src="main_page.js"></script>
+    <script type="module" src="nft.js"></script>
+    <script src="main_page.js"></script>
 </body>
+
 </html>
