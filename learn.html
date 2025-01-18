@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learn</title>
+    <link rel="stylesheet" href="main_page.css">
     <link rel="stylesheet" href="learn.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
         integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
@@ -14,7 +15,7 @@
 <body>
     <!--Navbar-->
     <div id="navbar">
-        <img src="logo.jpeg" id="image" alt="MetaMint" href="index.html">
+        <i id="image" href="index.html" class="fa-brands fa-mintbit fa-flip-horizontal"></i>
         <a id="name" href="index.html">MetaMint</a>
         <input id="search" placeholder="  Search NFTs..." onkeypress="redirectToResultsPage(event)">
         <p class="navbar-items" id="all-nfts" onclick="displayAllNFTs()">NFTs</p>
@@ -88,9 +89,11 @@
 
         <!-- MetaMint Section -->
         <div class="footer-section">
-            <img src="logo.jpeg" height="50px" width="50px">
-            <h3>MetaMint</h3>
-            <p>Welcome to MetaMint, the ultimate destination for discovering, collecting, and trading unique digital
+            <div id="fHead">
+                <i id="fImage" href="index.html" class="fa-brands fa-mintbit fa-flip-horizontal"></i>
+                <h3>MetaMint</h3>
+              </div>
+                    <p>Welcome to MetaMint, the ultimate destination for discovering, collecting, and trading unique digital
                 assets. Whether you're an artist, collector, or NFT enthusiast, we offer a seamless platform to explore
                 a diverse range of high-quality NFTs, from art and music to gaming assets and exclusive collectibles.
                 Dive into hand-curated collections, explore trending projects, and unlock the true potential of
