@@ -79,14 +79,17 @@ function renderCollectionDetails(collection) {
     // Populate collection metadata
     document.getElementById("collection-name").textContent = collection.metadata.name;
     document.getElementById("collection-description").textContent = collection.metadata.description;
-    document.getElementById("collection-info").textContent = `Created ${collection.metadata.createdDate} | Chain:${collection.metadata.chain }`;
-    document.getElementById("collection-numbers").textContent =` Items:${collection.metadata.totalItems} | Floor:${collection.metadata.floor} | Total Volume:${collection.metadata["total volume"]}`;
-
+    document.getElementById("collection-date").textContent = collection.metadata.createdDate;
+    document.getElementById("collection-chain").textContent = collection.metadata.chain;
+    document.getElementById("collection-floor").textContent = collection.metadata.floor;
+    document.getElementById("collection-items").textContent = collection.metadata.totalItems;
+    document.getElementById("collection-volume").textContent = collection.metadata.totalVolume;
     // Populate NFTs in the collection
     const nftContainer = document.getElementById("nft-grid");
-    nftContainer.innerHTML = ""; // Clear existing content
+    nftContainer.innerHTML = ""; 
 
     collection.nfts.forEach((nft) => {
+      console.log(nft);
         const card = document.createElement("div");
         card.className = "nft-card";
 

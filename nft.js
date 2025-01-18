@@ -20,22 +20,22 @@ const db = getDatabase(app);
 const auth = getAuth();
 
 onAuthStateChanged(auth, (user) => {
-  if (user) {
-    const Inelement = document.getElementById("login");
-    Inelement.innerHTML = "Logout";
-    Inelement.addEventListener("click", function () {
-      signOut(auth).then(() => {
-        console.log('Log-out successful.');
-        window.location.href = "login.html";
-      }).catch((error) => {
-        console.log('An error happened.', error);
-      });
-    });
-  } else {
-    const Outelement = document.getElementById("login");
-    Outelement.innerHTML="Login";
-    Outelement.href = "login.html";
-  }
+    if (user) {
+        const Inelement = document.getElementById("login");
+        Inelement.innerHTML = "Logout";
+        Inelement.addEventListener("click", function () {
+            signOut(auth).then(() => {
+                console.log('Log-out successful.');
+                window.location.href = "login.html";
+            }).catch((error) => {
+                console.log('An error happened.', error);
+            });
+        });
+    } else {
+        const Outelement = document.getElementById("login");
+        Outelement.innerHTML = "Login";
+        Outelement.href = "login.html";
+    }
 });
 
 function getNFTNameFromURL() {
@@ -117,18 +117,17 @@ function populateNFTdetails(nftName) {
 function renderNFTDetails(nft) {
     // Populate NFT data
     document.getElementById("nft-name").textContent = nft.name;
-    document.getElementById("nft-id").innerHTML = `<strong>ID</strong>: ${nft.unique_id}`;
-    document.getElementById("nft-owner").innerHTML = `<strong>Owner</strong>: ${nft.owner}`;
-    document.getElementById("nft-category").innerHTML = `<strong>Category</strong>: ${nft.category}`;
-    document.getElementById("nft-description").innerHTML = `<strong>Description</strong>: ${nft.description}`;
-    document.getElementById("nft-price").innerHTML = `<strong>Price</strong>: ${nft.price} ETH`;
-    document.getElementById("nft-views").innerHTML = `<strong>Views</strong>: ${nft.views} `;
-    document.getElementById("nft-favorite").innerHTML = `<strong>Favorite</strong>: ${nft.favorites} `;
-    
+    document.getElementById("nft-id").textContent = nft.unique_id;
+    document.getElementById("nft-owner").textContent = nft.owner;
+    document.getElementById("nft-category").textContent = nft.category;
+    document.getElementById("nft-description").textContent = nft.description;
+    document.getElementById("nft-price").innerHTML = `${nft.price} ETH`;
+    document.getElementById("nft-views").textContent = nft.views;
+    document.getElementById("nft-favorite").innerHTML = nft.favorites;
     if (nft.category == "Music") {
         document.getElementById("music").src = nft.audioUrl;
-    }else {
-        document.getElementById("music").style.display="none";
+    } else {
+        document.getElementById("music").style.display = "none";
     }
     const image = document.getElementById("nft-image");
     image.src = nft.imageUrl;
@@ -283,7 +282,7 @@ onAuthStateChanged(auth, (user) => {
         async function handleFavorite(userId, nftName, isAdding) {
             const userFavoritesRef = ref(db, `UserFavorites/${userId}`);
             try {
-                const {nftRef,nft} = await findNFTRef(nftName);
+                const { nftRef, nft } = await findNFTRef(nftName);
 
                 // Update the user's favorites list
                 const userFavoritesSnapshot = await get(userFavoritesRef);
@@ -291,12 +290,12 @@ onAuthStateChanged(auth, (user) => {
 
                 if (isAdding && !userFavorites.includes(nftName)) {
                     userFavorites.push(nftName);
-                    await set(nftRef,{...nft, favorites: (nft.favorites || 0)+1});
-                    console.log("Count updated successfully");    
+                    await set(nftRef, { ...nft, favorites: (nft.favorites || 0) + 1 });
+                    console.log("Count updated successfully");
                 } else if (!isAdding && userFavorites.includes(nftName)) {
                     userFavorites = userFavorites.filter((name) => name !== nftName);
-                    await set(nftRef,{...nft, favorites: Math.max((nft.favorites || 0) -1 || 0)});
-                    console.log("Count updated successfully");    
+                    await set(nftRef, { ...nft, favorites: Math.max((nft.favorites || 0) - 1 || 0) });
+                    console.log("Count updated successfully");
                 }
 
                 await set(userFavoritesRef, userFavorites);

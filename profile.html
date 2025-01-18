@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Profile</title>
+  <link rel="stylesheet" href="main_page.css">
   <link rel="stylesheet" href="profile.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
     integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
   <!--Navbar-->
   <div id="navbar">
-    <img src="logo.jpeg" id="image" alt="MetaMint" href="index.html">
+    <i id="image" href="index.html" class="fa-brands fa-mintbit fa-flip-horizontal"></i>
     <a id="name" href="index.html">MetaMint</a>
     <input id="search" placeholder="  Search NFTs..." onkeypress="redirectToResultsPage(event)">
     <p class="navbar-items" id="all-nfts" onclick="displayAllNFTs()">NFTs</p>
@@ -31,31 +34,29 @@
     </div>
   </div>
   <!--Profile Page-->
-  <!--Cover Image-->
-  <div class="image-container">
-    <div id="cover-image">
-      <img src="background.jpg">
+<div id="profile-page">
+  <div class="information">
+      <div class="card">
+        <div id="profile-letter"></div>
+        <h4 id="username" ></h4>
+        <p>Joined December 2024</p>
+        <p id="address"></p>
     </div>
-    <!--Profile Picture-->
-    <div class="profile-image">
-      <img src="logo.jpeg" alt="User Avatar">
-    </div>
   </div>
-  <!--Profile Info-->
-  <div class="profile-info">
-    <h1 id="username"></h1>
-    <p>Joined January 2023</p>
-    <p id="address"></p>
-    <button id="share">Share</button>
+    <!--Owned/Favorite NFTs-->
+  <div class="nfts">
+    <div class="nft-display">
+        <h5>NFTs</h5>
+      <div id="buttons">
+        <button class="categories" id="ownedNFTs">Owned NFTs</button>
+        <button class="categories" id="favoriteNFTs">Favorites</button>
+      </div>
+      <div id="ownedNFT-grid" class="nft-grid"></div>
+      <div id="favoriteNFT-grid" class="nft-grid"></div>
   </div>
-  <!--Owned/Favorite NFTs-->
-  <button class="categories" id="ownedNFTs">Owned NFTs</button>
-  <button class="categories" id="favoriteNFTs">Favorites</button>
-  </div>
-  <div id="ownedNFT-grid" class="nft-grid"></div>
-  <div id="favoriteNFT-grid" class="nft-grid"></div>
-
-<script type="module" src="profile.js"></script>
-<script src="main_page.js"></script>
+</div>
+  <script type="module" src="profile.js"></script>
+  <script src="main_page.js"></script>
 </body>
+
 </html>

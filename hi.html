@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="num">Id:</label>
+    <input type="text" id="num">
+    <button id="submit">Submit</button>
+    <div id="result"></div>
+<script>
+  async function getId(){
+    let num = Number(document.getElementById("num").value);
+    console.log(num);
+
+   const data = await fetch("https://jsonplaceholder.typicode.com/todos/");
+   const dataJson = await data.json();
+   dataJson.forEach(element => {
+    if(element.id == num) {
+        document.getElementById("result").innerHTML = `<p>The task is ${element.title}</p>`;
+        console.log("element.title");
+    }
+   });
+  } 
+  document.getElementById("submit").addEventListener("click",()=>{
+    getId();
+  })
+</script>
+</body>
+</html>

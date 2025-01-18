@@ -83,7 +83,7 @@ onAuthStateChanged(auth, (user) => {
           price: parseFloat(nftPrice),
           imageUrl: nftImageUrl,
           owner: userData.name,
-          nftId: nftId,
+          unique_id: nftId,
           category:nftCategory,
           views: 0,
           favorites: 0,
