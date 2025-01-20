@@ -169,7 +169,9 @@ a {
 #nft-image {
   width: auto;
   height: 650px;
-  object-fit: cover;
+  max-width: 950px;
+  border-radius: 10px;
+  object-fit: fill;
   border-radius: 20px;
 }
 
@@ -184,15 +186,15 @@ a {
 }
 
 #non-favorites{
-  position: absolute;
-  top: 480px; 
-  right: 420px;
+  position: relative;
+  top: -63px;
+  left: 400px;
 }
 
 #favorites{
-  position: absolute;
-  top: 480px; 
-  right: 420px;
+  position: relative;
+  top: -63px;
+  left: 400px;
 }
 
 .data {
@@ -234,4 +236,8 @@ button {
 
 button:hover {
   background-color: #26853c;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #71ff71; 
 }

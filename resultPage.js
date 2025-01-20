@@ -321,7 +321,7 @@ async function handleSort(query) {
   const category = document.getElementById("category-filter").value;
 
   if(query =="allNFTs") {
-    const nfts = await fetchNfts(category);
+  const nfts = await fetchNfts(category);
   const sortedNFTs = sortNFTs(nfts, criteria, order);
   
   resultsContainer.innerHTML = ""; 

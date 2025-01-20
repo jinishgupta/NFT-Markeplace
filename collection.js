@@ -113,8 +113,12 @@ function renderCollectionDetails(collection) {
         </div>
       </div>
       `;
+      card.addEventListener("click", () => {
+        window.location.href = `nft.html?name=${nft.name}`;
+      });
         nftContainer.appendChild(card);
     });
+
 }
 
 // Get the collection ID from URL and populate details

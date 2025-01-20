@@ -1,1532 +1,1677 @@
 {
-    "All-nfts": {
-        "Art-NFTs": {
-            "AColl1": {
-                "metadata": {
-                    "description": "Featuring unique art-nfts NFTs showcasing A vibrant abstract painting full of energy., A serene landscape capturing the beauty of nature., and more.",
-                    "name": "Beautiful Paintings 1",
-                    "totalItems": 3,
-                    "createdDate": "2024-12-02",
-                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952455/a14_rquntf.jpg",
-                    "floor": "1.5 ETH",
-                    "totalVolume": "9.0 ETH",
-                    "chain": "ethereum",
-                    "category": "Art"
-                },
-                "nfts": [
-                    {
-                        "name": "Majestic Harmony",
-                        "price": 1.5,
-                        "owner": "Bob",
-                        "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
-                        "unique_id": "rnHMGEBUmeFPEF9O",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952455/a14_rquntf.jpg",
-                        "views": 42,
-                        "favorites": 15,
-                        "category": "Art"
-                    },
-                    {
-                        "name": "Mystic Abstract",
-                        "price": 3.0,
-                        "owner": "Diana",
-                        "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
-                        "unique_id": "S5z8rIZmKdNnhSSY",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952453/a13_h9ahcb.jpg",
-                        "views": 90,
-                        "favorites": 12,
-                        "category": "Art"
-                    },
-                    {
-                        "name": "Radiant Edge",
-                        "price": 4.5,
-                        "owner": "Diana",
-                        "description": "A masterful creation blending vivid artistry into an engaging visual or auditory experience.",
-                        "unique_id": "R76QAslXx1nqZjk1",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952450/a15_ng5nlb.jpg",
-                        "views": 23,
-                        "favorites": 18,
-                        "category": "Art"
-                    }
-                ]
-            },
-            "AColl2": {
-                "metadata": {
-                    "description": "Featuring unique art-nfts NFTs showcasing A vibrant abstract painting full of energy., A serene landscape capturing the beauty of nature., and more.",
-                    "name": "Nice Designs",
-                    "totalItems": 2,
-                    "createdDate": "2024-12-03",
-                    "floor": "6.0 ETH",
-                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952456/a11_kd5xu2.jpg",
-                    "chain": "ethereum",
-                    "totalVolume": "13.5 ETH",
-                    "category": "Art"
-                },
-                "nfts": [
-                    {
-                        "name": "Majestic Vivid",
-                        "price": 6.0,
-                        "owner": "Charlie",
-                        "description": "A masterful creation blending musical flows into an engaging visual or auditory experience.",
-                        "unique_id": "Ue6umud7ZbSbRHMW",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952456/a11_kd5xu2.jpg",
-                        "views": 14,
-                        "favorites": 7,
-                        "category": "Art"
-                    },
-                    {
-                        "name": "Dynamic Canvas",
-                        "price": 7.5,
-                        "owner": "Frank",
-                        "description": "A masterful creation blending tranquil moments into an engaging visual or auditory experience.",
-                        "unique_id": "BSeUuMQ3QUNW0JkG",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952457/a12_m5jvoc.jpg",
-                        "views": 13,
-                        "favorites": 12,
-                        "category": "Art"
-                    }
-                ]
-            },
-            "AColl3": {
-                "metadata": {
-                    "description": "Featuring unique art-nfts NFTs showcasing A vibrant abstract painting full of energy., A serene landscape capturing the beauty of nature., and more.",
-                    "name": "Scenic Paintings",
-                    "totalItems": 3,
-                    "createdDate": "2024-12-04",
-                    "floor": "9.0 ETH",
-                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952460/a6_lohibv.jpg",
-                    "chain": "ethereum",
-                    "totalVolume": "31.5 ETH",
-                    "category": "Art"
-                },
-                "nfts": [
-                    {
-                        "name": "Bold Harmony",
-                        "price": 9.0,
-                        "owner": "Grace",
-                        "description": "A masterful creation blending dynamic movements into an engaging visual or auditory experience.",
-                        "unique_id": "ayDMrg2CF46aJlaS",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952461/a5_xdnbpp.jpg",
-                        "views": 82,
-                        "favorites": 5,
-                        "category": "Art"
-                    },
-                    {
-                        "name": "Majestic Edge",
-                        "price": 10.5,
-                        "owner": "Charlie",
-                        "description": "A masterful creation blending tranquil moments into an engaging visual or auditory experience.",
-                        "unique_id": "4t0Y6tD4FDXYdVR4",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952460/a6_lohibv.jpg",
-                        "views": 90,
-                        "favorites": 20,
-                        "category": "Art"
-                    },
-                    {
-                        "name": "Timeless Harmony",
-                        "price": 12.0,
-                        "owner": "Diana",
-                        "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
-                        "unique_id": "UO7LktdHdBb0tRRd",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952458/a7_qmhmai.jpg",
-                        "views": 11,
-                        "favorites": 5,
-                        "category": "Art"
-                    }
-                ]
-            },
-            "AColl4": {
-                "metadata": {
-                    "description": "Featuring unique art-nfts NFTs showcasing A vibrant abstract painting full of energy., A serene landscape capturing the beauty of nature., and more.",
-                    "name": "ComplexPaintings",
-                    "totalItems": 2,
-                    "createdDate": "2024-12-05",
-                    "floor": "13.5 ETH",
-                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952453/a17_wy5gyd.jpg",
-                    "chain": "ethereum",
-                    "totalVolume": "28.5 ETH",
-                    "category": "Art"
-                },
-                "nfts": [
-                    {
-                        "name": "Bold Glow",
-                        "price": 13.5,
-                        "owner": "Charlie",
-                        "description": "A masterful creation blending modern design into an engaging visual or auditory experience.",
-                        "unique_id": "yqxJD5EBDwFSiWNA",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952461/a2_lxiexm.jpg",
-                        "views": 42,
-                        "favorites": 5,
-                        "category": "Art"
-                    },
-                    {
-                        "name": "Bold Bloom",
-                        "price": 15.0,
-                        "owner": "Grace",
-                        "description": "A masterful creation blending tranquil moments into an engaging visual or auditory experience.",
-                        "unique_id": "Slw089stM8mUm4bT",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952453/a17_wy5gyd.jpg",
-                        "views": 12,
-                        "favorites": 14,
-                        "category": "Art"
-                    }
-                ]
-            },
-            "AColl5": {
-                "metadata": {
-                    "description": "Featuring unique art-nfts NFTs showcasing A vibrant abstract painting full of energy., A serene landscape capturing the beauty of nature., and more.",
-                    "name": "Water Colour Paintings",
-                    "totalItems": 3,
-                    "createdDate": "2024-12-02",
-                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952459/a10_nxtk62.jpg",
-                    "floor": "16.5 ETH",
-                    "chain": "ethereum",
-                    "totalVolume": "54.0 ETH",
-                    "category": "Art"
-                },
-                "nfts": [
-                    {
-                        "name": "Serene Canvas",
-                        "price": 16.5,
-                        "owner": "Grace",
-                        "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
-                        "unique_id": "LRL8RD4I7qgSCWN6",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952459/a8_dkqc2v.jpg",
-                        "views": 11,
-                        "favorites": 2,
-                        "category": "Art"
-                    },
-                    {
-                        "name": "Bold Bloom",
-                        "price": 18.0,
-                        "owner": "Alice",
-                        "description": "A masterful creation blending modern design into an engaging visual or auditory experience.",
-                        "unique_id": "JFh3fKuF6G8tW3wo",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952458/a18_elgrcu.jpg",
-                        "views": 35,
-                        "favorites": 1,
-                        "category": "Art"
-                    },
-                    {
-                        "name": "Mystic Fusion",
-                        "price": 19.5,
-                        "owner": "Bob",
-                        "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
-                        "unique_id": "VEsWz6n3xsLgeqoH",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952459/a10_nxtk62.jpg",
-                        "views": 61,
-                        "favorites": 2,
-                        "category": "Art"
-                    }
-                ]
-            },
-            "AColl6": {
-                "metadata": {
-                    "description": "Featuring unique art-nfts NFTs showcasing A vibrant abstract painting full of energy., A serene landscape capturing the beauty of nature., and more.",
-                    "name": "Collages",
-                    "totalItems": 2,
-                    "createdDate": "2024-12-03",
-                    "floor": "21.0 ETH",
-                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952465/a1_sx3h38.jpg",
-                    "chain": "ethereum",
-                    "totalVolume": "43.5 ETH",
-                    "category": "Art"
-                },
-                "nfts": [
-                    {
-                        "name": "Majestic Glow",
-                        "price": 21.0,
-                        "owner": "Frank",
-                        "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
-                        "unique_id": "cGdZofmyq9tTxxnn",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952465/a1_sx3h38.jpg",
-                        "views": 50,
-                        "favorites": 14,
-                        "category": "Art"
-                    },
-                    {
-                        "name": "Majestic Vivid",
-                        "price": 22.5,
-                        "owner": "Bob",
-                        "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
-                        "unique_id": "jallsNQM3DhMAAuq",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952464/a3_vhn4y1.jpg",
-                        "views": 46,
-                        "favorites": 6,
-                        "category": "Art"
-                    }
-                ]
-            },
-            "AColl7": {
-                "metadata": {
-                    "description": "Featuring unique art-nfts NFTs showcasing A vibrant abstract painting full of energy., A serene landscape capturing the beauty of nature., and more.",
-                    "name": "Full of colours",
-                    "totalItems": 2,
-                    "createdDate": "2024-12-04",
-                    "floor": "24.0 ETH",
-                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952451/a19_h95m3w.jpg",
-                    "chain": "ethereum",
-                    "totalVolume": "49.5 ETH",
-                    "category": "Art"
-                },
-                "nfts": [
-                    {
-                        "name": "Serene Abstract",
-                        "price": 24.0,
-                        "owner": "Bob",
-                        "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
-                        "unique_id": "7umwoAaiig119QCh",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952451/a19_h95m3w.jpg",
-                        "views": 81,
-                        "favorites": 16,
-                        "category": "Art"
-                    },
-                    {
-                        "name": "Radiant Edge",
-                        "price": 25.5,
-                        "owner": "Hank",
-                        "description": "A masterful creation blending dynamic movements into an engaging visual or auditory experience.",
-                        "unique_id": "Kb4DQG3t3JZb8gkt",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952446/a20_qsitdn.jpg",
-                        "views": 38,
-                        "favorites": 3,
-                        "category": "Art"
-                    }
-                ]
-            },
-            "AColl8": {
-                "metadata": {
-                    "description": "Featuring unique art-nfts NFTs showcasing A vibrant abstract painting full of energy., A serene landscape capturing the beauty of nature., and more.",
-                    "name": "Something Beyond Explanation",
-                    "totalItems": 2,
-                    "createdDate": "2024-12-05",
-                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952454/a16_hp2cjo.jpg",
-                    "floor": "27.0 ETH",
-                    "chain": "ethereum",
-                    "totalVolume": "55.5 ETH",
-                    "category": "Art"
-                },
-                "nfts": [
-                    {
-                        "name": "Dynamic Harmony",
-                        "price": 27.0,
-                        "owner": "Grace",
-                        "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
-                        "unique_id": "1VgS4GVWcthoTwmB",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952459/a9_wwtzao.jpg",
-                        "views": 19,
-                        "favorites": 11,
-                        "category": "Art"
-                    },
-                    {
-                        "name": "Dynamic Vivid",
-                        "price": 28.5,
-                        "owner": "Hank",
-                        "description": "A masterful creation blending surreal emotions into an engaging visual or auditory experience.",
-                        "unique_id": "qYuoknKhaTgKHfMY",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952454/a16_hp2cjo.jpg",
-                        "views": 15,
-                        "favorites": 9,
-                        "category": "Art"
-                    }
-                ]
-            }
+  "All-nfts": {
+    "Art-NFTs": {
+      "AColl1": {
+        "metadata": {
+          "category": "Art",
+          "chain": "ethereum",
+          "createdDate": "2024-12-02",
+          "description": "Featuring unique art-nfts NFTs showcasing A vibrant abstract painting full of energy., A serene landscape capturing the beauty of nature., and more.",
+          "floor": "1.5 ETH",
+          "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952455/a14_rquntf.jpg",
+          "name": "Beautiful Paintings 1",
+          "totalItems": 3,
+          "totalVolume": "9.0 ETH"
         },
-        "Gaming-NFTs": {
-            "GColl1": {
-                "metadata": {
-                    "description": "Featuring unique gaming-nfts NFTs showcasing An iconic in-game weapon with legendary status., A collectible avatar skin for virtual adventures., and more.",
-                    "name": "Inside Game 1",
-                    "totalItems": 4,
-                    "createdDate": "2024-12-03",
-                    "floor": "1.5 ETH",
-                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952443/g14_p5fh0t.jpg",
-                    "chain": "ethereum",
-                    "totalVolume": "15.0 ETH",
-                    "category": "Gaming"
-                },
-                "nfts": [
-                    {
-                        "name": "Radiant Avatar",
-                        "price": 1.5,
-                        "owner": "Hank",
-                        "description": "A masterful creation blending tranquil moments into an engaging visual or auditory experience.",
-                        "unique_id": "Hs6QAdqeRCvVm8xp",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952444/g16_vz4n2b.jpg",
-                        "views": 56,
-                        "favorites": 10,
-                        "category": "Gaming"
-                    },
-                    {
-                        "name": "Mystic Champion",
-                        "price": 3.0,
-                        "owner": "Eve",
-                        "description": "A masterful creation blending modern design into an engaging visual or auditory experience.",
-                        "unique_id": "78HkCRlMaYhRiFGJ",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952443/g14_p5fh0t.jpg",
-                        "views": 76,
-                        "favorites": 9,
-                        "category": "Gaming"
-                    },
-                    {
-                        "name": "Dynamic Legendary",
-                        "price": 4.5,
-                        "owner": "Frank",
-                        "description": "A masterful creation blending dynamic movements into an engaging visual or auditory experience.",
-                        "unique_id": "9eJPwYQY8ZA8oicy",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952432/g18_sgfoqu.jpg",
-                        "views": 63,
-                        "favorites": 19,
-                        "category": "Gaming"
-                    },
-                    {
-                        "name": "Ethereal Avatar",
-                        "price": 6.0,
-                        "owner": "Alice",
-                        "description": "A masterful creation blending dynamic movements into an engaging visual or auditory experience.",
-                        "unique_id": "HzOVuPdzmfl9BILX",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952431/g17_zucja5.jpg",
-                        "views": 28,
-                        "favorites": 10,
-                        "category": "Gaming"
-                    }
-                ]
-            },
-            "GColl2": {
-                "metadata": {
-                    "description": "Featuring unique gaming-nfts NFTs showcasing An iconic in-game weapon with legendary status., A collectible avatar skin for virtual adventures., and more.",
-                    "name": "Inside Game 2",
-                    "totalItems": 2,
-                    "createdDate": "2024-12-04",
-                    "floor": "7.5 ETH",
-                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952437/g15_moqoql.jpg",
-                    "chain": "ethereum",
-                    "totalVolume": "16.5 ETH",
-                    "category": "Gaming"
-                },
-                "nfts": [
-                    {
-                        "name": "Dynamic Battle",
-                        "price": 7.5,
-                        "owner": "Grace",
-                        "description": "A masterful creation blending vivid artistry into an engaging visual or auditory experience.",
-                        "unique_id": "X6Y92CtQvuEhKBoJ",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952437/g15_moqoql.jpg",
-                        "views": 19,
-                        "favorites": 12,
-                        "category": "Gaming"
-                    },
-                    {
-                        "name": "Dynamic Quest",
-                        "price": 9.0,
-                        "owner": "Bob",
-                        "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
-                        "unique_id": "U2zV1k2VAhNz1Yuz",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952432/g13_ox1dht.jpg",
-                        "views": 49,
-                        "favorites": 16,
-                        "category": "Gaming"
-                    }
-                ]
-            },
-            "GColl3": {
-                "metadata": {
-                    "description": "Featuring unique gaming-nfts NFTs showcasing An iconic in-game weapon with legendary status., A collectible avatar skin for virtual adventures., and more.",
-                    "name": "Controllers",
-                    "totalItems": 3,
-                    "createdDate": "2024-12-05",
-                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952440/g7_ab9obn.jpg",
-                    "floor": "10.5 ETH",
-                    "chain": "ethereum",
-                    "totalVolume": "36.0 ETH",
-                    "category": "Gaming"
-                },
-                "nfts": [
-                    {
-                        "name": "Bold Weapon",
-                        "price": 10.5,
-                        "owner": "Alice",
-                        "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
-                        "unique_id": "uFgM1rd2xyzl5O8n",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952436/g10_bglwmy.jpg",
-                        "views": 21,
-                        "favorites": 8,
-                        "category": "Gaming"
-                    },
-                    {
-                        "name": "Mystic Epic",
-                        "price": 12.0,
-                        "owner": "Bob",
-                        "description": "A masterful creation blending vivid artistry into an engaging visual or auditory experience.",
-                        "unique_id": "nlcWCjFt0WnAC8sx",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952440/g7_ab9obn.jpg",
-                        "views": 57,
-                        "favorites": 3,
-                        "category": "Gaming"
-                    },
-                    {
-                        "name": "Majestic Realm",
-                        "price": 13.5,
-                        "owner": "Diana",
-                        "description": "A masterful creation blending tranquil moments into an engaging visual or auditory experience.",
-                        "unique_id": "zklE2eP0g6ftW4J1",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952443/g2_byuwdo.jpg",
-                        "views": 27,
-                        "favorites": 8,
-                        "category": "Gaming"
-                    }
-                ]
-            },
-            "GColl4": {
-                "metadata": {
-                    "description": "Featuring unique gaming-nfts NFTs showcasing An iconic in-game weapon with legendary status., A collectible avatar skin for virtual adventures., and more.",
-                    "name": "Gaming is Fun",
-                    "totalItems": 3,
-                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952444/g3_v1qqap.jpg",
-                    "createdDate": "2024-12-06",
-                    "floor": "15.0 ETH",
-                    "chain": "ethereum",
-                    "totalVolume": "49.5 ETH",
-                    "category": "Gaming"
-                },
-                "nfts": [
-                    {
-                        "name": "Serene Weapon",
-                        "price": 15.0,
-                        "owner": "Eve",
-                        "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
-                        "unique_id": "pFsPESFFijwzfcF8",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952444/g3_v1qqap.jpg",
-                        "views": 28,
-                        "favorites": 12,
-                        "category": "Gaming"
-                    },
-                    {
-                        "name": "Ethereal Battle",
-                        "price": 16.5,
-                        "owner": "Bob",
-                        "description": "A masterful creation blending dynamic movements into an engaging visual or auditory experience.",
-                        "unique_id": "iKarIRHBn17bVstz",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952441/g5_o074x2.jpg",
-                        "views": 80,
-                        "favorites": 17,
-                        "category": "Gaming"
-                    },
-                    {
-                        "name": "Majestic Quest",
-                        "price": 18.0,
-                        "owner": "Diana",
-                        "description": "A masterful creation blending tranquil moments into an engaging visual or auditory experience.",
-                        "unique_id": "pgx7hIq8kYmWQGlL",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952439/g6_yftjgc.jpg",
-                        "views": 56,
-                        "favorites": 5,
-                        "category": "Gaming"
-                    }
-                ]
-            },
-            "GColl5": {
-                "metadata": {
-                    "description": "Featuring unique gaming-nfts NFTs showcasing An iconic in-game weapon with legendary status., A collectible avatar skin for virtual adventures., and more.",
-                    "name": "Equipments are Cool",
-                    "totalItems": 3,
-                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952438/g8_azldkk.jpg",
-                    "createdDate": "2024-12-06",
-                    "floor": "19.5 ETH",
-                    "chain": "ethereum",
-                    "totalVolume": "63.0 ETH",
-                    "category": "Gaming"
-                },
-                "nfts": [
-                    {
-                        "name": "Radiant Realm",
-                        "price": 19.5,
-                        "owner": "Alice",
-                        "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
-                        "unique_id": "kx2TcR2UQ3cZJTeY",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952442/g4_qdmvis.jpg",
-                        "views": 52,
-                        "favorites": 20,
-                        "category": "Gaming"
-                    },
-                    {
-                        "name": "Bold Legendary",
-                        "price": 21.0,
-                        "owner": "Hank",
-                        "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
-                        "unique_id": "Fx7X8Ylm13uPfHlC",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952440/g12_g28cpd.jpg",
-                        "views": 47,
-                        "favorites": 20,
-                        "category": "Gaming"
-                    },
-                    {
-                        "name": "Serene Legendary",
-                        "price": 22.5,
-                        "owner": "Grace",
-                        "description": "A masterful creation blending musical flows into an engaging visual or auditory experience.",
-                        "unique_id": "CfhU8f3MqI5j0gad",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952438/g8_azldkk.jpg",
-                        "views": 78,
-                        "favorites": 1,
-                        "category": "Gaming"
-                    }
-                ]
-            },
-            "GColl6": {
-                "metadata": {
-                    "description": "Featuring unique gaming-nfts NFTs showcasing An iconic in-game weapon with legendary status., A collectible avatar skin for virtual adventures., and more.",
-                    "name": "Gaming Places",
-                    "totalItems": 3,
-                    "createdDate": "2024-12-06",
-                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952435/g11_z97is8.jpg",
-                    "floor": "24.0 ETH",
-                    "chain": "ethereum",
-                    "totalVolume": "76.5 ETH",
-                    "category": "Gaming"
-                },
-                "nfts": [
-                    {
-                        "name": "Dynamic Weapon",
-                        "price": 24.0,
-                        "owner": "Frank",
-                        "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
-                        "unique_id": "UohI5zPA2YFLc1CE",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952435/g11_z97is8.jpg",
-                        "views": 11,
-                        "favorites": 20,
-                        "category": "Gaming"
-                    },
-                    {
-                        "name": "Bold Epic",
-                        "price": 25.5,
-                        "owner": "Bob",
-                        "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
-                        "unique_id": "HPh4Edw66Fb9vsIZ",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952446/g9_clzanq.jpg",
-                        "views": 23,
-                        "favorites": 4,
-                        "category": "Gaming"
-                    },
-                    {
-                        "name": "Majestic Weapon",
-                        "price": 27.0,
-                        "owner": "Frank",
-                        "description": "A masterful creation blending modern design into an engaging visual or auditory experience.",
-                        "unique_id": "11LU9QeJpzUqPBu1",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952450/g1_xxtfz5.jpg",
-                        "views": 14,
-                        "favorites": 4,
-                        "category": "Gaming"
-                    }
-                ]
-            }
+        "nfts": [
+          {
+            "category": "Art",
+            "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
+            "favorites": 15,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952455/a14_rquntf.jpg",
+            "name": "Majestic Harmony",
+            "owner": "Bob",
+            "price": 1.5,
+            "unique_id": "rnHMGEBUmeFPEF9O",
+            "views": 45
+          },
+          {
+            "category": "Art",
+            "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
+            "favorites": 12,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952453/a13_h9ahcb.jpg",
+            "name": "Mystic Abstract",
+            "owner": "Diana",
+            "price": 3,
+            "unique_id": "S5z8rIZmKdNnhSSY",
+            "views": 90
+          },
+          {
+            "category": "Art",
+            "description": "A masterful creation blending vivid artistry into an engaging visual or auditory experience.",
+            "favorites": 18,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952450/a15_ng5nlb.jpg",
+            "name": "Radiant Edge",
+            "owner": "Diana",
+            "price": 4.5,
+            "unique_id": "R76QAslXx1nqZjk1",
+            "views": 24
+          }
+        ]
+      },
+      "AColl2": {
+        "metadata": {
+          "category": "Art",
+          "chain": "ethereum",
+          "createdDate": "2024-12-03",
+          "description": "Featuring unique art-nfts NFTs showcasing A vibrant abstract painting full of energy., A serene landscape capturing the beauty of nature., and more.",
+          "floor": "6.0 ETH",
+          "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952456/a11_kd5xu2.jpg",
+          "name": "Nice Designs",
+          "totalItems": 2,
+          "totalVolume": "13.5 ETH"
         },
-        "PFP-NFTs": {
-            "PFColl1": {
-                "metadata": {
-                    "description": "Featuring unique pfp-nfts NFTs showcasing A cool monkey with sunglasses and swag., A colorful cartoon character with a funky vibe., and more.",
-                    "name": "Apes and Monkeys",
-                    "totalItems": 3,
-                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952445/bored-6945309_1280_syer7i.png",
-                    "createdDate": "2024-12-04",
-                    "floor": "1.5 ETH",
-                    "chain": "ethereum",
-                    "totalVolume": "9.0 ETH",
-                    "category": "PFP"
-                },
-                "nfts": [
-                    {
-                        "name": "Radiant Animal",
-                        "price": 1.5,
-                        "owner": "Frank",
-                        "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
-                        "unique_id": "46De2t0OYkZis2E4",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952445/bored-6945309_1280_syer7i.png",
-                        "views": 76,
-                        "favorites": 4,
-                        "category": "PFP"
-                    },
-                    {
-                        "name": "Radiant Humanoid",
-                        "price": 3.0,
-                        "owner": "Charlie",
-                        "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
-                        "unique_id": "KWsLGQGR7Ea37dMI",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952446/ape-7020995_1280_hjdmem.png",
-                        "views": 10,
-                        "favorites": 1,
-                        "category": "PFP"
-                    },
-                    {
-                        "name": "Ethereal Figure",
-                        "price": 4.5,
-                        "owner": "Charlie",
-                        "description": "A masterful creation blending modern design into an engaging visual or auditory experience.",
-                        "unique_id": "0kZvivhhEXBugYE9",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952429/monkey-7012380_1280_yox7s7.png",
-                        "views": 34,
-                        "favorites": 9,
-                        "category": "PFP"
-                    }
-                ]
-            },
-            "PFColl2": {
-                "metadata": {
-                    "description": "Featuring unique pfp-nfts NFTs showcasing A cool monkey with sunglasses and swag., A colorful cartoon character with a funky vibe., and more.",
-                    "name": "Cartoons",
-                    "totalItems": 2,
-                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952444/cartoon-7417582_1280_gmxrk0.png",
-                    "createdDate": "2024-12-05",
-                    "floor": "6.0 ETH",
-                    "chain": "ethereum",
-                    "totalVolume": "13.5 ETH",
-                    "category": "PFP"
-                },
-                "nfts": [
-                    {
-                        "name": "Radiant Figure",
-                        "price": 6.0,
-                        "owner": "Hank",
-                        "description": "A masterful creation blending musical flows into an engaging visual or auditory experience.",
-                        "unique_id": "L1HMtXAOgoZV8cQU",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952444/cartoon-7417583_1280_fglwro.png",
-                        "views": 54,
-                        "favorites": 20,
-                        "category": "PFP"
-                    },
-                    {
-                        "name": "Dynamic Character",
-                        "price": 7.5,
-                        "owner": "Grace",
-                        "description": "A masterful creation blending dynamic movements into an engaging visual or auditory experience.",
-                        "unique_id": "iArfK1aFMtvNFn37",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952444/cartoon-7417582_1280_gmxrk0.png",
-                        "views": 89,
-                        "favorites": 4,
-                        "category": "PFP"
-                    }
-                ]
-            },
-            "PFColl3": {
-                "metadata": {
-                    "description": "Featuring unique pfp-nfts NFTs showcasing A cool monkey with sunglasses and swag., A colorful cartoon character with a funky vibe., and more.",
-                    "name": "Different Peoples",
-                    "totalItems": 3,
-                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952008/female-8150791_1280_c8xnvl.jpg",
-                    "createdDate": "2024-12-06",
-                    "floor": "9.0 ETH",
-                    "chain": "ethereum",
-                    "totalVolume": "31.5 ETH",
-                    "category": "PFP"
-                },
-                "nfts": [
-                    {
-                        "name": "Ethereal Character",
-                        "price": 9.0,
-                        "owner": "Hank",
-                        "description": "A masterful creation blending tranquil moments into an engaging visual or auditory experience.",
-                        "unique_id": "Vq4uTPB7rZ69rktd",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952008/king-306448_1280_dpsznc.png",
-                        "views": 44,
-                        "favorites": 6,
-                        "category": "PFP"
-                    },
-                    {
-                        "name": "Mystic Animal",
-                        "price": 10.5,
-                        "owner": "Charlie",
-                        "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
-                        "unique_id": "LXA1Cvqm25OHOqLB",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952008/female-8150791_1280_c8xnvl.jpg",
-                        "views": 79,
-                        "favorites": 11,
-                        "category": "PFP"
-                    },
-                    {
-                        "name": "Bold Style",
-                        "price": 12.0,
-                        "owner": "Alice",
-                        "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
-                        "unique_id": "iKzOCMAzV9ENLc25",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952008/kid-8150792_1280_znzuqs.jpg",
-                        "views": 47,
-                        "favorites": 1,
-                        "category": "PFP"
-                    }
-                ]
-            },
-            "PFColl4": {
-                "metadata": {
-                    "description": "Featuring unique pfp-nfts NFTs showcasing A cool monkey with sunglasses and swag., A colorful cartoon character with a funky vibe., and more.",
-                    "name": "Animals",
-                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951990/penguin-5487302_1280_wwnjtn.png",
-                    "totalItems": 2,
-                    "createdDate": "2024-12-07",
-                    "floor": "13.5 ETH",
-                    "chain": "ethereum",
-                    "totalVolume": "28.5 ETH",
-                    "category": "PFP"
-                },
-                "nfts": [
-                    {
-                        "name": "Majestic Style",
-                        "price": 13.5,
-                        "owner": "Eve",
-                        "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
-                        "unique_id": "TWe07VGy2OlEZNim",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951990/penguin-5487302_1280_wwnjtn.png",
-                        "views": 65,
-                        "favorites": 12,
-                        "category": "PFP"
-                    },
-                    {
-                        "name": "Mystic Monkey",
-                        "price": 15.0,
-                        "owner": "Bob",
-                        "description": "A masterful creation blending modern design into an engaging visual or auditory experience.",
-                        "unique_id": "1FCjkhBMY8fX6Adw",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951989/seagull-7282992_1280_yovbly.png",
-                        "views": 56,
-                        "favorites": 19,
-                        "category": "PFP"
-                    }
-                ]
-            },
-            "PFColl5": {
-                "metadata": {
-                    "description": "Featuring unique pfp-nfts NFTs showcasing A cool monkey with sunglasses and swag., A colorful cartoon character with a funky vibe., and more.",
-                    "name": "Human Like",
-                    "totalItems": 2,
-                    "createdDate": "2024-12-07",
-                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951973/the-simpson-7046041_1280_vyz3hh.png",
-                    "floor": "16.5 ETH",
-                    "chain": "ethereum",
-                    "totalVolume": "34.5 ETH",
-                    "category": "PFP"
-                },
-                "nfts": [
-                    {
-                        "name": "Timeless Animal",
-                        "price": 16.5,
-                        "owner": "Eve",
-                        "description": "A masterful creation blending modern design into an engaging visual or auditory experience.",
-                        "unique_id": "pVybiCImi5wVmwkK",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951974/technology-7030913_1280_l1yqij.png",
-                        "views": 26,
-                        "favorites": 6,
-                        "category": "PFP"
-                    },
-                    {
-                        "name": "Dynamic Style",
-                        "price": 18.0,
-                        "owner": "Grace",
-                        "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
-                        "unique_id": "UbW2U3IB55TzpaQS",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951973/the-simpson-7046041_1280_vyz3hh.png",
-                        "views": 74,
-                        "favorites": 9,
-                        "category": "PFP"
-                    }
-                ]
-            },
-            "PFColl6": {
-                "metadata": {
-                    "description": "Featuring unique pfp-nfts NFTs showcasing A cool monkey with sunglasses and swag., A colorful cartoon character with a funky vibe., and more.",
-                    "name": "Monkey Types",
-                    "totalItems": 3,
-                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952429/monkey-soldier-5113779_1280_llylv1.png",
-                    "createdDate": "2024-12-07",
-                    "floor": "19.5 ETH",
-                    "chain": "ethereum",
-                    "totalVolume": "63.0 ETH",
-                    "category": "PFP"
-                },
-                "nfts": [
-                    {
-                        "name": "Timeless Character",
-                        "price": 19.5,
-                        "owner": "Frank",
-                        "description": "A masterful creation blending surreal emotions into an engaging visual or auditory experience.",
-                        "unique_id": "LYJ2NJMK5TxoxuYV",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952430/monkey-7435887_1280_aev6hg.png",
-                        "views": 58,
-                        "favorites": 8,
-                        "category": "PFP"
-                    },
-                    {
-                        "name": "Bold Animal",
-                        "price": 21.0,
-                        "owner": "Eve",
-                        "description": "A masterful creation blending vivid artistry into an engaging visual or auditory experience.",
-                        "unique_id": "POjULtHrlFqzb9lz",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952429/monkey-soldier-5113779_1280_llylv1.png",
-                        "views": 97,
-                        "favorites": 20,
-                        "category": "PFP"
-                    },
-                    {
-                        "name": "Ethereal Figure",
-                        "price": 22.5,
-                        "owner": "Bob",
-                        "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
-                        "unique_id": "rfshRrqtQfWegAPK",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952431/monkey-king-8336925_1280_ihywbl.png",
-                        "views": 15,
-                        "favorites": 1,
-                        "category": "PFP"
-                    }
-                ]
-            }
+        "nfts": [
+          {
+            "category": "Art",
+            "description": "A masterful creation blending musical flows into an engaging visual or auditory experience.",
+            "favorites": 7,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952456/a11_kd5xu2.jpg",
+            "name": "Majestic Vivid",
+            "owner": "Charlie",
+            "price": 6,
+            "unique_id": "Ue6umud7ZbSbRHMW",
+            "views": 51
+          },
+          {
+            "category": "Art",
+            "description": "A masterful creation blending tranquil moments into an engaging visual or auditory experience.",
+            "favorites": 12,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952457/a12_m5jvoc.jpg",
+            "name": "Dynamic Canvas",
+            "owner": "Frank",
+            "price": 7.5,
+            "unique_id": "BSeUuMQ3QUNW0JkG",
+            "views": 13
+          }
+        ]
+      },
+      "AColl3": {
+        "metadata": {
+          "category": "Art",
+          "chain": "ethereum",
+          "createdDate": "2024-12-04",
+          "description": "Featuring unique art-nfts NFTs showcasing A vibrant abstract painting full of energy., A serene landscape capturing the beauty of nature., and more.",
+          "floor": "9.0 ETH",
+          "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952460/a6_lohibv.jpg",
+          "name": "Scenic Paintings",
+          "totalItems": 3,
+          "totalVolume": "31.5 ETH"
         },
-        "Photography-NFTs": {
-            "PColl1": {
-                "metadata": {
-                    "description": "Featuring unique photography-nfts NFTs showcasing A stunning mountain view at sunset., An intricate close-up shot of a blooming flower., and more.",
-                    "name": "Cameras",
-                    "totalItems": 3,
-                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951949/kun-fotografi-gyhT9Sb20XY-unsplash_icfjdr.jpg",
-                    "createdDate": "2024-12-05",
-                    "floor": "1.5 ETH",
-                    "chain": "ethereum",
-                    "totalVolume": "9.0 ETH",
-                    "category": "Photography"
-                },
-                "nfts": [
-                    {
-                        "name": "Dynamic Aerial",
-                        "price": 1.5,
-                        "owner": "Eve",
-                        "description": "A masterful creation blending tranquil moments into an engaging visual or auditory experience.",
-                        "unique_id": "PZzRQdd6TW3suEU4",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951953/nathan-dumlao-p4TKmK4Egvg-unsplash_r0sx1z.jpg",
-                        "views": 61,
-                        "favorites": 11,
-                        "category": "Photography"
-                    },
-                    {
-                        "name": "Timeless Nature",
-                        "price": 3.0,
-                        "owner": "Bob",
-                        "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
-                        "unique_id": "vr2BobODPDxUBNHh",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951949/kun-fotografi-gyhT9Sb20XY-unsplash_icfjdr.jpg",
-                        "views": 51,
-                        "favorites": 10,
-                        "category": "Photography"
-                    },
-                    {
-                        "name": "Majestic Close-up",
-                        "price": 4.5,
-                        "owner": "Bob",
-                        "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
-                        "unique_id": "BA0EtwCILJ9kL7lb",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951945/mylene-tremoyet-Da0pdCekeUs-unsplash_mnoht3.jpg",
-                        "views": 88,
-                        "favorites": 3,
-                        "category": "Photography"
-                    }
-                ]
-            },
-            "PColl2": {
-                "metadata": {
-                    "description": "Featuring unique photography-nfts NFTs showcasing A stunning mountain view at sunset., An intricate close-up shot of a blooming flower., and more.",
-                    "name": "Lens and Film",
-                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951950/moy-vazquez-UbqvjH69oOQ-unsplash_qeujj8.jpg",
-                    "totalItems": 2,
-                    "createdDate": "2024-12-06",
-                    "floor": "6.0 ETH",
-                    "chain": "ethereum",
-                    "totalVolume": "13.5 ETH",
-                    "category": "Photography"
-                },
-                "nfts": [
-                    {
-                        "name": "Serene Mountain",
-                        "price": 6.0,
-                        "owner": "Hank",
-                        "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
-                        "unique_id": "uW6hHagpYXaHEf5e",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951950/moy-vazquez-UbqvjH69oOQ-unsplash_qeujj8.jpg",
-                        "views": 70,
-                        "favorites": 16,
-                        "category": "Photography"
-                    },
-                    {
-                        "name": "Bold Scene",
-                        "price": 7.5,
-                        "owner": "Hank",
-                        "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
-                        "unique_id": "9vO6FLF0f0MVJo2g",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951952/andrew-konstantinov-Jk8tUzZ0O6E-unsplash_rgl9c7.jpg",
-                        "views": 66,
-                        "favorites": 2,
-                        "category": "Photography"
-                    }
-                ]
-            },
-            "PColl3": {
-                "metadata": {
-                    "description": "Featuring unique photography-nfts NFTs showcasing A stunning mountain view at sunset., An intricate close-up shot of a blooming flower., and more.",
-                    "name": "Nature",
-                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951958/jose-p-ortiz-DuZZ4gOjYdM-unsplash_za9ikv.jpg",
-                    "totalItems": 3,
-                    "createdDate": "2024-12-07",
-                    "floor": "9.0 ETH",
-                    "chain": "ethereum",
-                    "totalVolume": "31.5 ETH",
-                    "category": "Photography"
-                },
-                "nfts": [
-                    {
-                        "name": "Timeless Aerial",
-                        "price": 9.0,
-                        "owner": "Grace",
-                        "description": "A masterful creation blending modern design into an engaging visual or auditory experience.",
-                        "unique_id": "KqMhhqvnp9CvJYmY",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951951/krisjanis-kazaks-HTEsx-stj7E-unsplash_hi2qxv.jpg",
-                        "views": 71,
-                        "favorites": 14,
-                        "category": "Photography"
-                    },
-                    {
-                        "name": "Serene Aerials",
-                        "price": 10.5,
-                        "owner": "Charlie",
-                        "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
-                        "unique_id": "uHKwNwhVkXOKJTiK",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951946/mihail-ilchov-UqUh5uTpoY4-unsplash_enypvb.jpg",
-                        "views": 77,
-                        "favorites": 17,
-                        "category": "Photography"
-                    },
-                    {
-                        "name": "Serene Landscape",
-                        "price": 12.0,
-                        "owner": "Charlie",
-                        "description": "A masterful creation blending musical flows into an engaging visual or auditory experience.",
-                        "unique_id": "fv9PgTWvoKLibZEn",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951958/jose-p-ortiz-DuZZ4gOjYdM-unsplash_za9ikv.jpg",
-                        "views": 36,
-                        "favorites": 5,
-                        "category": "Photography"
-                    }
-                ]
-            },
-            "PColl4": {
-                "metadata": {
-                    "description": "Featuring unique photography-nfts NFTs showcasing A stunning mountain view at sunset., An intricate close-up shot of a blooming flower., and more.",
-                    "name": "Mountains and Views",
-                    "totalItems": 3,
-                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951948/leandra-niederhauser-eaToegj7RI4-unsplash_a6llnf.jpg",
-                    "createdDate": "2024-12-08",
-                    "floor": "13.5 ETH",
-                    "chain": "ethereum",
-                    "totalVolume": "45.0 ETH",
-                    "category": "Photography"
-                },
-                "nfts": [
-                    {
-                        "name": "Mystic Scene",
-                        "price": 13.5,
-                        "owner": "Eve",
-                        "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
-                        "unique_id": "RhPUnwSYccejvbDy",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951955/cin-Y0KFNIZFAyU-unsplash_cnqwoy.jpg",
-                        "views": 22,
-                        "favorites": 7,
-                        "category": "Photography"
-                    },
-                    {
-                        "name": "Majestic Landscape",
-                        "price": 15.0,
-                        "owner": "Grace",
-                        "description": "A masterful creation blending modern design into an engaging visual or auditory experience.",
-                        "unique_id": "Udn0D9UZKgqnylIF",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951953/jon-champaigne-UsVUIGulksk-unsplash_qc3wqd.jpg",
-                        "views": 16,
-                        "favorites": 11,
-                        "category": "Photography"
-                    },
-                    {
-                        "name": "Serene Aerial",
-                        "price": 16.5,
-                        "owner": "Bob",
-                        "description": "A masterful creation blending vivid artistry into an engaging visual or auditory experience.",
-                        "unique_id": "alZkS2BdKwXFfT9N",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951948/leandra-niederhauser-eaToegj7RI4-unsplash_a6llnf.jpg",
-                        "views": 75,
-                        "favorites": 3,
-                        "category": "Photography"
-                    }
-                ]
-            },
-            "PColl5": {
-                "metadata": {
-                    "description": "Featuring unique photography-nfts NFTs showcasing A stunning mountain view at sunset., An intricate close-up shot of a blooming flower., and more.",
-                    "name": "Beauty of Nature",
-                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951951/lalitha-d-EZiKSUX-3yg-unsplash_ihsl97.jpg",
-                    "totalItems": 3,
-                    "createdDate": "2024-12-08",
-                    "floor": "18.0 ETH",
-                    "chain": "ethereum",
-                    "totalVolume": "58.5 ETH",
-                    "category": "Photography"
-                },
-                "nfts": [
-                    {
-                        "name": "Radiant View",
-                        "price": 18.0,
-                        "owner": "Eve",
-                        "description": "A masterful creation blending dynamic movements into an engaging visual or auditory experience.",
-                        "unique_id": "KEiK0PTzr1akSr7f",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951951/lalitha-d-EZiKSUX-3yg-unsplash_ihsl97.jpg",
-                        "views": 81,
-                        "favorites": 5,
-                        "category": "Photography"
-                    },
-                    {
-                        "name": "Mystic Sunset",
-                        "price": 19.5,
-                        "owner": "Alice",
-                        "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
-                        "unique_id": "2yEDe3hYMedhIa8y",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951952/jose-p-ortiz-l--RqyZVBCo-unsplash_aixwes.jpg",
-                        "views": 26,
-                        "favorites": 13,
-                        "category": "Photography"
-                    },
-                    {
-                        "name": "Radiant Aerial",
-                        "price": 21.0,
-                        "owner": "Charlie",
-                        "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
-                        "unique_id": "aYrHNazkVCmFz3rq",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951955/baptiste-buisson-Lg-ZYKGZ2k4-unsplash_vveqqb.jpg",
-                        "views": 75,
-                        "favorites": 4,
-                        "category": "Photography"
-                    }
-                ]
-            },
-            "PColl6": {
-                "metadata": {
-                    "description": "Featuring unique photography-nfts NFTs showcasing A stunning mountain view at sunset., An intricate close-up shot of a blooming flower., and more.",
-                    "name": "Random Photos",
-                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951949/michael-fousert-_ms3EBwRmjU-unsplash_nhi2ye.jpg",
-                    "totalItems": 3,
-                    "createdDate": "2024-12-08",
-                    "floor": "22.5 ETH",
-                    "chain": "ethereum",
-                    "totalVolume": "72.0 ETH",
-                    "category": "Photography"
-                },
-                "nfts": [
-                    {
-                        "name": "Dynamic Mountain",
-                        "price": 22.5,
-                        "owner": "Diana",
-                        "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
-                        "unique_id": "8tANNerUBvI6lKEl",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951956/benjamin-zanatta-WbkfJ2TmSug-unsplash_ndvjhn.jpg",
-                        "views": 55,
-                        "favorites": 18,
-                        "category": "Photography"
-                    },
-                    {
-                        "name": "Ethereal Mountain",
-                        "price": 24.0,
-                        "owner": "Hank",
-                        "description": "A masterful creation blending surreal emotions into an engaging visual or auditory experience.",
-                        "unique_id": "LXUU7uiNhJBn0fsG",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951949/michael-fousert-_ms3EBwRmjU-unsplash_nhi2ye.jpg",
-                        "views": 99,
-                        "favorites": 6,
-                        "category": "Photography"
-                    },
-                    {
-                        "name": "Majestic Close-ups",
-                        "price": 25.5,
-                        "owner": "Bob",
-                        "description": "A masterful creation blending musical flows into an engaging visual or auditory experience.",
-                        "unique_id": "bF6gcLMG2qi96I9U",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951943/adham-ragab-6iBJ7GVg09Y-unsplash_ztnt7n.jpg",
-                        "views": 40,
-                        "favorites": 7,
-                        "category": "Photography"
-                    }
-                ]
-            },
-            "PColl7": {
-                "metadata": {
-                    "description": "Featuring unique photography-nfts NFTs showcasing A stunning mountain view at sunset., An intricate close-up shot of a blooming flower., and more.",
-                    "name": "Something Random",
-                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951944/mohammad-mardani-BCz_Lhedwvo-unsplash_wqhxcp.jpg",
-                    "totalItems": 3,
-                    "createdDate": "2024-12-08",
-                    "floor": "27.0 ETH",
-                    "chain": "ethereum",
-                    "totalVolume": "85.5 ETH",
-                    "category": "Photography"
-                },
-                "nfts": [
-                    {
-                        "name": "Timeless Natures",
-                        "price": 27.0,
-                        "owner": "Grace",
-                        "description": "A masterful creation blending surreal emotions into an engaging visual or auditory experience.",
-                        "unique_id": "JLCrsJaUEFzFAbkD",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951944/mohammad-mardani-BCz_Lhedwvo-unsplash_wqhxcp.jpg",
-                        "views": 24,
-                        "favorites": 8,
-                        "category": "Photography"
-                    },
-                    {
-                        "name": "Dynamic View",
-                        "price": 28.5,
-                        "owner": "Grace",
-                        "description": "A masterful creation blending surreal emotions into an engaging visual or auditory experience.",
-                        "unique_id": "F63eoULDTXmteB6V",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951955/damian-barczak-U9E423m3Hd8-unsplash_kvmuqq.jpg",
-                        "views": 81,
-                        "favorites": 5,
-                        "category": "Photography"
-                    },
-                    {
-                        "name": "Bold View",
-                        "price": 30.0,
-                        "owner": "Frank",
-                        "description": "A masterful creation blending dynamic movements into an engaging visual or auditory experience.",
-                        "unique_id": "nUe6cI9iQc5LJg22",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951955/highzone-p6xd1hgwyZU-unsplash_cznjtc.jpg",
-                        "views": 10,
-                        "favorites": 15,
-                        "category": "Photography"
-                    }
-                ]
-            }
+        "nfts": [
+          {
+            "category": "Art",
+            "description": "A masterful creation blending dynamic movements into an engaging visual or auditory experience.",
+            "favorites": 5,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952461/a5_xdnbpp.jpg",
+            "name": "Bold Harmony",
+            "owner": "Grace",
+            "price": 9,
+            "unique_id": "ayDMrg2CF46aJlaS",
+            "views": 82
+          },
+          {
+            "category": "Art",
+            "description": "A masterful creation blending tranquil moments into an engaging visual or auditory experience.",
+            "favorites": 20,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952460/a6_lohibv.jpg",
+            "name": "Majestic Edge",
+            "owner": "Charlie",
+            "price": 10.5,
+            "unique_id": "4t0Y6tD4FDXYdVR4",
+            "views": 93
+          },
+          {
+            "category": "Art",
+            "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
+            "favorites": 6,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952458/a7_qmhmai.jpg",
+            "name": "Timeless Harmony",
+            "owner": "Diana",
+            "price": 12,
+            "unique_id": "UO7LktdHdBb0tRRd",
+            "views": 15
+          }
+        ]
+      },
+      "AColl4": {
+        "metadata": {
+          "category": "Art",
+          "chain": "ethereum",
+          "createdDate": "2024-12-05",
+          "description": "Featuring unique art-nfts NFTs showcasing A vibrant abstract painting full of energy., A serene landscape capturing the beauty of nature., and more.",
+          "floor": "13.5 ETH",
+          "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952453/a17_wy5gyd.jpg",
+          "name": "ComplexPaintings",
+          "totalItems": 2,
+          "totalVolume": "28.5 ETH"
         },
-        "Music-NFTs": {
-            "MColl1": {
-                "metadata": {
-                    "description": "Featuring unique music-nfts NFTs showcasing A soothing instrumental track with serene melodies., An energetic beat perfect for the dancefloor., and more.",
-                    "name": "Music is Life",
-                    "totalItems": 3,
-                    "createdDate": "2024-12-06",
-                    "floor": "1.5 ETH",
-                    "chain": "ethereum",
-                    "totalVolume": "9.0 ETH",
-                    "category": "Music",
-                    "imageUrl":"https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641320/note2_ozekfw.avif"
-                },
-                "nfts": [
-                    {
-                        "name": "Majestic Chorus",
-                        "price": 1.5,
-                        "owner": "Frank",
-                        "description": "A masterful creation blending vivid artistry into an engaging visual or auditory experience.",
-                        "unique_id": "wNPQWmGKPzF4OAV2",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641320/note2_ozekfw.avif",
-                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952563/m1_jafh59.mp3",
-                        "views": 68,
-                        "favorites": 8,
-                        "category": "Music"
-                    },
-                    {
-                        "name": "Dynamic Chorus",
-                        "price": 3.0,
-                        "owner": "Alice",
-                        "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
-                        "unique_id": "wfZwYc3ls7EbpgCv",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641320/note2_ozekfw.avif",
-                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952562/m2_m81gif.mp3",
-                        "views": 68,
-                        "favorites": 20,
-                        "category": "Music"
-                    },
-                    {
-                        "name": "Radiant Beat",
-                        "price": 4.5,
-                        "owner": "Hank",
-                        "description": "A masterful creation blending surreal emotions into an engaging visual or auditory experience.",
-                        "unique_id": "kpbpoEStL0WvOOji",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641320/note2_ozekfw.avif",
-                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952563/m3_vpi6kv.mp3",
-                        "views": 25,
-                        "favorites": 15,
-                        "category": "Music"
-                    }
-                ]
-            },
-            "MColl2": {
-                "metadata": {
-                    "description": "Featuring unique music-nfts NFTs showcasing A soothing instrumental track with serene melodies., An energetic beat perfect for the dancefloor., and more.",
-                    "name": "Beautiful Sound",
-                    "totalItems": 2,
-                    "createdDate": "2024-12-07",
-                    "floor": "6.0 ETH",
-                    "chain": "ethereum",
-                    "totalVolume": "13.5 ETH",
-                    "category": "Music",
-                    "imageUrl":"https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641471/note3_vibptc_c_crop_h_250_xmez6b.webp"
-                },
-                "nfts": [
-                    {
-                        "name": "Radiant Instrumental",
-                        "price": 6.0,
-                        "owner": "Diana",
-                        "description": "A masterful creation blending musical flows into an engaging visual or auditory experience.",
-                        "unique_id": "RMmnjIiHZ3yGQzD0",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641471/note3_vibptc_c_crop_h_250_xmez6b.webp",
-                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952560/m4_pz9nbg.mp3",
-                        "views": 55,
-                        "favorites": 4,
-                        "category": "Music"
-                    },
-                    {
-                        "name": "Mystic Symphony",
-                        "price": 7.5,
-                        "owner": "Grace",
-                        "description": "A masterful creation blending vivid artistry into an engaging visual or auditory experience.",
-                        "unique_id": "PyZuPRXCeA63ShBr",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641471/note3_vibptc_c_crop_h_250_xmez6b.webp",
-                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952559/m5_bqxs5k.mp3",
-                        "views": 20,
-                        "favorites": 8,
-                        "category": "Music"
-                    }
-                ]
-            },
-            "MColl3": {
-                "metadata": {
-                    "description": "Featuring unique music-nfts NFTs showcasing A soothing instrumental track with serene melodies., An energetic beat perfect for the dancefloor., and more.",
-                    "name": "Nice Music",
-                    "totalItems": 3,
-                    "createdDate": "2024-12-08",
-                    "floor": "9.0 ETH",
-                    "chain": "ethereum",
-                    "totalVolume": "31.5 ETH",
-                    "category": "Music",
-                    "imageUrl":"https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641569/note4_s6uttx.webp"
-                },
-                "nfts": [
-                    {
-                        "name": "Mystic Instrumental",
-                        "price": 9.0,
-                        "owner": "Bob",
-                        "description": "A masterful creation blending modern design into an engaging visual or auditory experience.",
-                        "unique_id": "s15uGofzp0SBJpuP",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641569/note4_s6uttx.webp",
-                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952558/m8_dlomem.mp3",
-                        "views": 85,
-                        "favorites": 5,
-                        "category": "Music"
-                    },
-                    {
-                        "name": "Radiant Beats",
-                        "price": 10.5,
-                        "owner": "Grace",
-                        "description": "A masterful creation blending musical flows into an engaging visual or auditory experience.",
-                        "unique_id": "gkltsMti2OzEzTPU",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641569/note4_s6uttx.webp",
-                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952558/m9_qwuu7e.mp3",
-                        "views": 82,
-                        "favorites": 3,
-                        "category": "Music"
-                    },
-                    {
-                        "name": "Bold Chorus",
-                        "price": 12.0,
-                        "owner": "Alice",
-                        "description": "A masterful creation blending surreal emotions into an engaging visual or auditory experience.",
-                        "unique_id": "0vXd25WAzXX8DWO7",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641569/note4_s6uttx.webp",
-                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952556/m10_ovhu6r.mp3",
-                        "views": 99,
-                        "favorites": 20,
-                        "category": "Music"
-                    }
-                ]
-            },
-            "MColl4": {
-                "metadata": {
-                    "description": "Featuring unique music-nfts NFTs showcasing A soothing instrumental track with serene melodies., An energetic beat perfect for the dancefloor., and more.",
-                    "name": "A Nice Chorus",
-                    "totalItems": 2,
-                    "createdDate": "2024-12-09",
-                    "floor": "13.5 ETH",
-                    "chain": "ethereum",
-                    "totalVolume": "28.5 ETH",
-                    "category": "Music",
-                    "imageUrl":"https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641320/note7_hujij5.avif"
-                },
-                "nfts": [
-                    {
-                        "name": "Ethereal Melody",
-                        "price": 13.5,
-                        "owner": "Diana",
-                        "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
-                        "unique_id": "lvoimhnzJonxXle4",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641320/note7_hujij5.avif",
-                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952559/m6_bprj1o.mp3",
-                        "views": 25,
-                        "favorites": 3,
-                        "category": "Music"
-                    },
-                    {
-                        "name": "Serene Beat",
-                        "price": 15.0,
-                        "owner": "Eve",
-                        "description": "A masterful creation blending modern design into an engaging visual or auditory experience.",
-                        "unique_id": "fcWkp3mAVcIWKlwJ",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641320/note7_hujij5.avif",
-                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952558/m7_vhdzng.mp3",
-                        "views": 14,
-                        "favorites": 11,
-                        "category": "Music"
-                    }
-                ]
-            },
-            "MColl5": {
-                "metadata": {
-                    "description": "Featuring unique music-nfts NFTs showcasing A soothing instrumental track with serene melodies., An energetic beat perfect for the dancefloor., and more.",
-                    "name": "A Beautiful Symphony",
-                    "totalItems": 3,
-                    "createdDate": "2024-12-08",
-                    "floor": "16.5 ETH",
-                    "chain": "ethereum",
-                    "totalVolume": "54.0 ETH",
-                    "category": "Music",
-                    "imageUrl":"https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641320/note5_ixb1bb.jpg"
-                },
-                "nfts": [
-                    {
-                        "name": "Majestic Melody",
-                        "price": 16.5,
-                        "owner": "Hank",
-                        "description": "A masterful creation blending surreal emotions into an engaging visual or auditory experience.",
-                        "unique_id": "CtX7G5Yvp5fpaEfS",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641320/note5_ixb1bb.jpg",
-                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952559/m11_ehm1zj.mp3",
-                        "views": 20,
-                        "favorites": 17,
-                        "category": "Music"
-                    },
-                    {
-                        "name": "Majestic Symphony",
-                        "price": 18.0,
-                        "owner": "Eve",
-                        "description": "A masterful creation blending tranquil moments into an engaging visual or auditory experience.",
-                        "unique_id": "1QKKIy1uZWXneYxd",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641320/note5_ixb1bb.jpg",
-                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952558/m12_qxixnu.mp3",
-                        "views": 55,
-                        "favorites": 12,
-                        "category": "Music"
-                    },
-                    {
-                        "name": "Timeless Symphony",
-                        "price": 19.5,
-                        "owner": "Charlie",
-                        "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
-                        "unique_id": "2jLdl6UkM3Zwq8Eu",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641320/note5_ixb1bb.jpg",
-                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952559/m13_ttqk1d.mp3",
-                        "views": 64,
-                        "favorites": 13,
-                        "category": "Music"
-                    }
-                ]
-            },
-            "MColl6": {
-                "metadata": {
-                    "description": "Featuring unique music-nfts NFTs showcasing A soothing instrumental track with serene melodies., An energetic beat perfect for the dancefloor., and more.",
-                    "name": "Beats",
-                    "totalItems": 3,
-                    "createdDate": "2024-12-08",
-                    "floor": "21.0 ETH",
-                    "chain": "ethereum",
-                    "totalVolume": "67.5 ETH",
-                    "category": "Music",
-                    "imageUrl":"https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641321/note1_zf7azy.jpg"
-                },
-                "nfts": [
-                    {
-                        "name": "Dynamic Track",
-                        "price": 21.0,
-                        "owner": "Eve",
-                        "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
-                        "unique_id": "98CheZcmIMEVJ2wu",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641321/note1_zf7azy.jpg",
-                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952555/m14_eafefx.mp3",
-                        "views": 42,
-                        "favorites": 9,
-                        "category": "Music"
-                    },
-                    {
-                        "name": "Mystic Melody",
-                        "price": 22.5,
-                        "owner": "Eve",
-                        "description": "A masterful creation blending dynamic movements into an engaging visual or auditory experience.",
-                        "unique_id": "mSAPPKvhq86fFYUP",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641321/note1_zf7azy.jpg",
-                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952554/m15_c1m6xp.mp3",
-                        "views": 49,
-                        "favorites": 7,
-                        "category": "Music"
-                    },
-                    {
-                        "name": "Dynamic Beats",
-                        "price": 24.0,
-                        "owner": "Eve",
-                        "description": "A masterful creation blending tranquil moments into an engaging visual or auditory experience.",
-                        "unique_id": "lvIpNSu81g3nT9iQ",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641321/note1_zf7azy.jpg",
-                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952555/m16_k6fi7d.mp3",
-                        "views": 36,
-                        "favorites": 17,
-                        "category": "Music"
-                    }
-                ]
-            },
-            "MColl7": {
-                "metadata": {
-                    "description": "Featuring unique music-nfts NFTs showcasing A soothing instrumental track with serene melodies., An energetic beat perfect for the dancefloor., and more.",
-                    "name":"Melodies",
-                    "totalItems": 2,
-                    "createdDate": "2024-12-08",
-                    "floor": "25.5 ETH",
-                    "chain": "ethereum",
-                    "totalVolume": "52.5 ETH",
-                    "category": "Music",
-                    "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641320/note6_hu1acb.jpg"
-                },
-                "nfts": [
-                    {
-                        "name": "Serene Melody",
-                        "price": 25.5,
-                        "owner": "Diana",
-                        "description": "A masterful creation blending dynamic movements into an engaging visual or auditory experience.",
-                        "unique_id": "i9MDZSrzwvyDRW7t",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641320/note6_hu1acb.jpg",
-                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952472/m17_zozzyv.mp3",
-                        "views": 19,
-                        "favorites": 4,
-                        "category": "Music"
-                    },
-                    {
-                        "name": "Dynamic Beat",
-                        "price": 27.0,
-                        "owner": "Diana",
-                        "description": "A masterful creation blending vivid artistry into an engaging visual or auditory experience.",
-                        "unique_id": "Jldfgjl7mJ9MPAsR",
-                        "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641320/note6_hu1acb.jpg",
-                        "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952471/m18_v9jqjb.mp3",
-                        "views": 18,
-                        "favorites": 9,
-                        "category": "Music"
-                    }
-                ]
-            }
-        }
+        "nfts": [
+          {
+            "category": "Art",
+            "description": "A masterful creation blending modern design into an engaging visual or auditory experience.",
+            "favorites": 5,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952461/a2_lxiexm.jpg",
+            "name": "Bold Glow",
+            "owner": "Charlie",
+            "price": 13.5,
+            "unique_id": "yqxJD5EBDwFSiWNA",
+            "views": 42
+          },
+          {
+            "category": "Art",
+            "description": "A masterful creation blending tranquil moments into an engaging visual or auditory experience.",
+            "favorites": 14,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952453/a17_wy5gyd.jpg",
+            "name": "Bold Bloom",
+            "owner": "Grace",
+            "price": 15,
+            "unique_id": "Slw089stM8mUm4bT",
+            "views": 14
+          }
+        ]
+      },
+      "AColl5": {
+        "metadata": {
+          "category": "Art",
+          "chain": "ethereum",
+          "createdDate": "2024-12-02",
+          "description": "Featuring unique art-nfts NFTs showcasing A vibrant abstract painting full of energy., A serene landscape capturing the beauty of nature., and more.",
+          "floor": "16.5 ETH",
+          "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952459/a10_nxtk62.jpg",
+          "name": "Water Colour Paintings",
+          "totalItems": 3,
+          "totalVolume": "54.0 ETH"
+        },
+        "nfts": [
+          {
+            "category": "Art",
+            "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
+            "favorites": 2,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952459/a8_dkqc2v.jpg",
+            "name": "Serene Canvas",
+            "owner": "Grace",
+            "price": 16.5,
+            "unique_id": "LRL8RD4I7qgSCWN6",
+            "views": 11
+          },
+          {
+            "category": "Art",
+            "description": "A masterful creation blending modern design into an engaging visual or auditory experience.",
+            "favorites": 1,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952458/a18_elgrcu.jpg",
+            "name": "Bold Bloom",
+            "owner": "Jinish Gupta",
+            "price": 18,
+            "unique_id": "JFh3fKuF6G8tW3wo",
+            "views": 35
+          },
+          {
+            "category": "Art",
+            "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
+            "favorites": 2,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952459/a10_nxtk62.jpg",
+            "name": "Mystic Fusion",
+            "owner": "Bob",
+            "price": 19.5,
+            "unique_id": "VEsWz6n3xsLgeqoH",
+            "views": 61
+          }
+        ]
+      },
+      "AColl6": {
+        "metadata": {
+          "category": "Art",
+          "chain": "ethereum",
+          "createdDate": "2024-12-03",
+          "description": "Featuring unique art-nfts NFTs showcasing A vibrant abstract painting full of energy., A serene landscape capturing the beauty of nature., and more.",
+          "floor": "21.0 ETH",
+          "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952465/a1_sx3h38.jpg",
+          "name": "Collages",
+          "totalItems": 2,
+          "totalVolume": "43.5 ETH"
+        },
+        "nfts": [
+          {
+            "category": "Art",
+            "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
+            "favorites": 14,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952465/a1_sx3h38.jpg",
+            "name": "Majestic Glow",
+            "owner": "Frank",
+            "price": 21,
+            "unique_id": "cGdZofmyq9tTxxnn",
+            "views": 50
+          },
+          {
+            "category": "Art",
+            "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
+            "favorites": 6,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952464/a3_vhn4y1.jpg",
+            "name": "Majestic Vivid",
+            "owner": "Jinish Gupta",
+            "price": 22.5,
+            "unique_id": "jallsNQM3DhMAAuq",
+            "views": 46
+          }
+        ]
+      },
+      "AColl7": {
+        "metadata": {
+          "category": "Art",
+          "chain": "ethereum",
+          "createdDate": "2024-12-04",
+          "description": "Featuring unique art-nfts NFTs showcasing A vibrant abstract painting full of energy., A serene landscape capturing the beauty of nature., and more.",
+          "floor": "24.0 ETH",
+          "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952451/a19_h95m3w.jpg",
+          "name": "Full of colours",
+          "totalItems": 2,
+          "totalVolume": "49.5 ETH"
+        },
+        "nfts": [
+          {
+            "category": "Art",
+            "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
+            "favorites": 16,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952451/a19_h95m3w.jpg",
+            "name": "Serene Abstract",
+            "owner": "Bob",
+            "price": 24,
+            "unique_id": "7umwoAaiig119QCh",
+            "views": 81
+          },
+          {
+            "category": "Art",
+            "description": "A masterful creation blending dynamic movements into an engaging visual or auditory experience.",
+            "favorites": 3,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952446/a20_qsitdn.jpg",
+            "name": "Radiant Edge",
+            "owner": "Hank",
+            "price": 25.5,
+            "unique_id": "Kb4DQG3t3JZb8gkt",
+            "views": 38
+          }
+        ]
+      },
+      "AColl8": {
+        "metadata": {
+          "category": "Art",
+          "chain": "ethereum",
+          "createdDate": "2024-12-05",
+          "description": "Featuring unique art-nfts NFTs showcasing A vibrant abstract painting full of energy., A serene landscape capturing the beauty of nature., and more.",
+          "floor": "27.0 ETH",
+          "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952454/a16_hp2cjo.jpg",
+          "name": "Something Beyond Explanation",
+          "totalItems": 2,
+          "totalVolume": "55.5 ETH"
+        },
+        "nfts": [
+          {
+            "category": "Art",
+            "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
+            "favorites": 11,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952459/a9_wwtzao.jpg",
+            "name": "Dynamic Harmony",
+            "owner": "Grace",
+            "price": 27,
+            "unique_id": "1VgS4GVWcthoTwmB",
+            "views": 19
+          },
+          {
+            "category": "Art",
+            "description": "A masterful creation blending surreal emotions into an engaging visual or auditory experience.",
+            "favorites": 9,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952454/a16_hp2cjo.jpg",
+            "name": "Dynamic Vivid",
+            "owner": "Hank",
+            "price": 28.5,
+            "unique_id": "qYuoknKhaTgKHfMY",
+            "views": 15
+          }
+        ]
+      },
+      "AColl9": {
+        "metadata": {
+          "chain": "ethereum",
+          "createdDate": "19-0-2025",
+          "description": "a very beautiful image",
+          "floor": "2.2 ETH",
+          "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1737275642/dream-7166281_1280_tpge6b.jpg",
+          "name": "Beyond Earth",
+          "totalItems": 1,
+          "totalVolume": "2.2 ETH"
+        },
+        "nfts": [
+          {
+            "category": "Art",
+            "description": "it display colours in a stunning way",
+            "favorites": 0,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1737275642/dream-7166281_1280_tpge6b.jpg",
+            "name": "Cosmos",
+            "owner": "Jinish Gupta",
+            "price": 2.2,
+            "unique_id": "kxTkaxxxAxDZeHID",
+            "views": 1
+          }
+        ]
+      }
+    },
+    "Gaming-NFTs": {
+      "GColl1": {
+        "metadata": {
+          "category": "Gaming",
+          "chain": "ethereum",
+          "createdDate": "2024-12-03",
+          "description": "Featuring unique gaming-nfts NFTs showcasing An iconic in-game weapon with legendary status., A collectible avatar skin for virtual adventures., and more.",
+          "floor": "1.5 ETH",
+          "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952443/g14_p5fh0t.jpg",
+          "name": "Inside Game 1",
+          "totalItems": 4,
+          "totalVolume": "15.0 ETH"
+        },
+        "nfts": [
+          {
+            "category": "Gaming",
+            "description": "A masterful creation blending tranquil moments into an engaging visual or auditory experience.",
+            "favorites": 10,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952444/g16_vz4n2b.jpg",
+            "name": "Radiant Avatar",
+            "owner": "Hank",
+            "price": 1.5,
+            "unique_id": "Hs6QAdqeRCvVm8xp",
+            "views": 62
+          },
+          {
+            "category": "Gaming",
+            "description": "A masterful creation blending modern design into an engaging visual or auditory experience.",
+            "favorites": 9,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952443/g14_p5fh0t.jpg",
+            "name": "Mystic Champion",
+            "owner": "Eve",
+            "price": 3,
+            "unique_id": "78HkCRlMaYhRiFGJ",
+            "views": 77
+          },
+          {
+            "category": "Gaming",
+            "description": "A masterful creation blending dynamic movements into an engaging visual or auditory experience.",
+            "favorites": 13,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952432/g18_sgfoqu.jpg",
+            "name": "Dynamic Legendary",
+            "owner": "Jinish Gupta",
+            "price": 4.5,
+            "unique_id": "9eJPwYQY8ZA8oicy",
+            "views": 63
+          },
+          {
+            "category": "Gaming",
+            "description": "A masterful creation blending dynamic movements into an engaging visual or auditory experience.",
+            "favorites": 10,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952431/g17_zucja5.jpg",
+            "name": "Ethereal Avatar",
+            "owner": "Alice",
+            "price": 6,
+            "unique_id": "HzOVuPdzmfl9BILX",
+            "views": 29
+          }
+        ]
+      },
+      "GColl2": {
+        "metadata": {
+          "category": "Gaming",
+          "chain": "ethereum",
+          "createdDate": "2024-12-04",
+          "description": "Featuring unique gaming-nfts NFTs showcasing An iconic in-game weapon with legendary status., A collectible avatar skin for virtual adventures., and more.",
+          "floor": "7.5 ETH",
+          "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952437/g15_moqoql.jpg",
+          "name": "Inside Game 2",
+          "totalItems": 2,
+          "totalVolume": "16.5 ETH"
+        },
+        "nfts": [
+          {
+            "category": "Gaming",
+            "description": "A masterful creation blending vivid artistry into an engaging visual or auditory experience.",
+            "favorites": 12,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952437/g15_moqoql.jpg",
+            "name": "Dynamic Battle",
+            "owner": "Grace",
+            "price": 7.5,
+            "unique_id": "X6Y92CtQvuEhKBoJ",
+            "views": 19
+          },
+          {
+            "category": "Gaming",
+            "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
+            "favorites": 16,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952432/g13_ox1dht.jpg",
+            "name": "Dynamic Quest",
+            "owner": "Bob",
+            "price": 9,
+            "unique_id": "U2zV1k2VAhNz1Yuz",
+            "views": 49
+          }
+        ]
+      },
+      "GColl3": {
+        "metadata": {
+          "category": "Gaming",
+          "chain": "ethereum",
+          "createdDate": "2024-12-05",
+          "description": "Featuring unique gaming-nfts NFTs showcasing An iconic in-game weapon with legendary status., A collectible avatar skin for virtual adventures., and more.",
+          "floor": "10.5 ETH",
+          "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952440/g7_ab9obn.jpg",
+          "name": "Controllers",
+          "totalItems": 3,
+          "totalVolume": "36.0 ETH"
+        },
+        "nfts": [
+          {
+            "category": "Gaming",
+            "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
+            "favorites": 8,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952436/g10_bglwmy.jpg",
+            "name": "Bold Weapon",
+            "owner": "Alice",
+            "price": 10.5,
+            "unique_id": "uFgM1rd2xyzl5O8n",
+            "views": 21
+          },
+          {
+            "category": "Gaming",
+            "description": "A masterful creation blending vivid artistry into an engaging visual or auditory experience.",
+            "favorites": 3,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952440/g7_ab9obn.jpg",
+            "name": "Mystic Epic",
+            "owner": "Bob",
+            "price": 12,
+            "unique_id": "nlcWCjFt0WnAC8sx",
+            "views": 57
+          },
+          {
+            "category": "Gaming",
+            "description": "A masterful creation blending tranquil moments into an engaging visual or auditory experience.",
+            "favorites": 8,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952443/g2_byuwdo.jpg",
+            "name": "Majestic Realm",
+            "owner": "Jinish Gupta",
+            "price": 13.5,
+            "unique_id": "zklE2eP0g6ftW4J1",
+            "views": 30
+          }
+        ]
+      },
+      "GColl4": {
+        "metadata": {
+          "category": "Gaming",
+          "chain": "ethereum",
+          "createdDate": "2024-12-06",
+          "description": "Featuring unique gaming-nfts NFTs showcasing An iconic in-game weapon with legendary status., A collectible avatar skin for virtual adventures., and more.",
+          "floor": "15.0 ETH",
+          "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952444/g3_v1qqap.jpg",
+          "name": "Gaming is Fun",
+          "totalItems": 3,
+          "totalVolume": "49.5 ETH"
+        },
+        "nfts": [
+          {
+            "category": "Gaming",
+            "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
+            "favorites": 12,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952444/g3_v1qqap.jpg",
+            "name": "Serene Weapon",
+            "owner": "Eve",
+            "price": 15,
+            "unique_id": "pFsPESFFijwzfcF8",
+            "views": 28
+          },
+          {
+            "category": "Gaming",
+            "description": "A masterful creation blending dynamic movements into an engaging visual or auditory experience.",
+            "favorites": 17,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952441/g5_o074x2.jpg",
+            "name": "Ethereal Battle",
+            "owner": "Bob",
+            "price": 16.5,
+            "unique_id": "iKarIRHBn17bVstz",
+            "views": 80
+          },
+          {
+            "category": "Gaming",
+            "description": "A masterful creation blending tranquil moments into an engaging visual or auditory experience.",
+            "favorites": 5,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952439/g6_yftjgc.jpg",
+            "name": "Majestic Quest",
+            "owner": "Diana",
+            "price": 18,
+            "unique_id": "pgx7hIq8kYmWQGlL",
+            "views": 56
+          }
+        ]
+      },
+      "GColl5": {
+        "metadata": {
+          "category": "Gaming",
+          "chain": "ethereum",
+          "createdDate": "2024-12-06",
+          "description": "Featuring unique gaming-nfts NFTs showcasing An iconic in-game weapon with legendary status., A collectible avatar skin for virtual adventures., and more.",
+          "floor": "19.5 ETH",
+          "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952438/g8_azldkk.jpg",
+          "name": "Equipments are Cool",
+          "totalItems": 3,
+          "totalVolume": "63.0 ETH"
+        },
+        "nfts": [
+          {
+            "category": "Gaming",
+            "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
+            "favorites": 21,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952442/g4_qdmvis.jpg",
+            "name": "Radiant Realm",
+            "owner": "Alice",
+            "price": 19.5,
+            "unique_id": "kx2TcR2UQ3cZJTeY",
+            "views": 56
+          },
+          {
+            "category": "Gaming",
+            "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
+            "favorites": 20,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952440/g12_g28cpd.jpg",
+            "name": "Bold Legendary",
+            "owner": "Hank",
+            "price": 21,
+            "unique_id": "Fx7X8Ylm13uPfHlC",
+            "views": 47
+          },
+          {
+            "category": "Gaming",
+            "description": "A masterful creation blending musical flows into an engaging visual or auditory experience.",
+            "favorites": 1,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952438/g8_azldkk.jpg",
+            "name": "Serene Legendary",
+            "owner": "Jinish Gupta",
+            "price": 22.5,
+            "unique_id": "CfhU8f3MqI5j0gad",
+            "views": 85
+          }
+        ]
+      },
+      "GColl6": {
+        "metadata": {
+          "category": "Gaming",
+          "chain": "ethereum",
+          "createdDate": "2024-12-06",
+          "description": "Featuring unique gaming-nfts NFTs showcasing An iconic in-game weapon with legendary status., A collectible avatar skin for virtual adventures., and more.",
+          "floor": "24.0 ETH",
+          "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952435/g11_z97is8.jpg",
+          "name": "Gaming Places",
+          "totalItems": 3,
+          "totalVolume": "76.5 ETH"
+        },
+        "nfts": [
+          {
+            "category": "Gaming",
+            "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
+            "favorites": 20,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952435/g11_z97is8.jpg",
+            "name": "Dynamic Weapon",
+            "owner": "Frank",
+            "price": 24,
+            "unique_id": "UohI5zPA2YFLc1CE",
+            "views": 11
+          },
+          {
+            "category": "Gaming",
+            "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
+            "favorites": 4,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952446/g9_clzanq.jpg",
+            "name": "Bold Epic",
+            "owner": "Bob",
+            "price": 25.5,
+            "unique_id": "HPh4Edw66Fb9vsIZ",
+            "views": 23
+          },
+          {
+            "category": "Gaming",
+            "description": "A masterful creation blending modern design into an engaging visual or auditory experience.",
+            "favorites": 4,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952450/g1_xxtfz5.jpg",
+            "name": "Majestic Weapon",
+            "owner": "Frank",
+            "price": 27,
+            "unique_id": "11LU9QeJpzUqPBu1",
+            "views": 14
+          }
+        ]
+      }
+    },
+    "Music-NFTs": {
+      "MColl1": {
+        "metadata": {
+          "category": "Music",
+          "chain": "ethereum",
+          "createdDate": "2024-12-06",
+          "description": "Featuring unique music-nfts NFTs showcasing A soothing instrumental track with serene melodies., An energetic beat perfect for the dancefloor., and more.",
+          "floor": "1.5 ETH",
+          "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641320/note2_ozekfw.avif",
+          "name": "Music is Life",
+          "totalItems": 3,
+          "totalVolume": "9.0 ETH"
+        },
+        "nfts": [
+          {
+            "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952563/m1_jafh59.mp3",
+            "category": "Music",
+            "description": "A masterful creation blending vivid artistry into an engaging visual or auditory experience.",
+            "favorites": 8,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641320/note2_ozekfw.avif",
+            "name": "Majestic Chorus",
+            "owner": "Frank",
+            "price": 1.5,
+            "unique_id": "wNPQWmGKPzF4OAV2",
+            "views": 69
+          },
+          {
+            "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952562/m2_m81gif.mp3",
+            "category": "Music",
+            "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
+            "favorites": 20,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641320/note2_ozekfw.avif",
+            "name": "Dynamic Chorus",
+            "owner": "Alice",
+            "price": 3,
+            "unique_id": "wfZwYc3ls7EbpgCv",
+            "views": 70
+          },
+          {
+            "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952563/m3_vpi6kv.mp3",
+            "category": "Music",
+            "description": "A masterful creation blending surreal emotions into an engaging visual or auditory experience.",
+            "favorites": 15,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641320/note2_ozekfw.avif",
+            "name": "Radiant Beat",
+            "owner": "Hank",
+            "price": 4.5,
+            "unique_id": "kpbpoEStL0WvOOji",
+            "views": 27
+          }
+        ]
+      },
+      "MColl2": {
+        "metadata": {
+          "category": "Music",
+          "chain": "ethereum",
+          "createdDate": "2024-12-07",
+          "description": "Featuring unique music-nfts NFTs showcasing A soothing instrumental track with serene melodies., An energetic beat perfect for the dancefloor., and more.",
+          "floor": "6.0 ETH",
+          "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641471/note3_vibptc_c_crop_h_250_xmez6b.webp",
+          "name": "Beautiful Sounds",
+          "totalItems": 2,
+          "totalVolume": "13.5 ETH"
+        },
+        "nfts": [
+          {
+            "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952560/m4_pz9nbg.mp3",
+            "category": "Music",
+            "description": "A masterful creation blending musical flows into an engaging visual or auditory experience.",
+            "favorites": 4,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641471/note3_vibptc_c_crop_h_250_xmez6b.webp",
+            "name": "Radiant Instrumental",
+            "owner": "Diana",
+            "price": 6,
+            "unique_id": "RMmnjIiHZ3yGQzD0",
+            "views": 56
+          },
+          {
+            "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952559/m5_bqxs5k.mp3",
+            "category": "Music",
+            "description": "A masterful creation blending vivid artistry into an engaging visual or auditory experience.",
+            "favorites": 8,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641471/note3_vibptc_c_crop_h_250_xmez6b.webp",
+            "name": "Mystic Symphony",
+            "owner": "Grace",
+            "price": 7.5,
+            "unique_id": "PyZuPRXCeA63ShBr",
+            "views": 21
+          }
+        ]
+      },
+      "MColl3": {
+        "metadata": {
+          "category": "Music",
+          "chain": "ethereum",
+          "createdDate": "2024-12-08",
+          "description": "Featuring unique music-nfts NFTs showcasing A soothing instrumental track with serene melodies., An energetic beat perfect for the dancefloor., and more.",
+          "floor": "9.0 ETH",
+          "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641569/note4_s6uttx.webp",
+          "name": "Nice Music",
+          "totalItems": 3,
+          "totalVolume": "31.5 ETH"
+        },
+        "nfts": [
+          {
+            "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952558/m8_dlomem.mp3",
+            "category": "Music",
+            "description": "A masterful creation blending modern design into an engaging visual or auditory experience.",
+            "favorites": 5,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641569/note4_s6uttx.webp",
+            "name": "Mystic Instrumental",
+            "owner": "Bob",
+            "price": 9,
+            "unique_id": "s15uGofzp0SBJpuP",
+            "views": 86
+          },
+          {
+            "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952558/m9_qwuu7e.mp3",
+            "category": "Music",
+            "description": "A masterful creation blending musical flows into an engaging visual or auditory experience.",
+            "favorites": 3,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641569/note4_s6uttx.webp",
+            "name": "Radiant Beats",
+            "owner": "Grace",
+            "price": 10.5,
+            "unique_id": "gkltsMti2OzEzTPU",
+            "views": 85
+          },
+          {
+            "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952556/m10_ovhu6r.mp3",
+            "category": "Music",
+            "description": "A masterful creation blending surreal emotions into an engaging visual or auditory experience.",
+            "favorites": 20,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641569/note4_s6uttx.webp",
+            "name": "Bold Chorus",
+            "owner": "Alice",
+            "price": 12,
+            "unique_id": "0vXd25WAzXX8DWO7",
+            "views": 100
+          }
+        ]
+      },
+      "MColl4": {
+        "metadata": {
+          "category": "Music",
+          "chain": "ethereum",
+          "createdDate": "2024-12-09",
+          "description": "Featuring unique music-nfts NFTs showcasing A soothing instrumental track with serene melodies., An energetic beat perfect for the dancefloor., and more.",
+          "floor": "13.5 ETH",
+          "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641320/note7_hujij5.avif",
+          "name": "A Nice Chorus",
+          "totalItems": 2,
+          "totalVolume": "28.5 ETH"
+        },
+        "nfts": [
+          {
+            "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952559/m6_bprj1o.mp3",
+            "category": "Music",
+            "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
+            "favorites": 3,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641320/note7_hujij5.avif",
+            "name": "Ethereal Melody",
+            "owner": "Diana",
+            "price": 13.5,
+            "unique_id": "lvoimhnzJonxXle4",
+            "views": 27
+          },
+          {
+            "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952558/m7_vhdzng.mp3",
+            "category": "Music",
+            "description": "A masterful creation blending modern design into an engaging visual or auditory experience.",
+            "favorites": 11,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641320/note7_hujij5.avif",
+            "name": "Serene Beat",
+            "owner": "Eve",
+            "price": 15,
+            "unique_id": "fcWkp3mAVcIWKlwJ",
+            "views": 16
+          }
+        ]
+      },
+      "MColl5": {
+        "metadata": {
+          "category": "Music",
+          "chain": "ethereum",
+          "createdDate": "2024-12-08",
+          "description": "Featuring unique music-nfts NFTs showcasing A soothing instrumental track with serene melodies., An energetic beat perfect for the dancefloor., and more.",
+          "floor": "16.5 ETH",
+          "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641320/note5_ixb1bb.jpg",
+          "name": "A Beautiful Symphony",
+          "totalItems": 3,
+          "totalVolume": "54.0 ETH"
+        },
+        "nfts": [
+          {
+            "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952559/m11_ehm1zj.mp3",
+            "category": "Music",
+            "description": "A masterful creation blending surreal emotions into an engaging visual or auditory experience.",
+            "favorites": 17,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641320/note5_ixb1bb.jpg",
+            "name": "Majestic Melody",
+            "owner": "Hank",
+            "price": 16.5,
+            "unique_id": "CtX7G5Yvp5fpaEfS",
+            "views": 24
+          },
+          {
+            "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952558/m12_qxixnu.mp3",
+            "category": "Music",
+            "description": "A masterful creation blending tranquil moments into an engaging visual or auditory experience.",
+            "favorites": 12,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641320/note5_ixb1bb.jpg",
+            "name": "Majestic Symphony",
+            "owner": "Eve",
+            "price": 18,
+            "unique_id": "1QKKIy1uZWXneYxd",
+            "views": 64
+          },
+          {
+            "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952559/m13_ttqk1d.mp3",
+            "category": "Music",
+            "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
+            "favorites": 13,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641320/note5_ixb1bb.jpg",
+            "name": "Timeless Symphony",
+            "owner": "Charlie",
+            "price": 19.5,
+            "unique_id": "2jLdl6UkM3Zwq8Eu",
+            "views": 64
+          }
+        ]
+      },
+      "MColl6": {
+        "metadata": {
+          "category": "Music",
+          "chain": "ethereum",
+          "createdDate": "2024-12-08",
+          "description": "Featuring unique music-nfts NFTs showcasing A soothing instrumental track with serene melodies., An energetic beat perfect for the dancefloor., and more.",
+          "floor": "21.0 ETH",
+          "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641321/note1_zf7azy.jpg",
+          "name": "Rocking Beats",
+          "totalItems": 3,
+          "totalVolume": "67.5 ETH"
+        },
+        "nfts": [
+          {
+            "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952555/m14_eafefx.mp3",
+            "category": "Music",
+            "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
+            "favorites": 9,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641321/note1_zf7azy.jpg",
+            "name": "Dynamic Track",
+            "owner": "Eve",
+            "price": 21,
+            "unique_id": "98CheZcmIMEVJ2wu",
+            "views": 42
+          },
+          {
+            "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952554/m15_c1m6xp.mp3",
+            "category": "Music",
+            "description": "A masterful creation blending dynamic movements into an engaging visual or auditory experience.",
+            "favorites": 7,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641321/note1_zf7azy.jpg",
+            "name": "Mystic Melody",
+            "owner": "Eve",
+            "price": 22.5,
+            "unique_id": "mSAPPKvhq86fFYUP",
+            "views": 49
+          },
+          {
+            "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952555/m16_k6fi7d.mp3",
+            "category": "Music",
+            "description": "A masterful creation blending tranquil moments into an engaging visual or auditory experience.",
+            "favorites": 17,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641321/note1_zf7azy.jpg",
+            "name": "Dynamic Beats",
+            "owner": "Eve",
+            "price": 24,
+            "unique_id": "lvIpNSu81g3nT9iQ",
+            "views": 37
+          }
+        ]
+      },
+      "MColl7": {
+        "metadata": {
+          "category": "Music",
+          "chain": "ethereum",
+          "createdDate": "2024-12-08",
+          "description": "Featuring unique music-nfts NFTs showcasing A soothing instrumental track with serene melodies., An energetic beat perfect for the dancefloor., and more.",
+          "floor": "25.5 ETH",
+          "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641320/note6_hu1acb.jpg",
+          "name": "Some Melodies",
+          "totalItems": 2,
+          "totalVolume": "52.5 ETH"
+        },
+        "nfts": [
+          {
+            "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952472/m17_zozzyv.mp3",
+            "category": "Music",
+            "description": "A masterful creation blending dynamic movements into an engaging visual or auditory experience.",
+            "favorites": 4,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641320/note6_hu1acb.jpg",
+            "name": "Serene Melody",
+            "owner": "Diana",
+            "price": 25.5,
+            "unique_id": "i9MDZSrzwvyDRW7t",
+            "views": 19
+          },
+          {
+            "audioUrl": "https://res.cloudinary.com/dpzkvpl7m/video/upload/v1734952471/m18_v9jqjb.mp3",
+            "category": "Music",
+            "description": "A masterful creation blending vivid artistry into an engaging visual or auditory experience.",
+            "favorites": 9,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735641320/note6_hu1acb.jpg",
+            "name": "Dynamic Beat",
+            "owner": "Diana",
+            "price": 27,
+            "unique_id": "Jldfgjl7mJ9MPAsR",
+            "views": 18
+          }
+        ]
+      }
+    },
+    "PFP-NFTs": {
+      "PFColl1": {
+        "metadata": {
+          "category": "PFP",
+          "chain": "ethereum",
+          "createdDate": "2024-12-04",
+          "description": "Featuring unique pfp-nfts NFTs showcasing A cool monkey with sunglasses and swag., A colorful cartoon character with a funky vibe., and more.",
+          "floor": "1.5 ETH",
+          "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952445/bored-6945309_1280_syer7i.png",
+          "name": "Apes and Monkeys",
+          "totalItems": 4,
+          "totalVolume": "10.7 ETH"
+        },
+        "nfts": [
+          {
+            "category": "PFP",
+            "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
+            "favorites": 4,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952445/bored-6945309_1280_syer7i.png",
+            "name": "Radiant Animal",
+            "owner": "Frank",
+            "price": 1.5,
+            "unique_id": "46De2t0OYkZis2E4",
+            "views": 77
+          },
+          {
+            "category": "PFP",
+            "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
+            "favorites": 1,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952446/ape-7020995_1280_hjdmem.png",
+            "name": "Radiant Humanoid",
+            "owner": "Charlie",
+            "price": 3,
+            "unique_id": "KWsLGQGR7Ea37dMI",
+            "views": 11
+          },
+          {
+            "category": "PFP",
+            "description": "A masterful creation blending modern design into an engaging visual or auditory experience.",
+            "favorites": 9,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952429/monkey-7012380_1280_yox7s7.png",
+            "name": "Ethereal Figure",
+            "owner": "Charlie",
+            "price": 4.5,
+            "unique_id": "0kZvivhhEXBugYE9",
+            "views": 36
+          },
+          {
+            "category": "PFP",
+            "description": "monkey in an astronaut suit",
+            "favorites": 0,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1735578233/hand-drawn-nft-style-ape-illustration_23-2149622024_tuwrtc.jpg",
+            "name": "Astronaut Monkey",
+            "owner": "Jinish Gupta",
+            "price": 1.7,
+            "unique_id": "IoPfvaeCIamezH1k",
+            "views": 1
+          }
+        ]
+      },
+      "PFColl2": {
+        "metadata": {
+          "category": "PFP",
+          "chain": "ethereum",
+          "createdDate": "2024-12-05",
+          "description": "Featuring unique pfp-nfts NFTs showcasing A cool monkey with sunglasses and swag., A colorful cartoon character with a funky vibe., and more.",
+          "floor": "6.0 ETH",
+          "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952444/cartoon-7417582_1280_gmxrk0.png",
+          "name": "Cartoons",
+          "totalItems": 2,
+          "totalVolume": "13.5 ETH"
+        },
+        "nfts": [
+          {
+            "category": "PFP",
+            "description": "A masterful creation blending musical flows into an engaging visual or auditory experience.",
+            "favorites": 20,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952444/cartoon-7417583_1280_fglwro.png",
+            "name": "Radiant Figure",
+            "owner": "Hank",
+            "price": 6,
+            "unique_id": "L1HMtXAOgoZV8cQU",
+            "views": 54
+          },
+          {
+            "category": "PFP",
+            "description": "A masterful creation blending dynamic movements into an engaging visual or auditory experience.",
+            "favorites": 4,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952444/cartoon-7417582_1280_gmxrk0.png",
+            "name": "Dynamic Character",
+            "owner": "Grace",
+            "price": 7.5,
+            "unique_id": "iArfK1aFMtvNFn37",
+            "views": 89
+          }
+        ]
+      },
+      "PFColl3": {
+        "metadata": {
+          "category": "PFP",
+          "chain": "ethereum",
+          "createdDate": "2024-12-06",
+          "description": "Featuring unique pfp-nfts NFTs showcasing A cool monkey with sunglasses and swag., A colorful cartoon character with a funky vibe., and more.",
+          "floor": "9.0 ETH",
+          "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952008/female-8150791_1280_c8xnvl.jpg",
+          "name": "Different Peoples",
+          "totalItems": 3,
+          "totalVolume": "31.5 ETH"
+        },
+        "nfts": [
+          {
+            "category": "PFP",
+            "description": "A masterful creation blending tranquil moments into an engaging visual or auditory experience.",
+            "favorites": 6,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952008/king-306448_1280_dpsznc.png",
+            "name": "Ethereal Character",
+            "owner": "Hank",
+            "price": 9,
+            "unique_id": "Vq4uTPB7rZ69rktd",
+            "views": 44
+          },
+          {
+            "category": "PFP",
+            "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
+            "favorites": 11,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952008/female-8150791_1280_c8xnvl.jpg",
+            "name": "Mystic Animal",
+            "owner": "Charlie",
+            "price": 10.5,
+            "unique_id": "LXA1Cvqm25OHOqLB",
+            "views": 79
+          },
+          {
+            "category": "PFP",
+            "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
+            "favorites": 2,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952008/kid-8150792_1280_znzuqs.jpg",
+            "name": "Bold Style",
+            "owner": "Alice",
+            "price": 12,
+            "unique_id": "iKzOCMAzV9ENLc25",
+            "views": 49
+          }
+        ]
+      },
+      "PFColl4": {
+        "metadata": {
+          "category": "PFP",
+          "chain": "ethereum",
+          "createdDate": "2024-12-07",
+          "description": "Featuring unique pfp-nfts NFTs showcasing A cool monkey with sunglasses and swag., A colorful cartoon character with a funky vibe., and more.",
+          "floor": "13.5 ETH",
+          "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951990/penguin-5487302_1280_wwnjtn.png",
+          "name": "Animals",
+          "totalItems": 2,
+          "totalVolume": "28.5 ETH"
+        },
+        "nfts": [
+          {
+            "category": "PFP",
+            "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
+            "favorites": 12,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951990/penguin-5487302_1280_wwnjtn.png",
+            "name": "Majestic Style",
+            "owner": "Eve",
+            "price": 13.5,
+            "unique_id": "TWe07VGy2OlEZNim",
+            "views": 65
+          },
+          {
+            "category": "PFP",
+            "description": "A masterful creation blending modern design into an engaging visual or auditory experience.",
+            "favorites": 19,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951989/seagull-7282992_1280_yovbly.png",
+            "name": "Mystic Monkey",
+            "owner": "Bob",
+            "price": 15,
+            "unique_id": "1FCjkhBMY8fX6Adw",
+            "views": 57
+          }
+        ]
+      },
+      "PFColl5": {
+        "metadata": {
+          "category": "PFP",
+          "chain": "ethereum",
+          "createdDate": "2024-12-07",
+          "description": "Featuring unique pfp-nfts NFTs showcasing A cool monkey with sunglasses and swag., A colorful cartoon character with a funky vibe., and more.",
+          "floor": "16.5 ETH",
+          "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951973/the-simpson-7046041_1280_vyz3hh.png",
+          "name": "Human Like",
+          "totalItems": 2,
+          "totalVolume": "34.5 ETH"
+        },
+        "nfts": [
+          {
+            "category": "PFP",
+            "description": "A masterful creation blending modern design into an engaging visual or auditory experience.",
+            "favorites": 6,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951974/technology-7030913_1280_l1yqij.png",
+            "name": "Timeless Animal",
+            "owner": "Eve",
+            "price": 16.5,
+            "unique_id": "pVybiCImi5wVmwkK",
+            "views": 27
+          },
+          {
+            "category": "PFP",
+            "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
+            "favorites": 9,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951973/the-simpson-7046041_1280_vyz3hh.png",
+            "name": "Dynamic Style",
+            "owner": "Grace",
+            "price": 18,
+            "unique_id": "UbW2U3IB55TzpaQS",
+            "views": 74
+          }
+        ]
+      },
+      "PFColl6": {
+        "metadata": {
+          "category": "PFP",
+          "chain": "ethereum",
+          "createdDate": "2024-12-07",
+          "description": "Featuring unique pfp-nfts NFTs showcasing A cool monkey with sunglasses and swag., A colorful cartoon character with a funky vibe., and more.",
+          "floor": "19.5 ETH",
+          "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952429/monkey-soldier-5113779_1280_llylv1.png",
+          "name": "Monkey Types",
+          "totalItems": 3,
+          "totalVolume": "63.0 ETH"
+        },
+        "nfts": [
+          {
+            "category": "PFP",
+            "description": "A masterful creation blending surreal emotions into an engaging visual or auditory experience.",
+            "favorites": 8,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952430/monkey-7435887_1280_aev6hg.png",
+            "name": "Timeless Character",
+            "owner": "Frank",
+            "price": 19.5,
+            "unique_id": "LYJ2NJMK5TxoxuYV",
+            "views": 59
+          },
+          {
+            "category": "PFP",
+            "description": "A masterful creation blending vivid artistry into an engaging visual or auditory experience.",
+            "favorites": 20,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952429/monkey-soldier-5113779_1280_llylv1.png",
+            "name": "Bold Animal",
+            "owner": "Eve",
+            "price": 21,
+            "unique_id": "POjULtHrlFqzb9lz",
+            "views": 99
+          },
+          {
+            "category": "PFP",
+            "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
+            "favorites": 1,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734952431/monkey-king-8336925_1280_ihywbl.png",
+            "name": "Ethereal Figure",
+            "owner": "Jinish Gupta",
+            "price": 22.5,
+            "unique_id": "rfshRrqtQfWegAPK",
+            "views": 15
+          }
+        ]
+      }
+    },
+    "Photography-NFTs": {
+      "PColl1": {
+          "metadata": {
+              "description": "Featuring unique photography-nfts NFTs showcasing A stunning mountain view at sunset., An intricate close-up shot of a blooming flower., and more.",
+              "name": "Cameras",
+              "totalItems": 3,
+              "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951949/kun-fotografi-gyhT9Sb20XY-unsplash_icfjdr.jpg",
+              "createdDate": "2024-12-05",
+              "floor": "1.5 ETH",
+              "chain": "ethereum",
+              "totalVolume": "9.0 ETH",
+              "category": "Photography"
+          },
+          "nfts": [
+              {
+                  "name": "Dynamic Aerial",
+                  "price": 1.5,
+                  "owner": "Eve",
+                  "description": "A masterful creation blending tranquil moments into an engaging visual or auditory experience.",
+                  "unique_id": "PZzRQdd6TW3suEU4",
+                  "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951953/nathan-dumlao-p4TKmK4Egvg-unsplash_r0sx1z.jpg",
+                  "views": 61,
+                  "favorites": 11,
+                  "category": "Photography"
+              },
+              {
+                  "name": "Timeless Nature",
+                  "price": 3.0,
+                  "owner": "Bob",
+                  "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
+                  "unique_id": "vr2BobODPDxUBNHh",
+                  "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951949/kun-fotografi-gyhT9Sb20XY-unsplash_icfjdr.jpg",
+                  "views": 51,
+                  "favorites": 10,
+                  "category": "Photography"
+              },
+              {
+                  "name": "Majestic Close-up",
+                  "price": 4.5,
+                  "owner": "Bob",
+                  "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
+                  "unique_id": "BA0EtwCILJ9kL7lb",
+                  "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951945/mylene-tremoyet-Da0pdCekeUs-unsplash_mnoht3.jpg",
+                  "views": 88,
+                  "favorites": 3,
+                  "category": "Photography"
+              }
+          ]
+      },
+      "PColl2": {
+          "metadata": {
+              "description": "Featuring unique photography-nfts NFTs showcasing A stunning mountain view at sunset., An intricate close-up shot of a blooming flower., and more.",
+              "name": "Lens and Film",
+              "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951950/moy-vazquez-UbqvjH69oOQ-unsplash_qeujj8.jpg",
+              "totalItems": 2,
+              "createdDate": "2024-12-06",
+              "floor": "6.0 ETH",
+              "chain": "ethereum",
+              "totalVolume": "13.5 ETH",
+              "category": "Photography"
+          },
+          "nfts": [
+              {
+                  "name": "Serene Mountain",
+                  "price": 6.0,
+                  "owner": "Hank",
+                  "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
+                  "unique_id": "uW6hHagpYXaHEf5e",
+                  "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951950/moy-vazquez-UbqvjH69oOQ-unsplash_qeujj8.jpg",
+                  "views": 70,
+                  "favorites": 16,
+                  "category": "Photography"
+              },
+              {
+                  "name": "Bold Scene",
+                  "price": 7.5,
+                  "owner": "Hank",
+                  "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
+                  "unique_id": "9vO6FLF0f0MVJo2g",
+                  "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951952/andrew-konstantinov-Jk8tUzZ0O6E-unsplash_rgl9c7.jpg",
+                  "views": 66,
+                  "favorites": 2,
+                  "category": "Photography"
+              }
+          ]
+      },
+      "PColl3": {
+          "metadata": {
+              "description": "Featuring unique photography-nfts NFTs showcasing A stunning mountain view at sunset., An intricate close-up shot of a blooming flower., and more.",
+              "name": "Nature",
+              "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951958/jose-p-ortiz-DuZZ4gOjYdM-unsplash_za9ikv.jpg",
+              "totalItems": 3,
+              "createdDate": "2024-12-07",
+              "floor": "9.0 ETH",
+              "chain": "ethereum",
+              "totalVolume": "31.5 ETH",
+              "category": "Photography"
+          },
+          "nfts": [
+              {
+                  "name": "Timeless Aerial",
+                  "price": 9.0,
+                  "owner": "Grace",
+                  "description": "A masterful creation blending modern design into an engaging visual or auditory experience.",
+                  "unique_id": "KqMhhqvnp9CvJYmY",
+                  "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951951/krisjanis-kazaks-HTEsx-stj7E-unsplash_hi2qxv.jpg",
+                  "views": 71,
+                  "favorites": 14,
+                  "category": "Photography"
+              },
+              {
+                  "name": "Serene Aerials",
+                  "price": 10.5,
+                  "owner": "Charlie",
+                  "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
+                  "unique_id": "uHKwNwhVkXOKJTiK",
+                  "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951946/mihail-ilchov-UqUh5uTpoY4-unsplash_enypvb.jpg",
+                  "views": 77,
+                  "favorites": 17,
+                  "category": "Photography"
+              },
+              {
+                  "name": "Serene Landscape",
+                  "price": 12.0,
+                  "owner": "Charlie",
+                  "description": "A masterful creation blending musical flows into an engaging visual or auditory experience.",
+                  "unique_id": "fv9PgTWvoKLibZEn",
+                  "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951958/jose-p-ortiz-DuZZ4gOjYdM-unsplash_za9ikv.jpg",
+                  "views": 36,
+                  "favorites": 5,
+                  "category": "Photography"
+              }
+          ]
+      },
+      "PColl4": {
+          "metadata": {
+              "description": "Featuring unique photography-nfts NFTs showcasing A stunning mountain view at sunset., An intricate close-up shot of a blooming flower., and more.",
+              "name": "Mountains and Views",
+              "totalItems": 3,
+              "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951948/leandra-niederhauser-eaToegj7RI4-unsplash_a6llnf.jpg",
+              "createdDate": "2024-12-08",
+              "floor": "13.5 ETH",
+              "chain": "ethereum",
+              "totalVolume": "45.0 ETH",
+              "category": "Photography"
+          },
+          "nfts": [
+              {
+                  "name": "Mystic Scene",
+                  "price": 13.5,
+                  "owner": "Eve",
+                  "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
+                  "unique_id": "RhPUnwSYccejvbDy",
+                  "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951955/cin-Y0KFNIZFAyU-unsplash_cnqwoy.jpg",
+                  "views": 22,
+                  "favorites": 7,
+                  "category": "Photography"
+              },
+              {
+                  "name": "Majestic Landscape",
+                  "price": 15.0,
+                  "owner": "Grace",
+                  "description": "A masterful creation blending modern design into an engaging visual or auditory experience.",
+                  "unique_id": "Udn0D9UZKgqnylIF",
+                  "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951953/jon-champaigne-UsVUIGulksk-unsplash_qc3wqd.jpg",
+                  "views": 16,
+                  "favorites": 11,
+                  "category": "Photography"
+              },
+              {
+                  "name": "Serene Aerial",
+                  "price": 16.5,
+                  "owner": "Bob",
+                  "description": "A masterful creation blending vivid artistry into an engaging visual or auditory experience.",
+                  "unique_id": "alZkS2BdKwXFfT9N",
+                  "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951948/leandra-niederhauser-eaToegj7RI4-unsplash_a6llnf.jpg",
+                  "views": 75,
+                  "favorites": 3,
+                  "category": "Photography"
+              }
+          ]
+      },
+      "PColl5": {
+          "metadata": {
+              "description": "Featuring unique photography-nfts NFTs showcasing A stunning mountain view at sunset., An intricate close-up shot of a blooming flower., and more.",
+              "name": "Beauty of Nature",
+              "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951951/lalitha-d-EZiKSUX-3yg-unsplash_ihsl97.jpg",
+              "totalItems": 3,
+              "createdDate": "2024-12-08",
+              "floor": "18.0 ETH",
+              "chain": "ethereum",
+              "totalVolume": "58.5 ETH",
+              "category": "Photography"
+          },
+          "nfts": [
+              {
+                  "name": "Radiant View",
+                  "price": 18.0,
+                  "owner": "Eve",
+                  "description": "A masterful creation blending dynamic movements into an engaging visual or auditory experience.",
+                  "unique_id": "KEiK0PTzr1akSr7f",
+                  "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951951/lalitha-d-EZiKSUX-3yg-unsplash_ihsl97.jpg",
+                  "views": 81,
+                  "favorites": 5,
+                  "category": "Photography"
+              },
+              {
+                  "name": "Mystic Sunset",
+                  "price": 19.5,
+                  "owner": "Alice",
+                  "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
+                  "unique_id": "2yEDe3hYMedhIa8y",
+                  "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951952/jose-p-ortiz-l--RqyZVBCo-unsplash_aixwes.jpg",
+                  "views": 26,
+                  "favorites": 13,
+                  "category": "Photography"
+              },
+              {
+                  "name": "Radiant Aerial",
+                  "price": 21.0,
+                  "owner": "Charlie",
+                  "description": "A masterful creation blending abstract patterns into an engaging visual or auditory experience.",
+                  "unique_id": "aYrHNazkVCmFz3rq",
+                  "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951955/baptiste-buisson-Lg-ZYKGZ2k4-unsplash_vveqqb.jpg",
+                  "views": 75,
+                  "favorites": 4,
+                  "category": "Photography"
+              }
+          ]
+      },
+      "PColl6": {
+          "metadata": {
+              "description": "Featuring unique photography-nfts NFTs showcasing A stunning mountain view at sunset., An intricate close-up shot of a blooming flower., and more.",
+              "name": "Random Photos",
+              "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951949/michael-fousert-_ms3EBwRmjU-unsplash_nhi2ye.jpg",
+              "totalItems": 3,
+              "createdDate": "2024-12-08",
+              "floor": "22.5 ETH",
+              "chain": "ethereum",
+              "totalVolume": "72.0 ETH",
+              "category": "Photography"
+          },
+          "nfts": [
+              {
+                  "name": "Dynamic Mountain",
+                  "price": 22.5,
+                  "owner": "Diana",
+                  "description": "A masterful creation blending natural beauty into an engaging visual or auditory experience.",
+                  "unique_id": "8tANNerUBvI6lKEl",
+                  "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951956/benjamin-zanatta-WbkfJ2TmSug-unsplash_ndvjhn.jpg",
+                  "views": 55,
+                  "favorites": 18,
+                  "category": "Photography"
+              },
+              {
+                  "name": "Ethereal Mountain",
+                  "price": 24.0,
+                  "owner": "Hank",
+                  "description": "A masterful creation blending surreal emotions into an engaging visual or auditory experience.",
+                  "unique_id": "LXUU7uiNhJBn0fsG",
+                  "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951949/michael-fousert-_ms3EBwRmjU-unsplash_nhi2ye.jpg",
+                  "views": 99,
+                  "favorites": 6,
+                  "category": "Photography"
+              },
+              {
+                  "name": "Majestic Close-ups",
+                  "price": 25.5,
+                  "owner": "Bob",
+                  "description": "A masterful creation blending musical flows into an engaging visual or auditory experience.",
+                  "unique_id": "bF6gcLMG2qi96I9U",
+                  "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951943/adham-ragab-6iBJ7GVg09Y-unsplash_ztnt7n.jpg",
+                  "views": 40,
+                  "favorites": 7,
+                  "category": "Photography"
+              }
+          ]
+      },
+      "PColl7": {
+          "metadata": {
+              "description": "Featuring unique photography-nfts NFTs showcasing A stunning mountain view at sunset., An intricate close-up shot of a blooming flower., and more.",
+              "name": "Something Random",
+              "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951944/mohammad-mardani-BCz_Lhedwvo-unsplash_wqhxcp.jpg",
+              "totalItems": 3,
+              "createdDate": "2024-12-08",
+              "floor": "27.0 ETH",
+              "chain": "ethereum",
+              "totalVolume": "85.5 ETH",
+              "category": "Photography"
+          },
+          "nfts": [
+              {
+                  "name": "Timeless Natures",
+                  "price": 27.0,
+                  "owner": "Grace",
+                  "description": "A masterful creation blending surreal emotions into an engaging visual or auditory experience.",
+                  "unique_id": "JLCrsJaUEFzFAbkD",
+                  "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951944/mohammad-mardani-BCz_Lhedwvo-unsplash_wqhxcp.jpg",
+                  "views": 24,
+                  "favorites": 8,
+                  "category": "Photography"
+              },
+              {
+                  "name": "Dynamic View",
+                  "price": 28.5,
+                  "owner": "Grace",
+                  "description": "A masterful creation blending surreal emotions into an engaging visual or auditory experience.",
+                  "unique_id": "F63eoULDTXmteB6V",
+                  "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951955/damian-barczak-U9E423m3Hd8-unsplash_kvmuqq.jpg",
+                  "views": 81,
+                  "favorites": 5,
+                  "category": "Photography"
+              },
+              {
+                  "name": "Bold View",
+                  "price": 30.0,
+                  "owner": "Frank",
+                  "description": "A masterful creation blending dynamic movements into an engaging visual or auditory experience.",
+                  "unique_id": "nUe6cI9iQc5LJg22",
+                  "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1734951955/highzone-p6xd1hgwyZU-unsplash_cznjtc.jpg",
+                  "views": 10,
+                  "favorites": 15,
+                  "category": "Photography"
+              }
+          ]
+      },
+      "PColl8": {
+        "metadata": {
+          "chain": "ethereum",
+          "createdDate": "19-0-2025",
+          "description": "some beautiful images showcasing stunning views",
+          "floor": "11 ETH",
+          "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1737275643/bear-7000852_1280_onxpog.jpg",
+          "name": "Nature",
+          "totalItems": 1,
+          "totalVolume": "11 ETH"
+        },
+        "nfts": [
+          {
+            "category": "Photography",
+            "description": "bear at a beautiful place",
+            "favorites": 0,
+            "imageUrl": "https://res.cloudinary.com/dpzkvpl7m/image/upload/v1737275643/bear-7000852_1280_onxpog.jpg",
+            "name": "Bear",
+            "owner": "Jinish Gupta",
+            "price": 11,
+            "unique_id": "Qs6QAdqeRCvVm8xp",
+            "views": 1
+          }
+        ]
+      }
+  }
+},
+  "UserFavorites": {
+    "moaEj8Q530h0cCrH2Ei1CUCaiFB3": [
+      "Dynamic Legendary",
+      "Ethereal Melody",
+      "Serene Legendary",
+      "Timeless Nature",
+      "Radiant Realm",
+      "Bold Style",
+      "Timeless Harmony"
+    ]
+  },
+  "transactions": {
+    "-OFYCSrtKVBY9KwegmEo": {
+      "nftId": "9eJPwYQY8ZA8oicy",
+      "receiver": "0x3c12b5875d40991349F4E5f4FEa945a9CC556336",
+      "sender": "0x7dd045beb98711e60499a2d39e9c4c2e2611ca68",
+      "signedMessage": "0xf3ae8da3eeca1a99180d050d52bcab6a5489b83a378d802d3af2d7c5d1598a3635c64892ea54971a095089cf824a4e4f0fa4a6f1922230baee58d5832a4cc4911c",
+      "status": "Simulated",
+      "timestamp": "2025-01-01T18:52:00.597Z"
+    },
+    "-OFj9A9aYqJRYLz60Btw": {
+      "nftId": "jallsNQM3DhMAAuq",
+      "receiver": "0x3c12b5875d40991349F4E5f4FEa945a9CC556336",
+      "sender": "0x7dd045beb98711e60499a2d39e9c4c2e2611ca68",
+      "signedMessage": "0x03c40ac6f69ac4e951707d9aa202878c0fe6c5d671e9137fc4c6abf124c1dbd77724feedfe9163c0fff2bd847f742aa9988cb6e5a637290a31ab715423ba6aa21b",
+      "status": "Simulated",
+      "timestamp": "2025-01-04T02:33:04.072Z"
+    },
+    "-OFwc0pPVPc57lFXV5rv": {
+      "nftId": "JLCrsJaUEFzFAbkD",
+      "receiver": "0x3c12b5875d40991349F4E5f4FEa945a9CC556336",
+      "sender": "0x7dd045beb98711e60499a2d39e9c4c2e2611ca68",
+      "signedMessage": "0xf6651ef65357915a84cd64a7b439c2c3aa80b86229eae5d45c84e4a76f56940537e91d975e1b7043d594fc6a3b154539268d9fefe7867cb2120c2cecc43d5fdf1c",
+      "status": "Simulated",
+      "timestamp": "2025-01-06T17:18:33.279Z"
+    },
+    "-OG-nxByG65gAtHLxcEr": {
+      "nftId": "rfshRrqtQfWegAPK",
+      "receiver": "0x3c12b5875d40991349F4E5f4FEa945a9CC556336",
+      "sender": "0x7dd045beb98711e60499a2d39e9c4c2e2611ca68",
+      "signedMessage": "0xd59c5ca92005ef543aa4904bf7f96cf05d97ff5214e218bbd3cbe37244853f6e3a5ab9a9344edc622c7e2f8613cc15839aa57849ca75cf2c2970e303b27a032f1c",
+      "status": "Simulated",
+      "timestamp": "2025-01-07T12:49:06.451Z"
+    },
+    "-OGFc6CkhzpH-uwCiCw8": {
+      "nftId": "CfhU8f3MqI5j0gad",
+      "receiver": "0x3c12b5875d40991349F4E5f4FEa945a9CC556336",
+      "sender": "0x7dd045beb98711e60499a2d39e9c4c2e2611ca68",
+      "signedMessage": "0x3c7ed8ffdc0adee9b69783ae334911bf4c36fb2a5e13575e32cc533dc3537e3d728c90fd9a11b9533fb136b355d31fc44267c33e0c9dd75fe697ac6709ac0a4a1b",
+      "status": "Simulated",
+      "timestamp": "2025-01-10T14:31:19.761Z"
+    },
+    "-OGFcVnkBDrLRRrkETUm": {
+      "nftId": "CfhU8f3MqI5j0gad",
+      "receiver": "0x3c12b5875d40991349F4E5f4FEa945a9CC556336",
+      "sender": "0x7dd045beb98711e60499a2d39e9c4c2e2611ca68",
+      "signedMessage": "0x3c7ed8ffdc0adee9b69783ae334911bf4c36fb2a5e13575e32cc533dc3537e3d728c90fd9a11b9533fb136b355d31fc44267c33e0c9dd75fe697ac6709ac0a4a1b",
+      "status": "Simulated",
+      "timestamp": "2025-01-10T14:33:04.592Z"
+    },
+    "-OGFcmNdtSKbsls-nMzz": {
+      "nftId": "zklE2eP0g6ftW4J1",
+      "receiver": "0x3c12b5875d40991349F4E5f4FEa945a9CC556336",
+      "sender": "0x7dd045beb98711e60499a2d39e9c4c2e2611ca68",
+      "signedMessage": "0x7a3d0fa09e9919f735086c24d6add9e7f9e57f044e68c58111255f67b1d2c2247329670ac182b7ee80651bc22452dd87f5d0b1f99467bc65d51974e066dffa2c1b",
+      "status": "Simulated",
+      "timestamp": "2025-01-10T14:34:16.620Z"
+    },
+    "-OGtvCdvLbfZXgo9BQKM": {
+      "nftId": "JFh3fKuF6G8tW3wo",
+      "receiver": "0x3c12b5875d40991349F4E5f4FEa945a9CC556336",
+      "sender": "0x7dd045beb98711e60499a2d39e9c4c2e2611ca68",
+      "signedMessage": "0x3e337334a2e2e715330c86bdc7d3e7d66b397f231f00a16c6eae28e0381c3e446547304ef4131b9b8b2c904a5a3a7c2bd4422b7d9c3ad5a09db37f6dc033e8091b",
+      "status": "Simulated",
+      "timestamp": "2025-01-18T14:59:13.738Z"
     }
+  },
+  "users": {
+    "moaEj8Q530h0cCrH2Ei1CUCaiFB3": {
+      "email": "jinishgupta272@gmail.com",
+      "name": "Jinish Gupta",
+      "wallet": "No Wallet"
+    }
+  }
 }

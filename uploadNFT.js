@@ -1,7 +1,7 @@
 // Import Firebase modules
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-app.js";
-import { getAuth ,onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-auth.js";
-import { getDatabase, ref, set, push,get , update} from "https://www.gstatic.com/firebasejs/11.1.0/firebase-database.js";
+import { getAuth, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-auth.js";
+import { getDatabase, ref, set, child, get, update } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-database.js";
 
 // Firebase configuration
 const firebaseConfig = {
@@ -33,7 +33,7 @@ onAuthStateChanged(auth, (user) => {
     });
   } else {
     const Outelement = document.getElementById("login");
-    Outelement.innerHTML="Login";
+    Outelement.innerHTML = "Login";
     Outelement.href = "login.html";
   }
 });
@@ -56,8 +56,8 @@ collectionTypeRadios.forEach((radio) =>
 // Upload NFT
 onAuthStateChanged(auth, (user) => {
   if (user) {
-    const userId = user.uid; 
-    
+    const userId = user.uid;
+
     // Function to handle NFT uploading
     const uploadNFT = async () => {
       const nftId = document.getElementById("nft-id").value;
@@ -84,7 +84,7 @@ onAuthStateChanged(auth, (user) => {
           imageUrl: nftImageUrl,
           owner: userData.name,
           unique_id: nftId,
-          category:nftCategory,
+          category: nftCategory,
           views: 0,
           favorites: 0,
         };
@@ -102,7 +102,7 @@ onAuthStateChanged(auth, (user) => {
             alert("Please provide all collection details.");
             return;
           }
-          const date= new Date();
+          const date = new Date();
           const year = date.getFullYear();
           const month = date.getMonth();
           const day = date.getDate();
@@ -113,10 +113,10 @@ onAuthStateChanged(auth, (user) => {
               description: collectionDescription,
               chain: collectionChain,
               imageUrl: collectionImageUrl,
-              createdDate:`${day}-${month}-${year}`,
-              floor:parseFloat(nftPrice),
-              totalItems:1,
-              totalVolume:parseFloat(nftPrice),
+              createdDate: `${day}-${month+1}-${year}`,
+              floor: `${parseFloat(nftPrice)} ETH`,
+              totalItems: 1,
+              totalVolume: `${parseFloat(nftPrice)} ETH`,
             },
             nfts: [nftData],
           };
@@ -129,48 +129,50 @@ onAuthStateChanged(auth, (user) => {
           const path = `All-nfts/${collectionCategory}-NFTs/${collectionID}`;
 
           try {
-              const collectionRef = ref(db ,path);
-              
-              // Fetch the existing collection metadata
-              const snapshot = await get(collectionRef);
-              if (!snapshot.exists()) {
-                throw new Error("Collection not found.");
-              }
-          
-              const collectionData = snapshot.val();
-              const metadata = collectionData.metadata;
-          
-              // Update the collection metadata
-              const updatedTotalItems = metadata.totalItems + 1; 
-              const price = parseFloat(nftPrice);
-              const floor = parseFloat(metadata.floor.split(' ')[0]);
-              const totalVolume = parseFloat(metadata.totalVolume.split(' ')[0]);
-              const updatedTotalVolume = totalVolume + price;
-              const updatedFloor = Math.min(floor, nftPrice);
-          
-              // Update the collection in the database
-              const updatedMetadata = {
-                ...collectionData.metadata,
-                floor: `${updatedFloor} ETH`,
-                totalItems: updatedTotalItems,
-                totalVolume: `${updatedTotalVolume} ETH`,
-              };
-          
-              const nftRef = push(ref(db, `All-nfts/${collectionCategory}-NFTs/${collectionID}/nfts`));
-              set(nftRef,nftData);
-              const updates = {};
-              updates["metadata"] = updatedMetadata;
+            const collectionRef = ref(db, path);
 
-              update(collectionRef, updates)
+            // Fetch the existing collection metadata
+            const snapshot = await get(collectionRef);
+            if (!snapshot.exists()) {
+              throw new Error("Collection not found.");
+            }
+
+            const collectionData = snapshot.val();
+            const metadata = collectionData.metadata;
+
+            // Update the collection metadata
+            const updatedTotalItems = metadata.totalItems + 1;
+            const price = parseFloat(nftPrice);
+            const floor = parseFloat(metadata.floor.split(' ')[0]);
+            const totalVolume = parseFloat(metadata.totalVolume.split(' ')[0]);
+            const updatedTotalVolume = totalVolume + price;
+            const updatedFloor = Math.min(floor, nftPrice);
+
+            // Update the collection in the database
+            const updatedMetadata = {
+              ...collectionData.metadata,
+              floor: `${updatedFloor} ETH`,
+              totalItems: updatedTotalItems,
+              totalVolume: `${updatedTotalVolume} ETH`,
+            };
+
+            const index = updatedTotalItems - 1;
+            const nftRef = ref(db, `All-nfts/${collectionCategory}-NFTs/${collectionID}/nfts`);
+            const childRef = child(nftRef, index.toString());
+            set(childRef, nftData);
+            const updates = {};
+            updates["metadata"] = updatedMetadata;
+
+            update(collectionRef, updates)
               .then(() => {
                 console.log("NFT successfully added to collection.");
                 alert("NFT successfully added to the collection!");
               });
-             } catch (error) {
-              console.error("Error adding NFT to existing collection:", error);
-              alert("Failed to add NFT to the collection. Please try again.");
-            }
-          };
+          } catch (error) {
+            console.error("Error adding NFT to existing collection:", error);
+            alert("Failed to add NFT to the collection. Please try again.");
+          }
+        };
       } catch (error) {
         console.error("Error uploading NFT:", error);
         alert("Failed to upload NFT. Please try again.");

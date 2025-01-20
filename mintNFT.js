@@ -1,7 +1,7 @@
 // Import Firebase modules
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-app.js";
 import { getAuth ,onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-auth.js";
-import { getDatabase, ref, set, push,get, child , update} from "https://www.gstatic.com/firebasejs/11.1.0/firebase-database.js";
+import { getDatabase, ref, set,get, child , update} from "https://www.gstatic.com/firebasejs/11.1.0/firebase-database.js";
 
 // Firebase configuration
 const firebaseConfig = {
@@ -124,7 +124,7 @@ onAuthStateChanged(auth, (user) => {
           price: parseFloat(nftPrice),
           imageUrl: nftImageUrl,
           owner: userData.name,
-          nftId: nftID,
+          unique_id: nftID,
           category: nftCategory,
           views: 0,
           favorites: 0
@@ -155,9 +155,9 @@ onAuthStateChanged(auth, (user) => {
               chain: collectionChain,
               imageUrl: collectionImageUrl,
               createdDate:`${day}-${month}-${year}`,
-              floor:parseFloat(nftPrice),
+              floor:`${parseFloat(nftPrice)} ETH`,
               totalItems:1,
-              totalVolume:parseFloat(nftPrice),
+              totalVolume:`${parseFloat(nftPrice)} ETH`,
             },
             nfts: [nftData],
           };
@@ -183,7 +183,7 @@ onAuthStateChanged(auth, (user) => {
           
               // Update the collection metadata
               const updatedTotalItems = metadata.totalItems + 1; // Adding the new NFT
-              const price = parseFloat(nftPrice);
+              const price = Number(nftPrice);
               const floor = parseFloat(metadata.floor.split(' ')[0]);
               const totalVolume = parseFloat(metadata.totalVolume.split(' ')[0]);
               const updatedTotalVolume = totalVolume + price;
@@ -196,9 +196,10 @@ onAuthStateChanged(auth, (user) => {
                 totalItems: updatedTotalItems,
                 totalVolume: `${updatedTotalVolume} ETH`,
               };
-          
-              const nftRef = push(ref(db, `All-nfts/${collectionCategory}-NFTs/${collectionID}/nfts`));
-              set(nftRef,nftData);
+              const index = updatedTotalItems-1;
+              const nftRef = ref(db, `All-nfts/${collectionCategory}-NFTs/${collectionID}/nfts`);
+              const childRef = child(nftRef,index.toString());
+              set(childRef,nftData);
               const updates = {};
               updates["metadata"] = updatedMetadata;
 

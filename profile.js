@@ -88,6 +88,9 @@ function appendNFTCard(nft, container) {
           </div>
         </div>
       `;
+
+    card.style.width = "310px";
+    card.style.height = "435px";
   card.addEventListener("click", () => {
     window.location.href = `nft.html?name=${nft.name}`;
   });
@@ -125,6 +128,8 @@ function appendMusicNFTCard(nft, container) {
           </audio>
         </div>
       `;
+    card.style.width = "310px";
+    card.style.height = "435px";
   container.appendChild(card);
 
   // Add play/pause and seek functionality
