@@ -13,8 +13,9 @@
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-image: url(background.jpg);
-    background-position: center;
+    background-image: url(background.png);
+    background-size: auto;
+    background-position:center;
   }
   
   /* Container */
@@ -69,7 +70,7 @@
     width: 100%;
     padding: 10px;
     border: none;
-    background-color: #a200ff;
+    background-color: #259725;
     color: #fff;
     border-radius: 5px;
     font-size: 1rem;
@@ -78,7 +79,7 @@
   }
   
   #signup-button:hover {
-    background-color: #7000cc;
+    background-color: #30ad30;
   }
   
   /* Login Redirect */
@@ -90,7 +91,7 @@
   }
   
   .login-redirect a {
-    color: #a200ff;
+    color: #259725;
     text-decoration: none;
   }
   

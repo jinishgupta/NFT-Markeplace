@@ -125,7 +125,9 @@ function renderNFTDetails(nft) {
     document.getElementById("nft-views").textContent = nft.views;
     document.getElementById("nft-favorite").innerHTML = nft.favorites;
     if (nft.category == "Music") {
-        document.getElementById("music").src = nft.audioUrl;
+        document.getElementById("audio").innerHTML = `
+            <audio src=${nft.audioUrl} controls></audio>
+        `;
     } else {
         document.getElementById("music").style.display = "none";
     }

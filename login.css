@@ -6,7 +6,7 @@
   }
   
   body {
-    background-image: url(background.jpg);
+    background-image: url(background.png);
     background-position: center;
     height: 100vh;
     display: flex;
@@ -78,7 +78,7 @@
   #login-btn {
     width: 100%;
     padding: 10px;
-    background: hsl(266, 100%, 50%);
+    background: #259725;
     border: none;
     border-radius: 5px;
     font-size: 1.3rem;
@@ -88,7 +88,7 @@
   }
   
   #login-btn:hover {
-    background: #9e2bd3;
+    background: #30ad30;
   }
   
   /* Extra Text */
@@ -99,7 +99,7 @@
   }
   
   .extra-text a {
-    color: hsl(276, 96%, 55%);
+    color: #259725;
     text-decoration: none;
   }
   
