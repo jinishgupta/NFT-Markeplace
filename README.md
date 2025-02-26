@@ -13,10 +13,10 @@ This is a fully functional NFT marketplace website where users can:
 ### NFT Marketplace Functionalities
 - **Buy & Sell NFTs**: Users can list their NFTs for sale and buy available NFTs.
 - **View & Favorite NFTs**: Users can explore various NFTs and add them to their favorites.
-- **Sorting & Searching**: NFTs can be sorted and searched by different filters like price, category, and popularity.
+- **Sorting & Searching**: NFTs can be sorted and searched by different filters like price, category, and alphabetically.
 
 ### NFT Types
-There are **five types of NFTs**, each with a dedicated page providing detailed information and listings.
+There are **five types of NFTs**- Art,Gaming,PFPs,Photography and Music , each with a dedicated page providing detailed information and listings.
 
 ### Upload & Mint NFTs
 - **Upload NFT**: Users must provide an NFT ID manually.
@@ -28,10 +28,3 @@ A dedicated section where users can educate themselves about NFTs, blockchain, a
 ## Tech Stack
 - **HTML, CSS, JavaScript** for frontend development
 - **Firebase** for authentication and database storage, with **GitHub Pages** used for hosting ([Live Website](https://jinishgupta.github.io/NFT-Markeplace/))
-
-## Contributing
-Feel free to fork the repository and submit pull requests for improvements!
-
-## Contact
-For any issues or suggestions, please open an issue on the repository or contact me at [your email].
-
